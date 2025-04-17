@@ -20,7 +20,10 @@ def main():
     """
 
     data = utils.queryOsm(query, "response_supermarkets_nl.json")
+    allPlaces = utils.getAllPlaces(data)
 
+    print("Number of supermarkets:", len(allPlaces))
+    json.dump(allPlaces, open("parsed_supermarkets_nl.json", "wt"), indent=4)
 
 if __name__ == "__main__":
     main()
