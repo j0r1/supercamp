@@ -3,6 +3,20 @@ import json
 import os
 import pprint
 import utils
+import pprint
+
+def calcCoord(allNodes, nodeList):
+    assert len(nodeList) > 0
+
+    lat, lon = 0, 0
+    for nodeId in nodeList:
+        node = allNodes[nodeId]
+        lat += node["lat"]
+        lon += node["lon"]
+
+    lat /= len(nodeList)
+    lon /= len(nodeList)
+    return [ lon, lat ]
 
 def main():
 
@@ -20,10 +34,10 @@ def main():
     """
 
     data = utils.queryOsm(query, "response_campsites_nl.json")
+    elements = data["elements"]
 
     allNodes = { }
-
-    for e in data["elements"]:
+    for e in elements:
         if e["type"] != "node":
             continue
 
@@ -34,8 +48,34 @@ def main():
 
         allNodes[nodeId] = e
 
-    print("Number of nodes:", len(allNodes))
+    allPlaces = { }
 
+    for n in allNodes:
+        node = allNodes[n]
+        nodeId = node["id"]
+        if "tags" in node:
+            allPlaces[f"node-{nodeId}"] = {
+                    "tags": node["tags"],
+                    "coord": [ node["lon"], node["lat"] ]
+            }
+            
+    for e in elements:
+        if not "tags" in e:
+            continue
+
+        if e["type"] == "way":
+            wayId = e["id"]
+            allPlaces[f"way-{wayId}"] = {
+                "tags": e["tags"],
+                "coord": calcCoord(allNodes, e["nodes"])
+            }
+        elif e["type"] == "relation":
+            pass
+
+    pprint.pprint(allPlaces)
+
+    print("Number of nodes:", len(allNodes))
+    print("Number of places:", len(allPlaces))
 if __name__ == "__main__":
     main()
 
