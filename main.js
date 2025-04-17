@@ -72,9 +72,18 @@ function addMarkersForBounds(map, north, south, east, west, places, iconType)
                 }
             }
 
-            let popupContent = `<strong>${value.tags.name}</strong>`;
+            let popupContent = "";
+            if ("name" in value.tags)
+                popupContent = `<strong>${value.tags.name}</strong>`;
+            else
+            {
+                let jsonStr = JSON.stringify(value.tags, null, 2);
+                popupContent = `<pre>${jsonStr}</pre>`;
+            }
+
             if (url)
                 popupContent += `<br><a href="${url}" target="_blank">${url}</a>`;
+
             marker.bindPopup(popupContent);
 
             addedMarkers[id] = { coord: value["coord"], marker: marker };
