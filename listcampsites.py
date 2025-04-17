@@ -1,34 +1,40 @@
 import requests
 import json
 import os
+import pprint
+import utils
 
 def main():
 
-    fn = "response_campsites_nl.json"
-    if not os.path.exists(fn):
-        print("Querying OSM database")
+    query = """
+    [out:json];
+    area["ISO3166-1"="NL"]["admin_level"="2"]->.country;
+    (
+      node["tourism"="camp_site"](area.country);
+      way["tourism"="camp_site"](area.country);
+      relation["tourism"="camp_site"](area.country);
+    );
+    out body;
+    >;
+    out skel qt;
+    """
 
-        query = """
-        [out:json];
-        area["ISO3166-1"="NL"]["admin_level"="2"]->.country;
-        (
-          node["tourism"="camp_site"](area.country);
-          way["tourism"="camp_site"](area.country);
-          relation["tourism"="camp_site"](area.country);
-        );
-        out body;
-        >;
-        out skel qt;
-        """
+    data = utils.queryOsm(query, "response_campsites_nl.json")
 
-        response = requests.get("https://overpass-api.de/api/interpreter", params={'data': query})
-        data = response.json()
-        open(fn, "wt").write(json.dumps(data, indent=4))
-    else:
-        print("Loading campsite data from", fn)
-        data = json.load(open(fn, "rt"))
+    allNodes = { }
 
-    
+    for e in data["elements"]:
+        if e["type"] != "node":
+            continue
+
+        nodeId = e["id"]
+        if nodeId in allNodes:
+            print("Node", nodeId, "already present, merging")
+            utils.mergeInto(allNodes[nodeId], e)
+
+        allNodes[nodeId] = e
+
+    print("Number of nodes:", len(allNodes))
 
 if __name__ == "__main__":
     main()
