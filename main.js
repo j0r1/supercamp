@@ -1,6 +1,42 @@
 "use strict";
 
 const icons = {
+    "AH": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Albert_Heijn_Logo.svg',
+        iconSize: [25, 26],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Jumbo": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Jumbo_Logo.svg',
+        iconSize: [54, 15],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "PLUS": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/92/PLUS_supermarket_logo.svg',
+        iconSize: [61, 13],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Spar": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Spar-logo.svg',
+        iconSize: [63, 16],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Lidl": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Lidl-Logo.svg',
+        iconSize: [24, 24],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "ALDI": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/AldiNord-WorldwideLogo.svg',
+        iconSize: [24, 24],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
     "green": L.icon({
             iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
             shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -61,6 +97,30 @@ function isOutside(lat, lon, north, south, east, west)
     return false;
 }
 
+const storeIdentifiers = {
+    "AH": [ "Albert Heijn", "www.ah.nl" ],
+    "Jumbo": [ "Jumbo", "www.jumbo.com" ],
+    "PLUS": [ "PLUS", "www.plus.nl" ],
+    "Spar": [ "SPAR", "www.spar.nl" ],
+    "Lidl": [ "Lidl", "www.lidl.nl" ],
+    "ALDI": [ "ALDI", "www.aldi.nl" ],
+}
+
+function checkSuperMarket(tags)
+{
+    for (let k in tags)
+    {
+        let value = tags[k];
+        for (let ident in storeIdentifiers)
+        {
+            for (let x of storeIdentifiers[ident])
+                if (value.indexOf(x) >= 0)
+                    return ident;
+        }
+    }
+    return "red";
+}
+
 function addMarkersForBounds(map, north, south, east, west, places, iconType)
 {
     const urlKeys = [ "website", "contact:website", "url", "facebook", "contact:facebook" ];
@@ -79,11 +139,14 @@ function addMarkersForBounds(map, north, south, east, west, places, iconType)
             continue;
 
         let marker = null;
+        let iconName = null;
         
-        if (iconType)
-            marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconType]}).addTo(map);
+        if (typeof iconType === "function" && "tags" in value)
+            iconName = iconType(value["tags"]);
         else
-            marker = L.marker([value.coord[1], value.coord[0]]).addTo(map);
+            iconName = iconType;
+
+        marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconName]}).addTo(map);
 
         if ("tags" in value)
         {
@@ -154,7 +217,7 @@ function checkViewportChange(map)
     removeOldMarkersForBounds(map, north, south, east, west);
     
     addMarkersForBounds(map, north, south, east, west, allCampSites, "green");
-    addMarkersForBounds(map, north, south, east, west, allSuperMarkets, "red");
+    addMarkersForBounds(map, north, south, east, west, allSuperMarkets, checkSuperMarket);
     addMarkersForBounds(map, north, south, east, west, allFitness, "yellow");
     addMarkersForBounds(map, north, south, east, west, allPools, "blue");
 }
