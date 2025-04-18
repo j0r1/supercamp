@@ -204,15 +204,21 @@ function removeOldMarkersForBounds(map, north, south, east, west)
 
 function checkViewportChange(map)
 {
-    const zoom = map.getZoom();
-    if (zoom < limitZoomLevel)
-        return;
-
+    const zoom = map.getZoom();   
     const bounds = map.getBounds();
     const north = bounds.getNorth();
     const south = bounds.getSouth();
     const east = bounds.getEast();
     const west = bounds.getWest();
+    const center = map.getCenter();
+
+    localStorage["supercamp-view"] = JSON.stringify({ 
+        "center": [center["lat"], center["lng"]], 
+        "zoom": zoom 
+    });
+
+    if (zoom < limitZoomLevel)
+        return;
 
     removeOldMarkersForBounds(map, north, south, east, west);
     
@@ -249,7 +255,16 @@ async function main()
     processPlacesBounds(map, storeJson, bounds);
     processPlacesBounds(map, fitnessJson, bounds);
     processPlacesBounds(map, poolsJson, bounds);
-    map.fitBounds(bounds);
+
+    if ("supercamp-view" in localStorage)
+    {
+        const v = JSON.parse(localStorage["supercamp-view"]);
+        map.setView(v["center"], v["zoom"]);
+    }
+    else
+        map.fitBounds(bounds);
+
+    checkViewportChange(map);
 
     map.on("zoomend", () => checkViewportChange(map));
     map.on("moveend", () => checkViewportChange(map));
