@@ -73,6 +73,28 @@ const icons = {
 
 const addedMarkers = { };
 
+let travelStart = null;
+
+function setTravelStart(lon, lat)
+{
+    travelStart = [lon, lat];
+
+    // Make sure the destination button gets shown from now on
+    document.documentElement.style.setProperty('--destbutton-ptr', 'initial');
+    document.documentElement.style.setProperty('--destbutton-cursor', 'initial');
+    document.documentElement.style.setProperty('--destbutton-opac', 'initial');
+}
+
+function getDirectionsTo(endLon, endLat)
+{
+    if (!travelStart)
+        return;
+
+    const [ startLon, startLat ] = travelStart;
+    const url = `https://www.google.com/maps/dir/?api=1&origin=${startLat},${startLon}&destination=${endLat},${endLon}&travelmode=bicycling`;
+    window.open(url, '_blank');
+}
+
 function processPlacesBounds(map, obj, bounds)
 {
     for (let key in obj)
@@ -174,6 +196,9 @@ function addMarkersForBounds(map, north, south, east, west, places, iconType)
 
             if (url)
                 popupContent += `<br><a href="${url}" target="_blank">${url}</a>`;
+
+            popupContent += `<br><br>Cycling: <button onclick="setTravelStart(${value.coord[0]}, ${value.coord[1]})">Set start</button>`;
+            popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
 
             marker.bindPopup(popupContent);
 

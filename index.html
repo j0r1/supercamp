@@ -6,7 +6,20 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
         <style>
-            body, html {
+
+        :root {
+            --destbutton-ptr: none;
+            --destbutton-opac: 0.3;
+            --destbutton-cursor: not-allowed;
+        }
+        
+        .destbutton {
+            pointer-events: var(--destbutton-ptr);
+            opacity: var(--destbutton-opac);
+            cursor: var(--destbutton-cursor);
+        }
+
+        body, html {
             margin: 0;
             padding: 0;
             height: 100%;
@@ -23,6 +36,7 @@
             top: 0;
             left: 0;
         }
+        
         </style>
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script src="main.js"></script>
