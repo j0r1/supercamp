@@ -1,8 +1,32 @@
 "use strict";
 
 const icons = {
+    "green": L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        }),
+    "blue": L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        }),
     "red": L.icon({
             iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+        }),
+    "yellow": L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png',
             shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
             iconSize: [25, 41],
             iconAnchor: [12, 41],
@@ -13,7 +37,7 @@ const icons = {
 
 const addedMarkers = { };
 
-function processPlaces(map, obj, bounds, iconType)
+function processPlacesBounds(map, obj, bounds)
 {
     for (let key in obj)
     {
@@ -24,6 +48,8 @@ function processPlaces(map, obj, bounds, iconType)
 
 let allCampSites = null;
 let allSuperMarkets = null;
+let allFitness = null;
+let allPools = null;
 
 const limitZoomLevel = 11;
 
@@ -75,6 +101,8 @@ function addMarkersForBounds(map, north, south, east, west, places, iconType)
             let popupContent = "";
             if ("name" in value.tags)
                 popupContent = `<strong>${value.tags.name}</strong>`;
+            else if ("brand" in value.tags)
+                popupContent = `<strong>${value.tags.brand}</strong>`;
             else
             {
                 let jsonStr = JSON.stringify(value.tags, null, 2);
@@ -125,8 +153,10 @@ function checkViewportChange(map)
 
     removeOldMarkersForBounds(map, north, south, east, west);
     
-    addMarkersForBounds(map, north, south, east, west, allCampSites);
+    addMarkersForBounds(map, north, south, east, west, allCampSites, "green");
     addMarkersForBounds(map, north, south, east, west, allSuperMarkets, "red");
+    addMarkersForBounds(map, north, south, east, west, allFitness, "yellow");
+    addMarkersForBounds(map, north, south, east, west, allPools, "blue");
 }
 
 async function main()
@@ -141,13 +171,21 @@ async function main()
     let campJson = await campResponse.json();
     let storeResponse = await fetch("parsed_supermarkets_nl.json");
     let storeJson = await storeResponse.json();
+    let fitnessResponse = await fetch("parsed_fitness_nl.json");
+    let fitnessJson = await fitnessResponse.json();
+    let poolsResponse = await fetch("parsed_pools_nl.json");
+    let poolsJson = await poolsResponse.json();
 
     allCampSites = campJson;
     allSuperMarkets = storeJson;
+    allFitness = fitnessJson;
+    allPools = poolsJson;
 
     const bounds = L.latLngBounds();
-    processPlaces(map, campJson, bounds);
-    processPlaces(map, storeJson, bounds, "red");
+    processPlacesBounds(map, campJson, bounds);
+    processPlacesBounds(map, storeJson, bounds);
+    processPlacesBounds(map, fitnessJson, bounds);
+    processPlacesBounds(map, poolsJson, bounds);
     map.fitBounds(bounds);
 
     map.on("zoomend", () => checkViewportChange(map));
