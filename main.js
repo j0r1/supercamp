@@ -348,19 +348,20 @@ async function main()
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    let campResponse = await fetch("parsed_campsites_nl.json");
-    let campJson = await campResponse.json();
-    let storeResponse = await fetch("parsed_supermarkets_nl.json");
-    let storeJson = await storeResponse.json();
-    let fitnessResponse = await fetch("parsed_fitness_nl.json");
-    let fitnessJson = await fitnessResponse.json();
-    let poolsResponse = await fetch("parsed_pools_nl.json");
-    let poolsJson = await poolsResponse.json();
-
-    mainGrid.processAll(campJson, "campsite");
-    mainGrid.processAll(storeJson, "supermarket");
-    mainGrid.processAll(fitnessJson, "fitness");
-    mainGrid.processAll(poolsJson, "pool");
+    for (let [ fn, type ] of [
+        [ "parsed_campsites_nl.json", "campsite" ],
+        [ "parsed_supermarkets_nl.json", "supermarket" ],
+        [ "parsed_fitness_nl.json", "fitness" ],
+        [ "parsed_pools_nl.json", "pool"],
+        [ "parsed_campsites_be.json", "campsite" ],
+        [ "parsed_supermarkets_be.json", "supermarket" ],
+        [ "parsed_fitness_be.json", "fitness" ],
+        [ "parsed_pools_be.json", "pool"]
+    ]) {
+        let response = await fetch(fn);
+        let json = await response.json();
+        mainGrid.processAll(json, type);
+    }
 
     if ("supercamp-view" in localStorage)
     {
