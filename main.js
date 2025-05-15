@@ -1,5 +1,97 @@
 "use strict";
 
+class MapGrid
+{
+    constructor(numLat = 720, numLong = 1440)
+    {
+        this.cells = new Map();
+        this.numLat = numLat;
+        this.numLong = numLong;
+        this.bounds = L.latLngBounds();
+    }
+
+    getBounds()
+    {
+        return this.bounds;
+    }
+
+    getGridKeys(north, south, east, west)
+    {
+        const sw = this.getKeyFor(south, west);
+        const ne = this.getKeyFor(north, east);
+        const allKeys = [];
+        for (let y = sw[0] ; y <= ne[0] ; y++)
+            for (let x = sw[1] ; x <= ne[1] ; x++)
+                allKeys.push([y,x]);
+        return allKeys;
+    }
+
+    toKeyStr(key)
+    {
+        return `${key}`;
+    }
+
+    getObjectsForGridKey(key)
+    {
+        if (!this.cells.has(this.toKeyStr(key)))
+            return [];
+        return this.cells.get(this.toKeyStr(key));
+    }
+
+    getKeyFor(lat, long)
+    {
+        lat += 90;
+        long += 180;
+        if (lat < 0 || long < 0)
+            throw new Error(`Unexpected error, expecting positive longitude ${lon} and latitude ${lat}`)
+
+        lat /= 180;
+        long /= 360;
+
+        let latBin = Math.floor(lat*this.numLat);
+        let longBin = Math.floor(long*this.numLong);
+        if (latBin == this.numLat)
+            latBin = this.numLat-1;
+        if (longBin == this.numLong)
+            longBin = this.numLong-1;
+
+        if (latBin >= this.numLat || longBin >= this.numLong)
+            throw new Error(`Unexpected error, expecting ${longBin} < ${this.numLong} and ${latBin} < ${this.numLat}`);
+        return [latBin, longBin];
+    }
+
+    process(obj, type)
+    {
+        let lat = obj.coord[1]
+        let long = obj.coord[0];
+        let key = this.getKeyFor(lat, long);
+
+        const map = this.cells;
+        if (!map.has(this.toKeyStr(key)))
+            map.set(this.toKeyStr(key), {});
+
+        let binProps = map.get(this.toKeyStr(key));
+        if (!(type in binProps))
+            binProps[type] = [];
+
+        binProps[type].push(obj);
+
+        this.bounds.extend([lat, long]);
+    }
+
+    processAll(objs, type)
+    {
+        for (let key in objs) // objs is a dictionary where the keys are different nodes
+        {
+            let obj = objs[key];
+            obj.id = key;
+            this.process(obj, type);
+        }
+    }
+};
+
+const mainGrid = new MapGrid();
+
 const icons = {
     "AH": L.icon({
         iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Albert_Heijn_Logo.svg',
@@ -95,20 +187,6 @@ function getDirectionsTo(endLon, endLat)
     window.open(url, '_blank');
 }
 
-function processPlacesBounds(map, obj, bounds)
-{
-    for (let key in obj)
-    {
-        let value = obj[key];
-        bounds.extend([value.coord[1], value.coord[0]]);
-    }
-}
-
-let allCampSites = null;
-let allSuperMarkets = null;
-let allFitness = null;
-let allPools = null;
-
 const limitZoomLevel = 11;
 
 function isOutside(lat, lon, north, south, east, west)
@@ -143,66 +221,75 @@ function checkSuperMarket(tags)
     return "red";
 }
 
-function addMarkersForBounds(map, north, south, east, west, places, iconType)
+function addMarkersForBounds(map, north, south, east, west, placeType, iconType)
 {
     const urlKeys = [ "website", "contact:website", "url", "facebook", "contact:facebook" ];
 
-    for (let id in places)
+    const gridKeys = mainGrid.getGridKeys(north, south, east, west);
+    for (let key of gridKeys)
     {
-        if (id in addedMarkers)
-            continue;
+        const objs = mainGrid.getObjectsForGridKey(key);
+        let places = [];
+        if (placeType in objs)
+            places = objs[placeType];
 
-        const value = places[id];
-        const lon = value.coord[1];
-        const lat = value.coord[0];
-
-        // TODO: check is not really correct, wrapping of lat is not considered
-        if (isOutside(lat, lon, north, south, east, west))
-            continue;
-
-        let marker = null;
-        let iconName = null;
-        
-        if (typeof iconType === "function" && "tags" in value)
-            iconName = iconType(value["tags"]);
-        else
-            iconName = iconType;
-
-        marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconName]}).addTo(map);
-
-        if ("tags" in value)
+        for (let value of places)
         {
-            let tags = value["tags"];
-            let url = null;
-            for (let uk of urlKeys)
-            {
-                if (uk in tags)
-                {
-                    url = tags[uk];
-                    break;
-                }
-            }
+            const id = value.id;
+            if (id in addedMarkers)
+                continue;
 
-            let popupContent = "";
-            if ("name" in value.tags)
-                popupContent = `<strong>${value.tags.name}</strong>`;
-            else if ("brand" in value.tags)
-                popupContent = `<strong>${value.tags.brand}</strong>`;
+            const lon = value.coord[1];
+            const lat = value.coord[0];
+    
+            // TODO: check is not really correct, wrapping of lat is not considered
+            if (isOutside(lat, lon, north, south, east, west))
+                continue;
+    
+            let marker = null;
+            let iconName = null;
+            
+            if (typeof iconType === "function" && "tags" in value)
+                iconName = iconType(value["tags"]);
             else
+                iconName = iconType;
+    
+            marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconName]}).addTo(map);
+    
+            if ("tags" in value)
             {
-                let jsonStr = JSON.stringify(value.tags, null, 2);
-                popupContent = `<pre>${jsonStr}</pre>`;
-            }
-
-            if (url)
-                popupContent += `<br><a href="${url}" target="_blank">${url}</a>`;
-
-            popupContent += `<br><br>Cycling: <button onclick="setTravelStart(${value.coord[0]}, ${value.coord[1]})">Set start</button>`;
-            popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
-
-            marker.bindPopup(popupContent);
-
-            addedMarkers[id] = { coord: value["coord"], marker: marker };
+                let tags = value["tags"];
+                let url = null;
+                for (let uk of urlKeys)
+                {
+                    if (uk in tags)
+                    {
+                        url = tags[uk];
+                        break;
+                    }
+                }
+    
+                let popupContent = "";
+                if ("name" in value.tags)
+                    popupContent = `<strong>${value.tags.name}</strong>`;
+                else if ("brand" in value.tags)
+                    popupContent = `<strong>${value.tags.brand}</strong>`;
+                else
+                {
+                    let jsonStr = JSON.stringify(value.tags, null, 2);
+                    popupContent = `<pre>${jsonStr}</pre>`;
+                }
+    
+                if (url)
+                    popupContent += `<br><a href="${url}" target="_blank">${url}</a>`;
+    
+                popupContent += `<br><br>Cycling: <button onclick="setTravelStart(${value.coord[0]}, ${value.coord[1]})">Set start</button>`;
+                popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
+    
+                marker.bindPopup(popupContent);
+    
+                addedMarkers[id] = { coord: value["coord"], marker: marker };
+            }    
         }
     }
 }
@@ -247,10 +334,10 @@ function checkViewportChange(map)
 
     removeOldMarkersForBounds(map, north, south, east, west);
     
-    addMarkersForBounds(map, north, south, east, west, allCampSites, "green");
-    addMarkersForBounds(map, north, south, east, west, allSuperMarkets, checkSuperMarket);
-    addMarkersForBounds(map, north, south, east, west, allFitness, "yellow");
-    addMarkersForBounds(map, north, south, east, west, allPools, "blue");
+    addMarkersForBounds(map, north, south, east, west, "campsite", "green");
+    addMarkersForBounds(map, north, south, east, west, "supermarket", checkSuperMarket);
+    addMarkersForBounds(map, north, south, east, west, "fitness", "yellow");
+    addMarkersForBounds(map, north, south, east, west, "pool", "blue");
 }
 
 async function main()
@@ -270,16 +357,10 @@ async function main()
     let poolsResponse = await fetch("parsed_pools_nl.json");
     let poolsJson = await poolsResponse.json();
 
-    allCampSites = campJson;
-    allSuperMarkets = storeJson;
-    allFitness = fitnessJson;
-    allPools = poolsJson;
-
-    const bounds = L.latLngBounds();
-    processPlacesBounds(map, campJson, bounds);
-    processPlacesBounds(map, storeJson, bounds);
-    processPlacesBounds(map, fitnessJson, bounds);
-    processPlacesBounds(map, poolsJson, bounds);
+    mainGrid.processAll(campJson, "campsite");
+    mainGrid.processAll(storeJson, "supermarket");
+    mainGrid.processAll(fitnessJson, "fitness");
+    mainGrid.processAll(poolsJson, "pool");
 
     if ("supercamp-view" in localStorage)
     {
@@ -287,7 +368,7 @@ async function main()
         map.setView(v["center"], v["zoom"]);
     }
     else
-        map.fitBounds(bounds);
+        map.fitBounds(mainGrid.getBounds());
 
     checkViewportChange(map);
 
