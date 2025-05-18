@@ -4,11 +4,11 @@ import os
 import pprint
 import utils
 
-def main():
+def run(countryCode, responseFn, parsedFn):
 
-    query = """
+    query = f"""
 	[out:json];
-    area["ISO3166-1"="NL"]["admin_level"="2"]->.country;
+    area["ISO3166-1"="{countryCode}"]["admin_level"="2"]->.country;
     (
       node["leisure"="fitness_centre"](area.country);
       way["leisure"="fitness_centre"](area.country);
@@ -24,11 +24,15 @@ def main():
     out skel qt;
     """
 
-    data = utils.queryOsm(query, "response_fitness_nl.json")
+    data = utils.queryOsm(query, responseFn)
     allPlaces = utils.getAllPlaces(data)
 
     print("Number of fitness centra:", len(allPlaces))
-    json.dump(allPlaces, open("parsed_fitness_nl.json", "wt"), indent=4)
+    json.dump(allPlaces, open(parsedFn, "wt"), indent=4)
+
+def main():
+    run("NL", "response_fitness_nl.json", "parsed_fitness_nl.json")
+    run("BE", "response_fitness_be.json", "parsed_fitness_be.json")
 
 if __name__ == "__main__":
     main()

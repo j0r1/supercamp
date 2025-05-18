@@ -5,11 +5,11 @@ import pprint
 import utils
 import pprint
 
-def main():
+def run(countryCode, responseFn, parsedFn):
 
-    query = """
+    query = f"""
     [out:json];
-    area["ISO3166-1"="NL"]["admin_level"="2"]->.country;
+    area["ISO3166-1"="{countryCode}"]["admin_level"="2"]->.country;
     (
       node["tourism"="camp_site"](area.country);
       way["tourism"="camp_site"](area.country);
@@ -20,11 +20,15 @@ def main():
     out skel qt;
     """
 
-    data = utils.queryOsm(query, "response_campsites_nl.json")
+    data = utils.queryOsm(query, responseFn)
     allPlaces = utils.getAllPlaces(data)
 
     print("Number of camp sites:", len(allPlaces))
-    json.dump(allPlaces, open("parsed_campsites_nl.json", "wt"), indent=4)
+    json.dump(allPlaces, open(parsedFn, "wt"), indent=4)
+
+def main():
+    run("NL", "response_campsites_nl.json", "parsed_campsites_nl.json")
+    run("BE", "response_campsites_be.json", "parsed_campsites_be.json")
 
 if __name__ == "__main__":
     main()
