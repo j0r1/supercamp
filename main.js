@@ -129,6 +129,31 @@ const icons = {
         iconAnchor: [12, 41],
         popupAnchor: [1, -34],
     }),
+    "Delhaize": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/fr/3/34/Delhaize_-_Logo.svg',
+        iconSize: [65, 12],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Carrefour": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/en/6/65/Carrefour_Groupe.svg',
+        iconSize: [32, 20],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Colruyt": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Logo_Colruyt.svg',
+        iconSize: [68, 20],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+    "Okay": L.icon({
+        iconUrl: 'https://upload.wikimedia.org/wikipedia/fr/1/17/OKay_logo.png',
+        iconSize: [20, 20],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+    }),
+
     "green": L.icon({
             iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
             shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -198,12 +223,16 @@ function isOutside(lat, lon, north, south, east, west)
 }
 
 const storeIdentifiers = {
-    "AH": [ "Albert Heijn", "www.ah.nl" ],
+    "AH": [ "Albert Heijn", "www.ah.nl", "www.ah.be" ],
     "Jumbo": [ "Jumbo", "www.jumbo.com" ],
     "PLUS": [ "PLUS", "www.plus.nl" ],
-    "Spar": [ "SPAR", "www.spar.nl" ],
-    "Lidl": [ "Lidl", "www.lidl.nl" ],
-    "ALDI": [ "ALDI", "www.aldi.nl" ],
+    "Spar": [ "SPAR", "www.spar.nl", "www.spar.be", "Spar" ],
+    "Lidl": [ "Lidl", "www.lidl.nl", "www.lidl.be" ],
+    "ALDI": [ "ALDI", "www.aldi.nl", "www.aldi.be" ],
+    "Delhaize": [ "Delhaize" ],
+    "Carrefour": [ "Carrefour", "magasins.carrefour.eu", "magasins.carrefour.be", "winkels.carrefour.be", "winkels.carrefour.eu" ],
+    "Colruyt": [ "Colruyt", "www.colruyt.be" ],
+    "Okay": [ "Okay", "www.okay.be" ],
 }
 
 function checkSuperMarket(tags)
