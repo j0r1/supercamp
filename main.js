@@ -371,7 +371,7 @@ function checkViewportChange(map)
 
 async function main()
 {
-    const map = L.map('map');
+    const map = L.map('map', { doubleClickZoom: false });
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -404,6 +404,7 @@ async function main()
 
     map.on("zoomend", () => checkViewportChange(map));
     map.on("moveend", () => checkViewportChange(map));
+    map.on("dblclick", () => { alert("Click!"); return false; });
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
