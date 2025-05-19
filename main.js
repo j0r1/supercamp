@@ -93,6 +93,12 @@ class MapGrid
 const mainGrid = new MapGrid();
 
 const icons = {
+    "HOME": L.icon({
+        iconUrl: 'home.svg',
+        iconSize: [64, 42],
+        iconAnchor: [32, 42],
+        popupAnchor: [1, -34],
+    }),
     "AH": L.icon({
         iconUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Albert_Heijn_Logo.svg',
         iconSize: [25, 26],
@@ -189,8 +195,10 @@ const icons = {
 }
 
 const addedMarkers = { };
+let homeMarker = null;
 
 let travelStart = null;
+let homeStart = null;
 
 function setTravelStart(lon, lat)
 {
@@ -209,6 +217,16 @@ function getDirectionsTo(endLon, endLat)
 
     const [ startLon, startLat ] = travelStart;
     const url = `https://www.google.com/maps/dir/?api=1&origin=${startLat},${startLon}&destination=${endLat},${endLon}&travelmode=bicycling`;
+    window.open(url, '_blank');
+}
+
+function getDirectionsFromHomeTo(endLon, endLat)
+{
+    if (!homeStart)
+        return;
+
+    const [ startLon, startLat ] = homeStart;
+    const url = `https://www.google.com/maps/dir/?api=1&origin=${startLat},${startLon}&destination=${endLat},${endLon}&travelmode=driving`;
     window.open(url, '_blank');
 }
 
@@ -314,6 +332,8 @@ function addMarkersForBounds(map, north, south, east, west, placeType, iconType)
     
                 popupContent += `<br><br>Cycling: <button onclick="setTravelStart(${value.coord[0]}, ${value.coord[1]})">Set start</button>`;
                 popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
+                popupContent += `<br><br>Driving: `;
+                popupContent += `<button class="desthomebutton" onclick="getDirectionsFromHomeTo(${value.coord[0]}, ${value.coord[1]})">Get directions from home</button>`;
     
                 marker.bindPopup(popupContent);
     
@@ -369,6 +389,26 @@ function checkViewportChange(map)
     addMarkersForBounds(map, north, south, east, west, "pool", "blue");
 }
 
+function setHomeCoords(map, latlng)
+{
+    if (homeMarker)
+        homeMarker.removeFrom(map);
+    
+    const marker = L.marker([ latlng.lat, latlng.lng ], { icon: icons["HOME"] }).addTo(map);
+    homeMarker = marker;
+    homeStart = [ latlng.lng, latlng.lat ];
+
+    localStorage["supercamp-home"] = JSON.stringify({ 
+        "lat": latlng.lat,
+        "lng": latlng.lng,
+    });
+
+    // Make sure the destination button gets shown from now on
+    document.documentElement.style.setProperty('--desthomebutton-ptr', 'initial');
+    document.documentElement.style.setProperty('--desthomebutton-cursor', 'initial');
+    document.documentElement.style.setProperty('--desthomebutton-opac', 'initial');
+}
+
 async function main()
 {
     const map = L.map('map', { doubleClickZoom: false });
@@ -400,11 +440,17 @@ async function main()
     else
         map.fitBounds(mainGrid.getBounds());
 
+    if ("supercamp-home" in localStorage)
+    {
+        const latlng = JSON.parse(localStorage["supercamp-home"]);
+        setHomeCoords(map, latlng);
+    }
+
     checkViewportChange(map);
 
     map.on("zoomend", () => checkViewportChange(map));
     map.on("moveend", () => checkViewportChange(map));
-    map.on("dblclick", () => { alert("Click!"); return false; });
+    map.on("dblclick", (e) => setHomeCoords(map, e.latlng));
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
