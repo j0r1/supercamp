@@ -173,6 +173,16 @@
             52.1427636
         ]
     },
+    "node-194118275": {
+        "tags": {
+            "name": "Laco Strandbad Nuenen",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.5492968,
+            51.4564457
+        ]
+    },
     "node-205455153": {
         "tags": {
             "leisure": "swimming_pool",
@@ -199,6 +209,47 @@
             53.30458
         ]
     },
+    "node-286802014": {
+        "tags": {
+            "name": "Veldzicht",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.0809277,
+            51.7541897
+        ]
+    },
+    "node-287234172": {
+        "tags": {
+            "created_by": "Potlatch 0.10b",
+            "name": "'t Anker",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.8143674,
+            51.0439325
+        ]
+    },
+    "node-295649770": {
+        "tags": {
+            "name": "Let's Go Water Taxi Mushroom Forest",
+            "sport": "swimming"
+        },
+        "coord": [
+            -69.1457563,
+            12.3052037
+        ]
+    },
+    "node-303743378": {
+        "tags": {
+            "name": "Kriekeput",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.6237555,
+            51.766786
+        ]
+    },
     "node-349194044": {
         "tags": {
             "addr:city": "Zeist",
@@ -218,6 +269,39 @@
         "coord": [
             5.2408665,
             52.1058732
+        ]
+    },
+    "node-374098004": {
+        "tags": {
+            "name": "bosbad Noord-Sleen",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.8051297,
+            52.8039862
+        ]
+    },
+    "node-388313697": {
+        "tags": {
+            "addr:city": "Joure",
+            "addr:housenumber": "4",
+            "addr:postcode": "8501KC",
+            "addr:street": "Zuiderveldstraat",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "leisure": "water_park",
+            "name": "Swimfun Joure",
+            "paddling_pool": "yes",
+            "source": "BAG",
+            "source:date": "2014-06-09",
+            "sport": "swimming",
+            "wave_pool": "yes",
+            "website": "https://swimfun.nl/",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            5.7973811,
+            52.9569497
         ]
     },
     "node-393135967": {
@@ -291,6 +375,16 @@
             51.9487345
         ]
     },
+    "node-567931459": {
+        "tags": {
+            "description": "[Reuver] Zwembad De Bercken",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.0745154,
+            51.2889604
+        ]
+    },
     "node-586432824": {
         "tags": {
             "leisure": "sports_centre",
@@ -300,6 +394,16 @@
         "coord": [
             3.8061159,
             51.2326631
+        ]
+    },
+    "node-599820424": {
+        "tags": {
+            "name": "de Eese",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.1165866,
+            52.8183163
         ]
     },
     "node-603300994": {
@@ -334,6 +438,39 @@
         "coord": [
             4.887503,
             52.2078357
+        ]
+    },
+    "node-702245096": {
+        "tags": {
+            "name": "Bosbad",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.2564385,
+            52.2059667
+        ]
+    },
+    "node-834870330": {
+        "tags": {
+            "name": "ons plons",
+            "operator": "Lommerbergen",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.0539863,
+            51.2812074
+        ]
+    },
+    "node-838074614": {
+        "tags": {
+            "leisure": "swimming_area",
+            "scuba_diving:name": "Sloterplas",
+            "sport": "swimming",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.8293928,
+            52.3694267
         ]
     },
     "node-840558626": {
@@ -371,6 +508,18 @@
             53.23141
         ]
     },
+    "node-940062060": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Sportcentrum Kardinge",
+            "opening_hours:url": "https://sport050.nl/sportlocaties/sportcentrum-kardinge/recreatief-zwemmen/#openingstijden",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.598145,
+            53.2381406
+        ]
+    },
     "node-1039320592": {
         "tags": {
             "addr:city": "Beverwijk",
@@ -390,12 +539,18 @@
     },
     "node-1155232705": {
         "tags": {
+            "addr:city": "Schiedam",
+            "addr:housenumber": "2",
+            "addr:postcode": "3121JN",
+            "addr:street": "Prinses Beatrixlaan",
             "leisure": "swimming_pool",
-            "name": "Zwembad Groenoord"
+            "name": "Zwembad Groenoord",
+            "source": "BAG",
+            "source:date": "2014-02-11"
         },
         "coord": [
-            4.3777833,
-            51.9277941
+            4.3777876,
+            51.9281521
         ]
     },
     "node-1167859303": {
@@ -540,6 +695,15 @@
         "coord": [
             5.8866118,
             51.106914
+        ]
+    },
+    "node-1389897747": {
+        "tags": {
+            "sport": "swimming"
+        },
+        "coord": [
+            5.6653457,
+            51.464173
         ]
     },
     "node-1398494727": {
@@ -722,6 +886,17 @@
             53.0691101
         ]
     },
+    "node-1588780811": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Zwembad de Duker",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.1645992,
+            52.7333528
+        ]
+    },
     "node-1604251489": {
         "tags": {
             "addr:city": "Annen",
@@ -818,6 +993,16 @@
         "coord": [
             4.4872394,
             51.8870746
+        ]
+    },
+    "node-1648794155": {
+        "tags": {
+            "description": "Zwembad Dukdalf",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.1598655,
+            51.8954525
         ]
     },
     "node-1665653473": {
@@ -961,6 +1146,16 @@
             52.2496554
         ]
     },
+    "node-1854301422": {
+        "tags": {
+            "name": "Oostervant",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.4613773,
+            51.920463
+        ]
+    },
     "node-1858497705": {
         "tags": {
             "leisure": "swimming_pool",
@@ -1021,7 +1216,7 @@
             "addr:city": "Aalsmeer",
             "addr:housenumber": "1",
             "addr:postcode": "1432CA",
-            "addr:street": "Meester Jac. Takkade",
+            "addr:street": "Mr. Jac. Takkade",
             "fee": "yes",
             "leisure": "swimming_pool",
             "location": "outdoor",
@@ -1043,6 +1238,7 @@
             "addr:street": "Het Nieuwland",
             "leisure": "sports_centre",
             "name": "Aquacentrum Den Helder",
+            "old_name": "De Schots",
             "source": "BAG",
             "source:date": "2014-05-07",
             "sport": "swimming",
@@ -1663,6 +1859,24 @@
             52.4354948
         ]
     },
+    "node-2503184264": {
+        "tags": {
+            "addr:city": "Hattem",
+            "addr:housenumber": "2A",
+            "addr:postcode": "8051DX",
+            "addr:street": "Daendelsweg",
+            "leisure": "sports_hall",
+            "name": "MFC de Marke",
+            "source": "BAG",
+            "source:date": "2013-08-08",
+            "sport": "swimming",
+            "website": "https://mfcdemarke.nl/"
+        },
+        "coord": [
+            6.0698803,
+            52.4677813
+        ]
+    },
     "node-2505065755": {
         "tags": {
             "leisure": "swimming_pool",
@@ -1690,6 +1904,23 @@
         "coord": [
             5.1383887,
             51.5218752
+        ]
+    },
+    "node-2590918764": {
+        "tags": {
+            "addr:city": "'s-Gravenhage",
+            "addr:housenumber": "149",
+            "addr:postcode": "2586HC",
+            "addr:street": "Seinpoststraat",
+            "leisure": "sports_centre",
+            "name": "De Blinkerd",
+            "source": "BAG",
+            "source:date": "2013-11-26",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.2829351,
+            52.1061791
         ]
     },
     "node-2603077081": {
@@ -1731,11 +1962,13 @@
             "addr:street": "Stationsplein",
             "indoor": "yes",
             "leisure": "sports_centre",
-            "name": "Zwembad de Brink Zelhem",
+            "name": "Zwembad De Brink",
             "operator": "conegroup",
+            "phone": "+31 314 622 140",
             "source": "BAG",
             "source:date": "2013-11-26",
-            "sport": "swimming"
+            "sport": "swimming",
+            "website": "https://zwembaddebrink.nl/"
         },
         "coord": [
             6.3526085,
@@ -1862,6 +2095,25 @@
         "coord": [
             4.5936623,
             52.102826
+        ]
+    },
+    "node-2698046707": {
+        "tags": {
+            "addr:city": "Waddinxveen",
+            "addr:housenumber": "13D",
+            "addr:postcode": "2742AR",
+            "addr:street": "Sniepweg",
+            "leisure": "swimming_pool",
+            "name": "Gouwebad de Sniep",
+            "source": "BAG",
+            "source:date": "2020-07-07",
+            "sport": "swimming",
+            "toilets:wheelchair": "yes",
+            "wheelchair": "yes"
+        },
+        "coord": [
+            4.6431162,
+            52.0418328
         ]
     },
     "node-2704249646": {
@@ -1991,6 +2243,21 @@
         "coord": [
             5.9310124,
             52.0049173
+        ]
+    },
+    "node-2721950987": {
+        "tags": {
+            "addr:city": "Utrecht",
+            "addr:housenumber": "5",
+            "addr:postcode": "3533KH",
+            "addr:street": "Kennedylaan",
+            "source": "BAG",
+            "source:date": "2014-02-11",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.084266,
+            52.0809554
         ]
     },
     "node-2724419103": {
@@ -2175,6 +2442,26 @@
             51.5799385
         ]
     },
+    "node-2741677607": {
+        "tags": {
+            "addr:city": "Uitgeest",
+            "addr:housenumber": "10",
+            "addr:postcode": "1911TR",
+            "addr:street": "Zienlaan",
+            "amenity": "community_centre",
+            "covered": "no",
+            "name": "Zienhouse & Fabo",
+            "operator": "Fabo Uitgeest",
+            "source": "BAG",
+            "source:date": "2014-05-28",
+            "sport": "swimming",
+            "website": "https://www.fabouitgeest.nl"
+        },
+        "coord": [
+            4.7033841,
+            52.5240715
+        ]
+    },
     "node-2742720651": {
         "tags": {
             "leisure": "swimming_pool",
@@ -2221,25 +2508,6 @@
         "coord": [
             6.6259223,
             52.0966472
-        ]
-    },
-    "node-2747853619": {
-        "tags": {
-            "addr:city": "Soest",
-            "addr:housenumber": "181",
-            "addr:postcode": "3762AW",
-            "addr:street": "Dalweg",
-            "leisure": "swimming_pool",
-            "name": "Sportboulevard De Engh",
-            "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-16:00; Su 10:00-16:00",
-            "operator": "Optisport",
-            "source": "BAG",
-            "source:date": "2014-03-24",
-            "website": "https://www.optisport.nl/sportboulevard-de-engh-soest"
-        },
-        "coord": [
-            5.2965795,
-            52.1764271
         ]
     },
     "node-2747968481": {
@@ -2400,6 +2668,23 @@
         "coord": [
             4.8827919,
             52.7338104
+        ]
+    },
+    "node-2757038013": {
+        "tags": {
+            "addr:city": "West-Terschelling",
+            "addr:housenumber": "7",
+            "addr:postcode": "8881EP",
+            "addr:street": "Sportlaan",
+            "leisure": "water_park",
+            "name": "De D\u00f4be",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.2215604,
+            53.3711719
         ]
     },
     "node-2757345655": {
@@ -2647,6 +2932,26 @@
             52.2543323
         ]
     },
+    "node-2775547031": {
+        "tags": {
+            "addr:city": "Vries",
+            "addr:housenumber": "6",
+            "addr:postcode": "9481AJ",
+            "addr:street": "Sportlaan",
+            "contact:phone": "+31 592 542 523",
+            "contact:website": "https://www.deleemdobben.nl",
+            "fee": "yes",
+            "leisure": "water_park",
+            "name": "Zwembad De Leemdobben",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.5845598,
+            53.0755033
+        ]
+    },
     "node-2779143912": {
         "tags": {
             "leisure": "sports_centre",
@@ -2681,6 +2986,63 @@
         "coord": [
             7.0148652,
             52.2682202
+        ]
+    },
+    "node-2781243882": {
+        "tags": {
+            "addr:city": "Hoorn",
+            "addr:housenumber": "15",
+            "addr:postcode": "1625HZ",
+            "addr:street": "De Huesmolen",
+            "fee": "no",
+            "leisure": "sports_centre",
+            "name": "Zwemschool Schermer",
+            "phone": "+31 229 232880",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "website": "https://www.zwemschoolschermer.nl/"
+        },
+        "coord": [
+            5.0557896,
+            52.658313
+        ]
+    },
+    "node-2781331911": {
+        "tags": {
+            "addr:city": "Dordrecht",
+            "addr:housenumber": "10",
+            "addr:postcode": "3318AX",
+            "addr:street": "Fanny Blankers-Koenweg",
+            "amenity": "community_centre",
+            "club": "sport",
+            "name": "MNC",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "website": "https://www.mncdordrecht.nl/"
+        },
+        "coord": [
+            4.678103,
+            51.793433
+        ]
+    },
+    "node-2781332774": {
+        "tags": {
+            "addr:city": "Dordrecht",
+            "addr:housenumber": "18",
+            "addr:street": "Fanny Blankers-Koenweg",
+            "amenity": "community_centre",
+            "club": "sport",
+            "name": "DRB",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "website": "https://www.rbdordrecht.nl/"
+        },
+        "coord": [
+            4.6779743,
+            51.7935134
         ]
     },
     "node-2782049420": {
@@ -2827,6 +3189,18 @@
             51.8287382
         ]
     },
+    "node-2795495741": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Zwembad D\u00fandelle",
+            "sport": "swimming",
+            "website": "https://www.optisport.nl/recreatiecentrum-dundelle-bakkeveen"
+        },
+        "coord": [
+            6.2648062,
+            53.0812854
+        ]
+    },
     "node-2796107094": {
         "tags": {
             "access": "yes",
@@ -2838,7 +3212,7 @@
             "leisure": "swimming_pool",
             "lit": "yes",
             "location": "indoor",
-            "name": "De Neul",
+            "name": "Zwembad De Neul",
             "source": "BAG",
             "source:date": "2014-03-24;2023-11-26",
             "sport": "swimming",
@@ -3075,6 +3449,23 @@
         "coord": [
             4.5369239,
             51.6701029
+        ]
+    },
+    "node-2811858619": {
+        "tags": {
+            "addr:city": "Wervershoof",
+            "addr:housenumber": "179",
+            "addr:postcode": "1693AE",
+            "addr:street": "Dorpsstraat",
+            "leisure": "water_park",
+            "name": "De Zeehoek",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.1677124,
+            52.7320988
         ]
     },
     "node-2813734900": {
@@ -3568,6 +3959,33 @@
             52.3601529
         ]
     },
+    "node-2844277820": {
+        "tags": {
+            "addr:city": "Veendam",
+            "addr:housenumber": "2",
+            "addr:postcode": "9641LN",
+            "addr:street": "Jan Salwaweg",
+            "email": "tropiqua@veendam.nl",
+            "leisure": "water_park",
+            "name": "Tropiqua",
+            "operator": "Gemeente Veendam",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:debit_cards": "yes",
+            "payment:prepaid_ticket": "yes",
+            "phone": "+31 598 65 23 00",
+            "sauna": "yes",
+            "source": "BAG",
+            "source:date": "2014-05-07",
+            "sport": "swimming",
+            "supervised": "yes",
+            "website": "https://tropiqua.nl"
+        },
+        "coord": [
+            6.8679217,
+            53.1052026
+        ]
+    },
     "node-2845900871": {
         "tags": {
             "addr:city": "Nijverdal",
@@ -3686,6 +4104,28 @@
             52.8782025
         ]
     },
+    "node-2855904177": {
+        "tags": {
+            "addr:city": "Nijmegen",
+            "addr:housenumber": "7041",
+            "addr:postcode": "6537EP",
+            "addr:street": "Meijhorst",
+            "alt_name": "Zwembad Dukenburg",
+            "description": "Zwembad",
+            "leisure": "water_park",
+            "name": "Zwembad Dukenburg",
+            "opening_hours": "Mo 07:00-22:30; Tu 07:00-22:00; We 07:00-22:00; Th 07:00-22:00; Fr 07:00-22:15; Sa 08:00-16:00; Su 09:00-14:00",
+            "phone": "+31 24 844 2348",
+            "source": "Gemeente Nijmegen",
+            "source:date": "2014-05-07",
+            "sport": "swimming",
+            "website": "https://www.zwembaddukenburg.nl"
+        },
+        "coord": [
+            5.8011413,
+            51.8122034
+        ]
+    },
     "node-2855961037": {
         "tags": {
             "addr:city": "Harderwijk",
@@ -3733,6 +4173,24 @@
         "coord": [
             5.0271137,
             52.2983962
+        ]
+    },
+    "node-2860069530": {
+        "tags": {
+            "addr:city": "Weesp",
+            "addr:housenumber": "3",
+            "addr:postcode": "1383NC",
+            "addr:street": "Basisweg",
+            "club": "sport",
+            "name": "Triton",
+            "source": "BAG",
+            "source:date": "2014-05-07",
+            "sport": "swimming",
+            "website": "https://www.triton-weesp.nl"
+        },
+        "coord": [
+            5.0270662,
+            52.2990268
         ]
     },
     "node-2861707398": {
@@ -4122,7 +4580,8 @@
             "addr:postcode": "5702NR",
             "addr:street": "Keizerin Marialaan",
             "leisure": "swimming_pool",
-            "name": "Laco sportcentrum \"De Wissen\"",
+            "name": "De Wissen",
+            "official_name": "Laco sportcentrum \"De Wissen\"",
             "source": "BAG",
             "source:date": "2014-06-06",
             "sport": "swimming"
@@ -4265,6 +4724,23 @@
             51.2393574
         ]
     },
+    "node-2933163134": {
+        "tags": {
+            "addr:city": "Oss",
+            "addr:housenumber": "1",
+            "addr:postcode": "5344CA",
+            "addr:street": "Euterpelaan",
+            "name": "Golfslagbad",
+            "source": "BAG",
+            "source:date": "2014-06-23",
+            "sport": "swimming",
+            "website": "https://www.golfbad.nl/"
+        },
+        "coord": [
+            5.5196535,
+            51.7610174
+        ]
+    },
     "node-2950941356": {
         "tags": {
             "addr:city": "Drachten",
@@ -4281,6 +4757,23 @@
         "coord": [
             6.0804138,
             53.0920482
+        ]
+    },
+    "node-2965033822": {
+        "tags": {
+            "addr:city": "Wommels",
+            "addr:housenumber": "27A",
+            "addr:postcode": "8731CD",
+            "addr:street": "Walperterwei",
+            "name": "Zwembad de Klomp",
+            "source": "BAG",
+            "source:date": "2014-07-14",
+            "sport": "swimming",
+            "website": "https://zwembaddeklomp.nl/"
+        },
+        "coord": [
+            5.5886891,
+            53.1110398
         ]
     },
     "node-2965790541": {
@@ -4683,6 +5176,24 @@
             51.7279597
         ]
     },
+    "node-3441409146": {
+        "tags": {
+            "addr:city": "Ridderkerk",
+            "addr:housenumber": "10b",
+            "addr:postcode": "2982SN",
+            "addr:street": "Sportlaan",
+            "club": "swimming",
+            "name": "Ridderkerkse zwem- & poloclub Poseidon'56",
+            "source": "BAG",
+            "source:date": "2015-12-28",
+            "sport": "swimming",
+            "website": "https://poseidon56.nl"
+        },
+        "coord": [
+            4.5909009,
+            51.8784704
+        ]
+    },
     "node-3546568571": {
         "tags": {
             "access": "customers",
@@ -4720,18 +5231,6 @@
             51.4195238
         ]
     },
-    "node-3658098571": {
-        "tags": {
-            "leisure": "swimming_pool",
-            "name": "Waal-en Weidebad",
-            "sport": "swimming",
-            "website": "https://www.waalenweidebad.nl"
-        },
-        "coord": [
-            4.5691779,
-            51.8420682
-        ]
-    },
     "node-3803321488": {
         "tags": {
             "addr:city": "Melick",
@@ -4766,6 +5265,40 @@
             51.6341517
         ]
     },
+    "node-3844973164": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Meertje van Laagduurwoude",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.2487195,
+            52.9797967
+        ]
+    },
+    "node-3854076269": {
+        "tags": {
+            "leisure": "swimming_area",
+            "name": "Hoornse Plas Naaktstrand",
+            "nudism": "yes",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.5524397,
+            53.1753411
+        ]
+    },
+    "node-3854076270": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Meerwijck Naaktstrand",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.6970449,
+            53.1460867
+        ]
+    },
     "node-3854132138": {
         "tags": {
             "leisure": "swimming_pool",
@@ -4775,6 +5308,32 @@
         "coord": [
             5.7272642,
             53.0361561
+        ]
+    },
+    "node-3854615585": {
+        "tags": {
+            "access": "yes",
+            "dog": "leashed",
+            "landuse": "recreation_ground",
+            "leisure": "swimming_area",
+            "lifeguard": "no",
+            "lit": "no",
+            "location": "outdoor",
+            "name": "Naaktstrand Engelgaarde",
+            "natural": "beach",
+            "nudism": "yes",
+            "operator": "Stichting Engelgaarde",
+            "operator:website": "https://stichtingengelgaarde.nl",
+            "sport": "swimming",
+            "supervised": "no",
+            "surface": "grass",
+            "tourism": "picnic_site",
+            "water": "lake",
+            "website": "https://blootkompas.nl/locaties/naaktstrand-engelgaarde/"
+        },
+        "coord": [
+            6.2316901,
+            52.7029375
         ]
     },
     "node-3919372737": {
@@ -5120,6 +5679,31 @@
             52.1429811
         ]
     },
+    "node-4942858466": {
+        "tags": {
+            "indoor": "yes",
+            "opening_hours": "Mo,Fr-Su 09:00-20:30; Tu-Th 10:00-16:30",
+            "operator": "Camping Scheldeoord",
+            "sport": "swimming"
+        },
+        "coord": [
+            3.8985486,
+            51.3965749
+        ]
+    },
+    "node-4942868512": {
+        "tags": {
+            "description": "children's pool, flat, decorated.",
+            "fee": "yes",
+            "material": "concrete",
+            "operator": "Camping Scheldeoord",
+            "sport": "swimming"
+        },
+        "coord": [
+            3.8994222,
+            51.3961089
+        ]
+    },
     "node-4986526716": {
         "tags": {
             "addr:city": "Etten-Leur",
@@ -5264,6 +5848,18 @@
             52.052864
         ]
     },
+    "node-5312130272": {
+        "tags": {
+            "description": "Diploma Zwemmen",
+            "name": "Zwemcollege Lisse",
+            "sport": "swimming",
+            "website": "https://www.zwemcollegelisse.nl/"
+        },
+        "coord": [
+            4.5675832,
+            52.2689273
+        ]
+    },
     "node-5333001656": {
         "tags": {
             "leisure": "swimming_pool",
@@ -5286,26 +5882,6 @@
         "coord": [
             4.8447405,
             53.1580514
-        ]
-    },
-    "node-5422706295": {
-        "tags": {
-            "addr:city": "Vroomshoop",
-            "addr:housenumber": "75",
-            "addr:postcode": "7681EJ",
-            "addr:street": "Hammerweg",
-            "leisure": "sports_centre",
-            "name": "Aquapark De Zandstuve",
-            "note": "Aquapark De Zandstuve schijnt onder deel te zijn van Zwembad De Stamper - een binnenbad, dat bij nader inzien in ... V r i e z e n v e e n blijkt te zijn.",
-            "operator": "Zwembad De Stamper (Vriezenveen)",
-            "source": "BAG",
-            "source:date": "2018-02-19",
-            "sport": "swimming",
-            "website": "https://zwembaddestamper.nl/aquapark-de-zandstuve"
-        },
-        "coord": [
-            6.5515713,
-            52.4619718
         ]
     },
     "node-5520929965": {
@@ -5439,6 +6015,17 @@
             52.2086868
         ]
     },
+    "node-6071498253": {
+        "tags": {
+            "club": "sport",
+            "name": "DZPC",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.0935216,
+            53.0997804
+        ]
+    },
     "node-6091096453": {
         "tags": {
             "leisure": "swimming_pool",
@@ -5503,6 +6090,23 @@
         "coord": [
             6.2673528,
             51.9319649
+        ]
+    },
+    "node-6342603945": {
+        "tags": {
+            "addr:city": "Braamt",
+            "addr:country": "NL",
+            "addr:housenumber": "2",
+            "addr:postcode": "7047CE",
+            "addr:street": "Landweerswal",
+            "opening_hours": "Mo,Tu,Th-Su 10:00-21:30; We 10:00-16:30,19:00-21:30",
+            "source": "BAG",
+            "source:date": "2017-07-22",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.2677309,
+            51.9324287
         ]
     },
     "node-6442715305": {
@@ -5646,6 +6250,17 @@
             12.5771276
         ]
     },
+    "node-7653004278": {
+        "tags": {
+            "leisure": "water_park",
+            "opening_hours": "24/7",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.2673963,
+            52.9229203
+        ]
+    },
     "node-7721830085": {
         "tags": {
             "access": "customers",
@@ -5669,6 +6284,25 @@
         "coord": [
             6.7465917,
             52.9313051
+        ]
+    },
+    "node-7865956909": {
+        "tags": {
+            "addr:city": "Capelle aan den IJssel",
+            "addr:housenumber": "85",
+            "addr:postcode": "2903EB",
+            "addr:street": "Alkenlaan",
+            "alt_name": "ACZ",
+            "club": "sport",
+            "contact:email": "elementair@acz-capelle.nl",
+            "int_name": "ACZ Capelle",
+            "name": "Algemene Capelse Zwemvereniging",
+            "sport": "swimming",
+            "website": "https://acz-capelle.nl/"
+        },
+        "coord": [
+            4.5946021,
+            51.9315867
         ]
     },
     "node-7875614637": {
@@ -5710,6 +6344,17 @@
         "coord": [
             6.5671532,
             52.3112296
+        ]
+    },
+    "node-8233823246": {
+        "tags": {
+            "access": "customers",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.9525934,
+            52.4387136
         ]
     },
     "node-8287104687": {
@@ -5807,6 +6452,27 @@
             51.4765361
         ]
     },
+    "node-8795485459": {
+        "tags": {
+            "description": "Zwemgelegenheid nabij de Terpen, IJlst",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.6288109,
+            53.0147209
+        ]
+    },
+    "node-8806494551": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.3966103,
+            52.9057166
+        ]
+    },
     "node-8919178783": {
         "tags": {
             "leisure": "swimming_pool",
@@ -5839,6 +6505,22 @@
         "coord": [
             5.7926066,
             52.4453784
+        ]
+    },
+    "node-9269651928": {
+        "tags": {
+            "access": "customers",
+            "leisure": "water_park",
+            "lit": "yes",
+            "location": "indoor",
+            "name": "Zwembad",
+            "opening_hours": "Tu-Sa 10:00-20:00; Mo 10:00-19:00",
+            "opening_hours:url": "https://park.roompot.nl/nieuwvliet/openingstijden/",
+            "sport": "swimming"
+        },
+        "coord": [
+            3.4405583,
+            51.382678
         ]
     },
     "node-9450045185": {
@@ -5924,6 +6606,16 @@
             52.7512734
         ]
     },
+    "node-10005767530": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.8209699,
+            52.3705681
+        ]
+    },
     "node-10005767531": {
         "tags": {
             "leisure": "sports_centre",
@@ -5932,6 +6624,51 @@
         "coord": [
             4.8149561,
             52.3596812
+        ]
+    },
+    "node-10007076521": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "survey:date": "2022-09-07"
+        },
+        "coord": [
+            4.8106801,
+            52.3620626
+        ]
+    },
+    "node-10007160317": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "survey:date": "2022-09-07"
+        },
+        "coord": [
+            4.8261184,
+            52.3676829
+        ]
+    },
+    "node-10007160417": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "survey:date": "2022-09-07"
+        },
+        "coord": [
+            4.8252495,
+            52.3673978
+        ]
+    },
+    "node-10072887943": {
+        "tags": {
+            "club": "sport",
+            "name": "Leidse Reddingsbrigade",
+            "sport": "swimming",
+            "website": "https://leidserb.nl/"
+        },
+        "coord": [
+            4.4768845,
+            52.1733741
         ]
     },
     "node-10077448486": {
@@ -5995,6 +6732,42 @@
             52.8395538
         ]
     },
+    "node-10116097793": {
+        "tags": {
+            "access": "yes",
+            "leisure": "bathing_place",
+            "name": "Oosterplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.3409675,
+            51.6868941
+        ]
+    },
+    "node-10116118973": {
+        "tags": {
+            "access": "yes",
+            "leisure": "bathing_place",
+            "name": "Zuiderplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.313735,
+            51.6756065
+        ]
+    },
+    "node-10116120360": {
+        "tags": {
+            "access": "yes",
+            "leisure": "bathing_place",
+            "name": "Meerse Plas",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.3591022,
+            51.6788755
+        ]
+    },
     "node-10229143196": {
         "tags": {
             "access": "customers",
@@ -6037,6 +6810,18 @@
         "coord": [
             5.6294915,
             52.3132711
+        ]
+    },
+    "node-10864640269": {
+        "tags": {
+            "leisure": "bathing_place",
+            "name": "Zwemsteiger Borneokade",
+            "note": "Unofficial swimming location, see also https://www.parool.nl/amsterdam/zwemmen-in-amsterdam-hier-kun-je-een-duik-nemen-in-natuurwater~bdefe879/",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.9453253,
+            52.3709256
         ]
     },
     "node-11098434924": {
@@ -6156,6 +6941,19 @@
             51.864266
         ]
     },
+    "node-11581882263": {
+        "tags": {
+            "addr:housenumber": "1",
+            "addr:street": "Op de Berg",
+            "description": "Swimmingpool and Indoor Playground",
+            "name": "Zwembad op de Berg",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.9825014,
+            50.9679413
+        ]
+    },
     "node-11795162096": {
         "tags": {
             "access": "customers",
@@ -6245,7 +7043,10 @@
         "tags": {
             "access": "yes",
             "leisure": "swimming_pool",
+            "length": "25",
+            "location": "indoor",
             "name": "Binnenbad de Vliet",
+            "swimming_pool": "swimming",
             "website": "https://sportinleiden.nl/zwemmen/locaties/zwembad-de-vliet"
         },
         "coord": [
@@ -6287,6 +7088,24 @@
         "coord": [
             4.2133742,
             52.0555218
+        ]
+    },
+    "node-12149875855": {
+        "tags": {
+            "addr:city": "Dirksland",
+            "addr:housenumber": "1",
+            "addr:postcode": "3247XW",
+            "addr:street": "Hondsgalgweg",
+            "club": "sport",
+            "email": "secretaris@zvdegooye.nl",
+            "name": "Zwemvereniging De Gooye",
+            "phone": "+31 6 28677968",
+            "sport": "swimming",
+            "website": "https://www.zvdegooye.nl"
+        },
+        "coord": [
+            4.0961682,
+            51.7447801
         ]
     },
     "node-12160005836": {
@@ -6343,6 +7162,35 @@
             53.0860437
         ]
     },
+    "node-12823187231": {
+        "tags": {
+            "addr:city": "Hilversum",
+            "addr:housenumber": "229",
+            "addr:postcode": "1216SE",
+            "addr:street": "Franciscusweg",
+            "fee": "yes",
+            "leisure": "sports_centre",
+            "name": "Zwembad Kerkelanden",
+            "opening_hours": "Mo-Fr 15:00-17:00; Sa 09:00-17:00",
+            "sport": "swimming",
+            "website": "https://www.zwembadkerkelanden.nl"
+        },
+        "coord": [
+            5.1489309,
+            52.2141276
+        ]
+    },
+    "way-10581163": {
+        "tags": {
+            "natural": "water",
+            "note": "ronde speelvijver",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.9214150850000005,
+            52.36175761999999
+        ]
+    },
     "way-22376162": {
         "tags": {
             "access": "yes",
@@ -6368,15 +7216,43 @@
             52.11739881
         ]
     },
+    "way-28289510": {
+        "tags": {
+            "access": "yes",
+            "name": "Hoek van Holland",
+            "natural": "beach",
+            "nudism": "no",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.108505236363636,
+            51.9900971590909
+        ]
+    },
+    "way-28319931": {
+        "tags": {
+            "name": "Smalle Ee Strand",
+            "natural": "beach",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            6.021346017647057,
+            53.10664183529413
+        ]
+    },
     "way-28551976": {
         "tags": {
             "leisure": "sports_centre",
             "name": "Zwembad De Vliet",
-            "sport": "swimming"
+            "sport": "swimming",
+            "website": "https://www.sportinleiden.nl/zwemmen/locaties/buitenbad-de-vliet/"
         },
         "coord": [
-            4.4827892545454535,
-            52.13957496363636
+            4.482795199999999,
+            52.13957640909091
         ]
     },
     "way-34620195": {
@@ -6398,6 +7274,26 @@
         "coord": [
             4.3707763,
             51.48744981666667
+        ]
+    },
+    "way-39325492": {
+        "tags": {
+            "leisure": "pitch",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.370713739999999,
+            51.48745283999999
+        ]
+    },
+    "way-39325493": {
+        "tags": {
+            "leisure": "pitch",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.3709862799999994,
+            51.48746426
         ]
     },
     "way-41439574": {
@@ -6472,6 +7368,23 @@
         "coord": [
             3.80634936,
             51.23246048
+        ]
+    },
+    "way-44966959": {
+        "tags": {
+            "building": "sports_centre",
+            "name": "Tolhuisbad Dokkum",
+            "operator": "Optisport",
+            "ref:bag": "0058100000208947",
+            "source": "BAG",
+            "source:date": "2025-01-31",
+            "sport": "swimming",
+            "start_date": "1991",
+            "url": "http://www.optisport.nl/tolhuisbad/"
+        },
+        "coord": [
+            5.9970348936170215,
+            53.314965351063826
         ]
     },
     "way-45054361": {
@@ -6588,20 +7501,6 @@
         "coord": [
             4.37779558,
             52.01894130000001
-        ]
-    },
-    "way-46109240": {
-        "tags": {
-            "building:part": "yes",
-            "leisure": "swimming_pool",
-            "name": "Gouwebad de Sniep",
-            "sport": "swimming",
-            "toilets:wheelchair": "yes",
-            "wheelchair": "yes"
-        },
-        "coord": [
-            4.643352056097561,
-            52.041634117073166
         ]
     },
     "way-46261592": {
@@ -6902,6 +7801,23 @@
             51.53395548297871
         ]
     },
+    "way-52746574": {
+        "tags": {
+            "addr:city": "Roosendaal",
+            "addr:housenumber": "15",
+            "addr:postcode": "4703SZ",
+            "addr:street": "De Stok",
+            "leisure": "pitch",
+            "name": "Mega Diving",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "website": "https://www.megadiving.nl"
+        },
+        "coord": [
+            4.4342459199999995,
+            51.537627640000004
+        ]
+    },
     "way-52831862": {
         "tags": {
             "leisure": "swimming_pool",
@@ -6996,6 +7912,20 @@
             52.13922341470589
         ]
     },
+    "way-53812646": {
+        "tags": {
+            "name": "Het Rutbeek",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "water": "lake",
+            "wikimedia_commons": "File:Het Rutbeek.jpg"
+        },
+        "coord": [
+            6.837642488853498,
+            52.17843975923567
+        ]
+    },
     "way-53817354": {
         "tags": {
             "leisure": "swimming_pool",
@@ -7005,6 +7935,17 @@
         "coord": [
             6.79569652,
             52.17845648
+        ]
+    },
+    "way-53817760": {
+        "tags": {
+            "natural": "water",
+            "sport": "swimming",
+            "water": "pond"
+        },
+        "coord": [
+            6.8270497500000005,
+            52.17170640909091
         ]
     },
     "way-54067632": {
@@ -7131,6 +8072,17 @@
             52.096341993749995
         ]
     },
+    "way-55985813": {
+        "tags": {
+            "landuse": "recreation_ground",
+            "sport": "swimming",
+            "surface": "grass"
+        },
+        "coord": [
+            6.625844300000002,
+            52.09562217941178
+        ]
+    },
     "way-55986513": {
         "tags": {
             "access": "customers",
@@ -7140,6 +8092,19 @@
         "coord": [
             6.57570044,
             52.139540260000004
+        ]
+    },
+    "way-56054328": {
+        "tags": {
+            "access": "yes",
+            "leisure": "playground",
+            "name": "Groot kinderbad",
+            "sport": "swimming",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.8233741000000006,
+            52.31703417142859
         ]
     },
     "way-56094218": {
@@ -7153,6 +8118,16 @@
         "coord": [
             5.766326499999999,
             52.09178751999999
+        ]
+    },
+    "way-56301400": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.97473406153846,
+            51.19559306923077
         ]
     },
     "way-56416846": {
@@ -7169,6 +8144,17 @@
         "coord": [
             5.740143845714286,
             51.750953417142874
+        ]
+    },
+    "way-56455967": {
+        "tags": {
+            "covered": "no",
+            "leisure": "swimming_pool",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.550467233333333,
+            52.4616837
         ]
     },
     "way-57386907": {
@@ -7245,6 +8231,17 @@
         "coord": [
             6.44580268,
             52.28708906000001
+        ]
+    },
+    "way-57782637": {
+        "tags": {
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.4355075799999995,
+            52.12674458
         ]
     },
     "way-57819816": {
@@ -7324,6 +8321,20 @@
         "coord": [
             4.817748117460317,
             52.36999521587299
+        ]
+    },
+    "way-57916722": {
+        "tags": {
+            "building": "yes",
+            "ref:bag": "355100000739673",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1965"
+        },
+        "coord": [
+            5.286540113333333,
+            52.08492475333333
         ]
     },
     "way-58122521": {
@@ -7433,26 +8444,6 @@
             51.908341539999995
         ]
     },
-    "way-58578480": {
-        "tags": {
-            "addr:city": "'s-Gravenhage",
-            "addr:housenumber": "150",
-            "addr:postcode": "2586HC",
-            "addr:street": "Seinpoststraat",
-            "building": "yes",
-            "leisure": "sports_centre",
-            "name": "De Blinkerd",
-            "ref:bag": "0518100000244159",
-            "source": "3dShapes;BAG",
-            "source:date": "2013-09-01",
-            "sport": "swimming",
-            "start_date": "1981"
-        },
-        "coord": [
-            4.282993222580646,
-            52.10616690967741
-        ]
-    },
     "way-58620149": {
         "tags": {
             "building": "civic",
@@ -7467,6 +8458,23 @@
         "coord": [
             4.248303782608696,
             52.06577841739131
+        ]
+    },
+    "way-58625123": {
+        "tags": {
+            "amenity": "community_centre",
+            "building": "yes",
+            "covered": "yes",
+            "name": "Recreatiecentrum/Zwembad Zuiderpark",
+            "ref:bag": "0518100000207021",
+            "source": "BAG",
+            "source:date": "2024-12-27",
+            "sport": "swimming",
+            "start_date": "2003"
+        },
+        "coord": [
+            4.288412226923077,
+            52.052841039102546
         ]
     },
     "way-59045140": {
@@ -7537,6 +8545,26 @@
         "coord": [
             6.3027754428571425,
             52.154453342857146
+        ]
+    },
+    "way-59857778": {
+        "tags": {
+            "addr:city": "Gorssel",
+            "addr:housenumber": "6A",
+            "addr:postcode": "7213LS",
+            "addr:street": "Lindeboomweg",
+            "email": "zwembad@zwembaddeboskoele.nl",
+            "leisure": "water_park",
+            "name": "De Boskoele",
+            "operator": "Stichting Gorsselse Zwembaden",
+            "phone": "+31 575 491 429",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "website": "https://zwembaddeboskoele.nl/"
+        },
+        "coord": [
+            6.217053707317073,
+            52.19010512926829
         ]
     },
     "way-60481054": {
@@ -7636,6 +8664,23 @@
         "coord": [
             6.283976083333333,
             52.33572190000001
+        ]
+    },
+    "way-63322162": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "De Lange Kolk",
+            "natural": "water",
+            "opening_hours": "may-sep",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            6.110748227272729,
+            52.36358680909091
         ]
     },
     "way-63666978": {
@@ -7831,6 +8876,31 @@
             52.130428814285715
         ]
     },
+    "way-71601977": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Zwembaai 5",
+            "natural": "water",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.774949121052632,
+            52.683107950877194
+        ]
+    },
+    "way-71602969": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "natural": "water",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.774860383333333,
+            52.68063300000001
+        ]
+    },
     "way-71937566": {
         "tags": {
             "leisure": "swimming_pool",
@@ -7876,6 +8946,23 @@
             52.147583440000005
         ]
     },
+    "way-72515434": {
+        "tags": {
+            "fee": "yes",
+            "leisure": "swimming_area",
+            "name": "Zwemvereniging 'Zwemlust'",
+            "natural": "water",
+            "operator": "Zwemvereniging",
+            "source": "PDOK aerial imagery Beeldmateriaal.nl 25cm latest",
+            "sport": "swimming",
+            "water": "lake",
+            "website": "https://zwemlust.nl/"
+        },
+        "coord": [
+            5.00645566,
+            52.19303169428573
+        ]
+    },
     "way-73999389": {
         "tags": {
             "leisure": "swimming_pool",
@@ -7909,6 +8996,32 @@
         "coord": [
             4.951404390000001,
             52.36445275999999
+        ]
+    },
+    "way-74600914": {
+        "tags": {
+            "name": "Nieuwe Meer Westzijde, Oeverlanden",
+            "natural": "beach",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "website": "https://www.zwemwater.nl/?id=1879"
+        },
+        "coord": [
+            4.812055777777776,
+            52.3333344
+        ]
+    },
+    "way-74605361": {
+        "tags": {
+            "name": "Nieuwe Meer, Noordoever",
+            "natural": "beach",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "website": "https://www.zwemwater.nl/?id=1879"
+        },
+        "coord": [
+            4.814017727586207,
+            52.33418838965517
         ]
     },
     "way-74782337": {
@@ -8000,6 +9113,45 @@
         "coord": [
             4.905220804761906,
             52.43314022380952
+        ]
+    },
+    "way-75300610": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Vennegatstrand",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.893887569565218,
+            52.441347378260886
+        ]
+    },
+    "way-75304020": {
+        "tags": {
+            "access": "customers",
+            "leisure": "swimming_area",
+            "name": "Spartelvijver Twiske Poort",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.886770078947367,
+            52.439854494736835
+        ]
+    },
+    "way-75304662": {
+        "tags": {
+            "natural": "beach",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.395202542105262,
+            52.183384689473684
         ]
     },
     "way-75466890": {
@@ -8323,6 +9475,18 @@
             53.09891907777777
         ]
     },
+    "way-78607152": {
+        "tags": {
+            "natural": "beach",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            3.868969455882353,
+            51.54022084411764
+        ]
+    },
     "way-79641623": {
         "tags": {
             "covered": "no",
@@ -8471,6 +9635,20 @@
         "coord": [
             6.0733921,
             50.91126468
+        ]
+    },
+    "way-80759365": {
+        "tags": {
+            "name": "Engelermeer West",
+            "natural": "beach",
+            "nudism": "no",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "surface": "sand;grass"
+        },
+        "coord": [
+            5.245390130769231,
+            51.70195959487179
         ]
     },
     "way-80768131": {
@@ -8643,6 +9821,18 @@
             51.407448360000004
         ]
     },
+    "way-86053689": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Subtropisch Waterparadijs",
+            "opening_hours": "PH,Mo-Su 09:00-21:00",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.254238536363636,
+            51.34099427727272
+        ]
+    },
     "way-86711507": {
         "tags": {
             "fee": "yes",
@@ -8772,8 +9962,8 @@
             "source": "3dShapes"
         },
         "coord": [
-            6.495434485714286,
-            52.54498377142857
+            6.495455359999999,
+            52.54498120000001
         ]
     },
     "way-87697208": {
@@ -8783,8 +9973,8 @@
             "source": "3dShapes"
         },
         "coord": [
-            6.495363300000001,
-            52.54514721666666
+            6.49537265,
+            52.545150050000004
         ]
     },
     "way-87846869": {
@@ -8806,6 +9996,30 @@
         "coord": [
             6.630578,
             52.65130254
+        ]
+    },
+    "way-88016683": {
+        "tags": {
+            "fishing": "no",
+            "leisure": "swimming_area",
+            "name": "Schoonhoven (recreatiegebied) - Zwemplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.57020043333334,
+            52.69743034444446
+        ]
+    },
+    "way-88725282": {
+        "tags": {
+            "name": "Natuurbad Jubbega",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.125600537142857,
+            52.99083908285714
         ]
     },
     "way-88866564": {
@@ -8895,6 +10109,20 @@
         "coord": [
             5.184431585714286,
             52.691869814285724
+        ]
+    },
+    "way-90070743": {
+        "tags": {
+            "covered": "no",
+            "landuse": "grass",
+            "leisure": "pitch",
+            "name": "Het Streekbad",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.185673443333334,
+            52.69194632333334
         ]
     },
     "way-90072064": {
@@ -9055,6 +10283,17 @@
         "coord": [
             6.542154566666666,
             53.3847895
+        ]
+    },
+    "way-92125446": {
+        "tags": {
+            "leisure": "pitch",
+            "name": "Zwembad De Breede",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.541469893548386,
+            53.384967216129034
         ]
     },
     "way-92339299": {
@@ -9387,6 +10626,18 @@
             53.05678392
         ]
     },
+    "way-99888465": {
+        "tags": {
+            "leisure": "swimming_area",
+            "name": "Strand Zuidoever, Gaasperplas",
+            "ref:EU:bwid": "NLBW11_GGP032",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.997079279310344,
+            52.303890810344825
+        ]
+    },
     "way-99987150": {
         "tags": {
             "access": "customers",
@@ -9520,6 +10771,17 @@
             53.036802820000005
         ]
     },
+    "way-103315216": {
+        "tags": {
+            "natural": "beach",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.073406815789474,
+            52.424375
+        ]
+    },
     "way-103708966": {
         "tags": {
             "leisure": "swimming_pool",
@@ -9541,6 +10803,25 @@
         "coord": [
             4.61655556,
             52.380733320000004
+        ]
+    },
+    "way-105288154": {
+        "tags": {
+            "intermittent": "no",
+            "leisure": "swimming_area",
+            "name": "Oosterplas",
+            "natural": "water",
+            "official_name": "Oosterplas Duinmeer",
+            "salt": "no",
+            "sport": "swimming",
+            "supervised": "no",
+            "tidal": "no",
+            "water": "lake",
+            "website:map": "https://register.zwemwater.nl/zwr/api/files/302101"
+        },
+        "coord": [
+            4.604014358064518,
+            52.416977074193525
         ]
     },
     "way-105289696": {
@@ -9600,6 +10881,17 @@
             52.70958904444444
         ]
     },
+    "way-107809918": {
+        "tags": {
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.64086616,
+            52.62043140000001
+        ]
+    },
     "way-108004573": {
         "tags": {
             "leisure": "swimming_pool",
@@ -9621,6 +10913,19 @@
         "coord": [
             4.825858975,
             52.7241245625
+        ]
+    },
+    "way-108359766": {
+        "tags": {
+            "access": "customers",
+            "leisure": "water_park",
+            "name": "De Blinkerd",
+            "sport": "swimming",
+            "website": "https://www.zwembadtenboer.nl/"
+        },
+        "coord": [
+            6.700212857142858,
+            53.27823397142856
         ]
     },
     "way-108577000": {
@@ -9657,6 +10962,18 @@
         "coord": [
             4.804939485714286,
             52.83585479999999
+        ]
+    },
+    "way-109203183": {
+        "tags": {
+            "name": "Ieberenplas",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.672658500000001,
+            52.905293715384616
         ]
     },
     "way-109833629": {
@@ -9770,6 +11087,17 @@
         "coord": [
             5.956889681818182,
             51.130931127272724
+        ]
+    },
+    "way-113294665": {
+        "tags": {
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.813572700000001,
+            51.044105116666664
         ]
     },
     "way-113410767": {
@@ -9982,6 +11310,18 @@
         "coord": [
             6.1496731,
             53.28106734444444
+        ]
+    },
+    "way-132720803": {
+        "tags": {
+            "leisure": "swimming_area",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.751980471875002,
+            51.920367653125
         ]
     },
     "way-133093088": {
@@ -10219,6 +11559,19 @@
             52.35501934285714
         ]
     },
+    "way-144145543": {
+        "tags": {
+            "email": "info@zwembadlemferdinge.nl",
+            "leisure": "water_park",
+            "name": "Zwembad Lemferdinge",
+            "sport": "swimming",
+            "website": "https://zwembadlemferdinge.nl/"
+        },
+        "coord": [
+            6.573391666666668,
+            53.145777380000006
+        ]
+    },
     "way-144712555": {
         "tags": {
             "covered": "no",
@@ -10251,6 +11604,19 @@
         "coord": [
             5.36767835909091,
             51.712438049999996
+        ]
+    },
+    "way-159321780": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "name": "Natuurzwembad",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            6.493629561538461,
+            53.30590607692307
         ]
     },
     "way-161603192": {
@@ -10612,6 +11978,7 @@
             "website": "https://www.hetmarnix.nl/",
             "wheelchair": "no",
             "wikidata": "Q30141175",
+            "wikimedia_commons": "Category:Marnixbad",
             "wikipedia": "nl:Marnixbad"
         },
         "coord": [
@@ -10730,6 +12097,34 @@
             52.36941868
         ]
     },
+    "way-244403876": {
+        "tags": {
+            "fenced": "yes",
+            "landuse": "recreation_ground",
+            "name": "Sloterparkbad",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.818109653571429,
+            52.36936246428572
+        ]
+    },
+    "way-244415623": {
+        "tags": {
+            "layer": "-1",
+            "leisure": "recreation_ground",
+            "name": "SportPlaza Mercator",
+            "operator": "Sportfondsen",
+            "sport": "swimming",
+            "website": "https://www.sportplazamercator.nl/",
+            "wikidata": "Q15882253",
+            "wikipedia": "nl:Sportplaza Mercator"
+        },
+        "coord": [
+            4.846079004166666,
+            52.371089624999996
+        ]
+    },
     "way-245637792": {
         "tags": {
             "building": "yes",
@@ -10753,6 +12148,19 @@
         "coord": [
             5.125192957142858,
             51.52689154285714
+        ]
+    },
+    "way-254152490": {
+        "tags": {
+            "name": "Sloterstrand",
+            "natural": "beach",
+            "note": "No longer an official swimming location due to water quality issues. Also see https://www.parool.nl/amsterdam/sloterstrand-geen-officiele-zwemplek-meer-volgepoepte-zwemluiers-en-blauwalg-doen-stadsstrand-de-das-om~be215532/",
+            "old_name": "Varkensbaai-strand",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.82266315925926,
+            52.37163752592593
         ]
     },
     "way-256363788": {
@@ -10904,8 +12312,8 @@
             "website": "http://meekenesch.nl/"
         },
         "coord": [
-            6.5659153068965495,
-            51.99247329655173
+            6.566074785714285,
+            51.99237560476191
         ]
     },
     "way-263773720": {
@@ -10996,6 +12404,24 @@
             52.18511336521738
         ]
     },
+    "way-266674003": {
+        "tags": {
+            "building": "yes",
+            "leisure": "water_park",
+            "name": "Zwembad Den Hommel",
+            "operator": "Gemeente Utrecht",
+            "ref:bag": "344100000083394",
+            "source": "BAG",
+            "source:date": "2014-02-11",
+            "sport": "swimming",
+            "start_date": "1962",
+            "website": "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/zwembaden/zwembad-den-hommel/"
+        },
+        "coord": [
+            5.084033645312499,
+            52.081004853125
+        ]
+    },
     "way-267537633": {
         "tags": {
             "building": "commercial",
@@ -11008,8 +12434,8 @@
             "start_date": "1989"
         },
         "coord": [
-            4.591594316176471,
-            51.878689708823536
+            4.591583418571429,
+            51.878696848571444
         ]
     },
     "way-267792989": {
@@ -11031,6 +12457,22 @@
         "coord": [
             6.15439176,
             52.006941935
+        ]
+    },
+    "way-267921773": {
+        "tags": {
+            "building": "retail",
+            "building:levels": "1",
+            "ref:bag": "60100000125250",
+            "roof:levels": "0",
+            "source": "BAG",
+            "source:date": "2017-12-22",
+            "sport": "swimming",
+            "start_date": "1975"
+        },
+        "coord": [
+            5.805029222580647,
+            53.453007238709695
         ]
     },
     "way-268307821": {
@@ -11196,12 +12638,26 @@
             52.236294527272726
         ]
     },
+    "way-269864023": {
+        "tags": {
+            "building": "sports_hall",
+            "ref:bag": "553100000014945",
+            "source": "BAG",
+            "source:date": "2018-09-18",
+            "sport": "swimming",
+            "start_date": "2015"
+        },
+        "coord": [
+            4.566162090000001,
+            52.26310164666667
+        ]
+    },
     "way-270254436": {
         "tags": {
             "building": "yes",
             "leisure": "sports_centre",
             "name": "De Vliegende Vaart",
-            "ref:bag": "715100000029322",
+            "ref:bag": "0715100000029322",
             "source": "BAG",
             "source:date": "2014-03-24",
             "sport": "swimming",
@@ -11210,6 +12666,37 @@
         "coord": [
             3.8437824081632663,
             51.31782556938776
+        ]
+    },
+    "way-270527236": {
+        "tags": {
+            "building": "yes",
+            "name": "De Wirg",
+            "ref:bag": "412100000569448",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1974",
+            "website": "https://www.zwembaddewirg.nl/"
+        },
+        "coord": [
+            4.897064373333333,
+            52.76131695333333
+        ]
+    },
+    "way-270637019": {
+        "tags": {
+            "building": "yes",
+            "leisure": "sports_hall",
+            "ref:bag": "504100001640876",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1972"
+        },
+        "coord": [
+            4.096226153846154,
+            51.74470370000001
         ]
     },
     "way-270673607": {
@@ -11344,6 +12831,20 @@
             51.776444849056595
         ]
     },
+    "way-272328319": {
+        "tags": {
+            "building": "yes",
+            "ref:bag": "556100000009801",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1993"
+        },
+        "coord": [
+            4.270742991666667,
+            51.920610683333344
+        ]
+    },
     "way-272511661": {
         "tags": {
             "leisure": "swimming_pool",
@@ -11352,6 +12853,21 @@
         "coord": [
             4.647862933333333,
             52.13856436666666
+        ]
+    },
+    "way-272539105": {
+        "tags": {
+            "building": "yes",
+            "name": "IJzeren Man",
+            "ref:bag": "0772100000304028",
+            "source": "BAG",
+            "source:date": "2021-06-18",
+            "sport": "swimming",
+            "start_date": "1979"
+        },
+        "coord": [
+            5.500824785714286,
+            51.44996141428572
         ]
     },
     "way-273327803": {
@@ -11364,7 +12880,7 @@
             "covered": "yes",
             "leisure": "swimming_pool",
             "name": "De Waterhoorn",
-            "ref:bag": "405100000548309",
+            "ref:bag": "0405100000548309",
             "source": "BAG",
             "source:date": "2014-03-24",
             "sport": "swimming",
@@ -11391,6 +12907,23 @@
         "coord": [
             4.7786789210526335,
             52.78286044736842
+        ]
+    },
+    "way-273462221": {
+        "tags": {
+            "building": "yes",
+            "leisure": "water_park",
+            "name": "Twentebad",
+            "ref:bag": "164100000031106",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1972",
+            "website": "https://www.twentebad.nl/"
+        },
+        "coord": [
+            6.800916816363637,
+            52.28109223818184
         ]
     },
     "way-274140243": {
@@ -11425,6 +12958,34 @@
             51.59292695000001
         ]
     },
+    "way-274397524": {
+        "tags": {
+            "building": "yes",
+            "ref:bag": "164100000007259",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1923"
+        },
+        "coord": [
+            6.77854734,
+            52.25542698
+        ]
+    },
+    "way-274401857": {
+        "tags": {
+            "building": "yes",
+            "ref:bag": "164100000007319",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1923"
+        },
+        "coord": [
+            6.778536385714285,
+            52.25553132857143
+        ]
+    },
     "way-274415540": {
         "tags": {
             "building": "yes",
@@ -11439,6 +13000,16 @@
         "coord": [
             6.778191500000001,
             52.255520489999995
+        ]
+    },
+    "way-274834872": {
+        "tags": {
+            "leisure": "pitch",
+            "sport": "swimming"
+        },
+        "coord": [
+            -62.9862527,
+            17.485598900000003
         ]
     },
     "way-275297325": {
@@ -11568,6 +13139,34 @@
         "coord": [
             5.721601491891891,
             50.858415570270274
+        ]
+    },
+    "way-277019424": {
+        "tags": {
+            "addr:city": "Valkenburg",
+            "addr:housenumber": "27",
+            "addr:postcode": "6301BT",
+            "addr:street": "Cauberg",
+            "amenity": "public_bath",
+            "bath:type": "thermal",
+            "building": "yes",
+            "covered": "yes",
+            "fee": "yes",
+            "name": "Thermae 2000",
+            "operator": "Thermae 2000",
+            "ref:bag": "994100002021130",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1988",
+            "website": "https://www.thermae.nl/",
+            "wikidata": "Q2452901",
+            "wikimedia_commons": "Category:Thermae2000",
+            "wikipedia": "nl:Thermae 2000"
+        },
+        "coord": [
+            5.823785081481481,
+            50.86011567037036
         ]
     },
     "way-277155382": {
@@ -11736,6 +13335,38 @@
         "coord": [
             3.5575882888888892,
             51.56336313333334
+        ]
+    },
+    "way-279342697": {
+        "tags": {
+            "building": "yes",
+            "leisure": "water_park",
+            "ref:bag": "109100000020005",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1975"
+        },
+        "coord": [
+            6.685280722222223,
+            52.77933991111111
+        ]
+    },
+    "way-279641424": {
+        "tags": {
+            "access": "customers",
+            "building": "yes",
+            "leisure": "water_park",
+            "name": "Zwembad Walibi Vilage",
+            "ref:bag": "303100000597208",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1969"
+        },
+        "coord": [
+            5.7693930210526325,
+            52.44203550526315
         ]
     },
     "way-279862429": {
@@ -12352,6 +13983,17 @@
             52.259560050000005
         ]
     },
+    "way-309324811": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "De Oase",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.596674411111111,
+            52.32585751111111
+        ]
+    },
     "way-309568607": {
         "tags": {
             "covered": "no",
@@ -12361,6 +14003,31 @@
         "coord": [
             6.896349213043478,
             52.20616582608695
+        ]
+    },
+    "way-309568626": {
+        "tags": {
+            "addr:city": "Enschede",
+            "addr:housenumber": "2",
+            "addr:postcode": "7541BR",
+            "addr:street": "J.J. van Deinselaan",
+            "building": "yes",
+            "covered": "yes",
+            "layer": "1",
+            "leisure": "water_park",
+            "name": "Aquadrome",
+            "operator": "Gemeente Enschede",
+            "ref:bag": "153100000246251",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "sport": "swimming",
+            "start_date": "1991",
+            "website": "https://sportaal.nl/zwemmen/",
+            "wikidata": "Q4300458"
+        },
+        "coord": [
+            6.896650294155846,
+            52.20663045909093
         ]
     },
     "way-309568636": {
@@ -12527,6 +14194,22 @@
             51.45756031999999
         ]
     },
+    "way-358401062": {
+        "tags": {
+            "description": "Afgeschermd zwemstrand",
+            "description:de": "Getrennter Badebereich",
+            "description:en": "seperated swimming area",
+            "leisure": "swimming_area",
+            "lifeguard": "no",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            3.7876419307692304,
+            51.550286846153845
+        ]
+    },
     "way-359960513": {
         "tags": {
             "leisure": "swimming_pool",
@@ -12547,6 +14230,16 @@
         "coord": [
             4.887119492307693,
             51.6932365076923
+        ]
+    },
+    "way-362451940": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.84418223,
+            53.09334951999999
         ]
     },
     "way-364253243": {
@@ -13356,6 +15049,17 @@
             50.911183099999995
         ]
     },
+    "way-430861754": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seasonal": "summer",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.567190471428572,
+            53.225505985714285
+        ]
+    },
     "way-431446606": {
         "tags": {
             "covered": "no",
@@ -13398,6 +15102,47 @@
         "coord": [
             5.4345427,
             51.845864250000005
+        ]
+    },
+    "way-438260698": {
+        "tags": {
+            "alt_name": "Poca Pos Spano",
+            "name": "Boca Pos Spa\u00f1o",
+            "natural": "beach",
+            "sport": "swimming"
+        },
+        "coord": [
+            -69.1432046,
+            12.2783666875
+        ]
+    },
+    "way-441124316": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Flevoparkbad",
+            "sport": "swimming",
+            "start_date": "1967",
+            "website": "https://www.flevoparkbad.com/",
+            "wikidata": "Q134139280"
+        },
+        "coord": [
+            4.952138231707318,
+            52.364100785365856
+        ]
+    },
+    "way-444294832": {
+        "tags": {
+            "alt_name": "Bredius openluchtzwembad",
+            "leisure": "water_park",
+            "name": "Brediusbad",
+            "note": "open-air swimming pool",
+            "operator": "Stadsdeel West",
+            "sport": "swimming",
+            "website": "https://www.brediuszwembad.nl"
+        },
+        "coord": [
+            4.869189820588236,
+            52.39233187647057
         ]
     },
     "way-446053434": {
@@ -13455,8 +15200,8 @@
             "leisure": "swimming_pool"
         },
         "coord": [
-            -68.86607801578948,
-            12.083296752631579
+            -68.86606661578946,
+            12.083323652631579
         ]
     },
     "way-453820043": {
@@ -13576,6 +15321,16 @@
         "coord": [
             6.17389546,
             51.40098160000001
+        ]
+    },
+    "way-473631037": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            7.037349691891892,
+            53.164717886486486
         ]
     },
     "way-473819305": {
@@ -13710,8 +15465,8 @@
             "sport": "swimming"
         },
         "coord": [
-            -68.85177504545456,
-            12.065346645454545
+            -68.8515008,
+            12.064975263636365
         ]
     },
     "way-493363008": {
@@ -13761,8 +15516,8 @@
             "start_date": "2014"
         },
         "coord": [
-            7.0830825,
-            53.08600903333334
+            7.08309666,
+            53.08600185
         ]
     },
     "way-496697648": {
@@ -13852,6 +15607,30 @@
             52.15782242941175
         ]
     },
+    "way-502770184": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "natural": "water",
+            "source": "3dShapes",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.766876612000001,
+            52.69125730399999
+        ]
+    },
+    "way-503099846": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "It Baeijersplak",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.972746616666666,
+            53.16694533333334
+        ]
+    },
     "way-503251184": {
         "tags": {
             "access": "customers",
@@ -13870,6 +15649,16 @@
         "coord": [
             6.072361020000001,
             53.0942089
+        ]
+    },
+    "way-506066447": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.469254869999999,
+            52.901965700000005
         ]
     },
     "way-506067085": {
@@ -14088,6 +15877,20 @@
             52.346337971428575
         ]
     },
+    "way-529726190": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Aqua Mundo",
+            "opening_hours": "10:00-21:00",
+            "operator": "Center Parcs",
+            "sport": "swimming",
+            "website": "https://www.centerparcs.nl/nl-nl/nederland/fp_PZ_vakantiepark-port-zelande/aqua-mundo"
+        },
+        "coord": [
+            3.861044971428571,
+            51.755837839682535
+        ]
+    },
     "way-536725523": {
         "tags": {
             "leisure": "swimming_pool",
@@ -14150,13 +15953,34 @@
     },
     "way-553624742": {
         "tags": {
+            "check_date": "2025-05-08",
+            "fee": "yes",
             "leisure": "sports_centre",
             "name": "Zwembad 't Wilgerak",
-            "sport": "swimming"
+            "sport": "swimming",
+            "wheelchair": "yes"
         },
         "coord": [
             4.859555826666666,
             51.94312613333333
+        ]
+    },
+    "way-554479935": {
+        "tags": {
+            "addr:city": "Wognum",
+            "addr:housenumber": "85",
+            "addr:postcode": "1687AB",
+            "addr:street": "Oosteinderweg",
+            "contact:email": "info@molenbad.nl",
+            "contact:phone": "+31 229 571 581",
+            "contact:website": "https://molenbad.nl",
+            "leisure": "water_park",
+            "name": "Zwembad Het Molenbad",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.049341500000001,
+            52.68583825333334
         ]
     },
     "way-557674401": {
@@ -14286,6 +16110,36 @@
             52.09642905000001
         ]
     },
+    "way-576086317": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.779856638095238,
+            52.741913928571435
+        ]
+    },
+    "way-576086318": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.778745096,
+            52.74265354000001
+        ]
+    },
+    "way-582907161": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.402951253846154,
+            52.03520384615384
+        ]
+    },
     "way-584370567": {
         "tags": {
             "access": "customers",
@@ -14341,6 +16195,57 @@
             51.67508682222223
         ]
     },
+    "way-594717798": {
+        "tags": {
+            "access": "yes",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "name": "'t Wed",
+            "sport": "swimming",
+            "supervised": "no",
+            "website": "https://www.zwemwater.nl/?id=1864",
+            "website:map": "https://waterkaart.net/items/images/zwemlocaties/1864-Wed.PNG"
+        },
+        "coord": [
+            4.589935723913043,
+            52.399181306521726
+        ]
+    },
+    "way-594721172": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Zuidstrand",
+            "sport": "swimming",
+            "website": "https://www.zwemwater.nl/?id=1895"
+        },
+        "coord": [
+            4.670895806249999,
+            52.32503484687499
+        ]
+    },
+    "way-594721617": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "website:map": "https://waterkaart.net/items/images/zwemlocaties/1897-NH-049-001-Veerplas@72x.png"
+        },
+        "coord": [
+            4.67468906969697,
+            52.38758441212122
+        ]
+    },
+    "way-596624559": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.048748150000001,
+            52.45496986428571
+        ]
+    },
     "way-601951623": {
         "tags": {
             "leisure": "swimming_pool",
@@ -14386,6 +16291,32 @@
         "coord": [
             4.89994502972973,
             52.360050948648656
+        ]
+    },
+    "way-614452361": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Westbroekplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.673287652173912,
+            52.42708284130433
+        ]
+    },
+    "way-614479970": {
+        "tags": {
+            "leisure": "swimming_area",
+            "name": "Spiegelwaal",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.859807766666666,
+            51.85509002222222
         ]
     },
     "way-615321020": {
@@ -14465,6 +16396,31 @@
             51.63952040434782
         ]
     },
+    "way-620101273": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "Officieel zwemwater",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            4.98701074,
+            52.35451714
+        ]
+    },
+    "way-620637926": {
+        "tags": {
+            "barrier": "fence",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.660582092857143,
+            52.83494556071429
+        ]
+    },
     "way-620637983": {
         "tags": {
             "access": "customers",
@@ -14506,6 +16462,17 @@
             51.733915079999996
         ]
     },
+    "way-624768597": {
+        "tags": {
+            "description": "A swimming area - place over river, lake or other water reservoir where swimming is allowed.",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.6436085857142855,
+            52.196365657142856
+        ]
+    },
     "way-629191527": {
         "tags": {
             "barrier": "fence",
@@ -14542,6 +16509,17 @@
             52.184771609090916
         ]
     },
+    "way-632303340": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            6.073446133333333,
+            51.91522672666667
+        ]
+    },
     "way-632927524": {
         "tags": {
             "access": "customers",
@@ -14550,6 +16528,19 @@
         "coord": [
             5.91453587,
             52.56730371000001
+        ]
+    },
+    "way-633752451": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.058159471428573,
+            51.99262954642855
         ]
     },
     "way-639813402": {
@@ -14612,6 +16603,51 @@
             12.596665875
         ]
     },
+    "way-641870096": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            4.0444674,
+            51.50273510689655
+        ]
+    },
+    "way-645355264": {
+        "tags": {
+            "natural": "water",
+            "sport": "swimming",
+            "water": "pond"
+        },
+        "coord": [
+            5.147712357142857,
+            52.35449647142857
+        ]
+    },
+    "way-647861511": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.659385333333333,
+            53.222992388888876
+        ]
+    },
+    "way-648887718": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            5.606694789285713,
+            52.96062137500001
+        ]
+    },
     "way-657010451": {
         "tags": {
             "leisure": "swimming_pool",
@@ -14620,6 +16656,16 @@
         "coord": [
             4.73964342,
             52.1843963
+        ]
+    },
+    "way-657467448": {
+        "tags": {
+            "natural": "water",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.212644585714285,
+            51.48249762380953
         ]
     },
     "way-657622383": {
@@ -14694,6 +16740,22 @@
         "coord": [
             -68.90464343846155,
             12.120884153846152
+        ]
+    },
+    "way-671610371": {
+        "tags": {
+            "access": "yes",
+            "name": "Rockanje Strand",
+            "natural": "beach",
+            "nudism": "no",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "surface": "sand",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.056501605747125,
+            51.860732181609194
         ]
     },
     "way-676297502": {
@@ -14775,6 +16837,71 @@
             51.3960902
         ]
     },
+    "way-687427121": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.04615042051282,
+            52.00110330769231
+        ]
+    },
+    "way-687427122": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.056125438461539,
+            52.008008315384615
+        ]
+    },
+    "way-687427123": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.041504547999997,
+            51.98964509200001
+        ]
+    },
+    "way-687427124": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.039497317021278,
+            51.98746328510638
+        ]
+    },
+    "way-687441522": {
+        "tags": {
+            "leisure": "swimming_area",
+            "seamark:restricted_area:category": "swimming",
+            "seamark:restricted_area:restriction": "no_entry",
+            "seamark:type": "restricted_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.047857299999999,
+            51.991871294736846
+        ]
+    },
     "way-690766311": {
         "tags": {
             "access": "customers",
@@ -14785,6 +16912,17 @@
         "coord": [
             4.76727812195122,
             51.579793609756095
+        ]
+    },
+    "way-693517589": {
+        "tags": {
+            "leisure": "swimming_area",
+            "natural": "water",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.297130236363637,
+            53.33873193863636
         ]
     },
     "way-696461144": {
@@ -14805,6 +16943,18 @@
         "coord": [
             6.0762497,
             52.823746500000006
+        ]
+    },
+    "way-698772276": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.0134891907692305,
+            52.357097375384605
         ]
     },
     "way-701148484": {
@@ -14893,6 +17043,64 @@
         "coord": [
             -68.93615497333333,
             12.108736466666667
+        ]
+    },
+    "way-718407268": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.574795571428572,
+            53.17676494285713
+        ]
+    },
+    "way-720154135": {
+        "tags": {
+            "access": "yes",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            6.926796063636363,
+            53.25713407272727
+        ]
+    },
+    "way-721792460": {
+        "tags": {
+            "building:part": "yes",
+            "leisure": "water_park",
+            "name": "Aqua Mundo",
+            "operator": "Center Parcs",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.420683734482758,
+            51.327102801724145
+        ]
+    },
+    "way-721792461": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.425652017021278,
+            51.32817519148935
+        ]
+    },
+    "way-724609050": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.5053998625,
+            52.28246581250001
         ]
     },
     "way-726777760": {
@@ -15075,6 +17283,16 @@
             51.949175161538456
         ]
     },
+    "way-778845947": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.139407386440681,
+            52.33507270847459
+        ]
+    },
     "way-782720704": {
         "tags": {
             "basin": "water",
@@ -15119,6 +17337,17 @@
             12.414031219999998
         ]
     },
+    "way-807587379": {
+        "tags": {
+            "natural": "water",
+            "sport": "swimming",
+            "water": "lake"
+        },
+        "coord": [
+            6.66777326,
+            52.01581738
+        ]
+    },
     "way-807914144": {
         "tags": {
             "access": "customers",
@@ -15138,6 +17367,22 @@
         "coord": [
             4.84941894,
             52.30620415999999
+        ]
+    },
+    "way-816971178": {
+        "tags": {
+            "access": "yes",
+            "depth": "1.5",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "Speelvijver 't Gasselterveld",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            6.750232739506172,
+            52.97199730000001
         ]
     },
     "way-819066523": {
@@ -15197,6 +17442,17 @@
             52.65222462727272
         ]
     },
+    "way-834259697": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            5.512351335294118,
+            52.93179287647059
+        ]
+    },
     "way-835844630": {
         "tags": {
             "access": "customers",
@@ -15205,6 +17461,67 @@
         "coord": [
             6.09664378,
             52.375855200000004
+        ]
+    },
+    "way-837641507": {
+        "tags": {
+            "leisure": "swimming_area",
+            "name": "Zwemplas Woude",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.61423640625,
+            51.88108464375
+        ]
+    },
+    "way-839327608": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.29908786,
+            52.298343079999995
+        ]
+    },
+    "way-839327609": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.29823926,
+            52.29788506
+        ]
+    },
+    "way-839327610": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.297093966666666,
+            52.297374
+        ]
+    },
+    "way-839327611": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.30016752,
+            52.29908566
+        ]
+    },
+    "way-839327612": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.3009637,
+            52.29976312
         ]
     },
     "way-841965023": {
@@ -15227,6 +17544,29 @@
         "coord": [
             5.083570653846153,
             52.0807316076923
+        ]
+    },
+    "way-846058441": {
+        "tags": {
+            "name": "Botjeszwembaai",
+            "natural": "water",
+            "sport": "swimming",
+            "website": "https://www.zwemwater.nl/home?id=6545270"
+        },
+        "coord": [
+            6.851525684210526,
+            53.181623815789465
+        ]
+    },
+    "way-846059596": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            6.851475948275861,
+            53.181074637931026
         ]
     },
     "way-846732378": {
@@ -15295,6 +17635,16 @@
             12.086431919999999
         ]
     },
+    "way-849752389": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.653128418181819,
+            53.23001271363636
+        ]
+    },
     "way-859306162": {
         "tags": {
             "access": "customers",
@@ -15315,6 +17665,50 @@
         "coord": [
             3.8383914611111103,
             51.3354632388889
+        ]
+    },
+    "way-860401582": {
+        "tags": {
+            "leisure": "pitch",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.00701056,
+            52.19321527999999
+        ]
+    },
+    "way-863563692": {
+        "tags": {
+            "description": "Open air swimming, heated",
+            "leisure": "water_park",
+            "name": "De Houtvaart",
+            "phone": "+31 23 524 2233",
+            "sport": "swimming",
+            "website": "https://houtvaart.nl/",
+            "wikidata": "Q17255323",
+            "wikimedia_commons": "Category:De Houtvaart"
+        },
+        "coord": [
+            4.617012793333333,
+            52.38054302
+        ]
+    },
+    "way-872690587": {
+        "tags": {
+            "access": "permissive",
+            "description:en": "To combat environmental pollution and harmful polluters, a local Amsterdam based maker community built a sensor to measure temperature and water pollution in realtime.",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "name": "Buitenzwembad Marineterrein",
+            "note": "Unofficial swimming area see also https://www.marineterrein.nl/project/swimming-in-water/",
+            "source": "survey;local knowledge",
+            "sport": "swimming",
+            "supervised": "no",
+            "wikidata": "Q104192854"
+        },
+        "coord": [
+            4.91486696,
+            52.37299612
         ]
     },
     "way-880125122": {
@@ -15355,6 +17749,16 @@
         "coord": [
             6.048516177777777,
             52.409507866666665
+        ]
+    },
+    "way-909064479": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.600646507142858,
+            53.239341060714295
         ]
     },
     "way-909571437": {
@@ -15553,6 +17957,109 @@
         "coord": [
             5.72629684,
             52.099620720000004
+        ]
+    },
+    "way-927650646": {
+        "tags": {
+            "leisure": "water_park",
+            "name": "Batenstein-buiten",
+            "opening_hours": "Mo-Su 09:00-21:00",
+            "sport": "swimming",
+            "water_park": "outdoor"
+        },
+        "coord": [
+            4.8858094119999995,
+            52.093649992
+        ]
+    },
+    "way-931922280": {
+        "tags": {
+            "access": "yes",
+            "name": "Naaktstrand Galderse Meren",
+            "natural": "beach",
+            "nudism": "yes",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "supervised": "no",
+            "surface": "sand",
+            "wheelchair": "yes",
+            "wikidata": "Q3478256"
+        },
+        "coord": [
+            4.757828892000001,
+            51.525491172
+        ]
+    },
+    "way-939729891": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.645277228000001,
+            52.29706656800001
+        ]
+    },
+    "way-939729893": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.649851457142857,
+            52.300419885714284
+        ]
+    },
+    "way-940643584": {
+        "tags": {
+            "access": "yes",
+            "name": "Hoek van Holland Naakstrand",
+            "name:en": "Hoek van Holland Nudist beach",
+            "natural": "beach",
+            "nudism": "yes",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "supervised": "yes",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.1226386714285725,
+            51.99949920714287
+        ]
+    },
+    "way-940928572": {
+        "tags": {
+            "access": "yes",
+            "natural": "beach",
+            "nudism": "no",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.12861000625,
+            52.003798299999985
+        ]
+    },
+    "way-940981484": {
+        "tags": {
+            "access": "yes",
+            "name": "Rockanje Naaktstrand",
+            "natural": "beach",
+            "nudism": "designated",
+            "opening_hours": "24/7",
+            "sport": "swimming",
+            "supervised": "no",
+            "surface": "sand",
+            "url": "https://blootkompas.nl/locaties/naaktstrand-rockanje/",
+            "website": "https://www.rockanjeaanzee.com/rockanje-strand/",
+            "wheelchair": "limited"
+        },
+        "coord": [
+            4.033204723809524,
+            51.88301092857142
         ]
     },
     "way-941022777": {
@@ -16895,6 +19402,16 @@
             12.602347271428572
         ]
     },
+    "way-941093414": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.378185074358974,
+            52.023405084615376
+        ]
+    },
     "way-941573603": {
         "tags": {
             "building": "yes",
@@ -17072,6 +19589,16 @@
             52.502627788888894
         ]
     },
+    "way-951532633": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.359159664285715,
+            52.879620457142856
+        ]
+    },
     "way-951542864": {
         "tags": {
             "access": "customers",
@@ -17083,6 +19610,54 @@
             51.484046899999996
         ]
     },
+    "way-951670762": {
+        "tags": {
+            "access": "yes",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "De Leers",
+            "sport": "swimming",
+            "website:map": "https://register.zwemwater.nl/zwr/api/files/302294"
+        },
+        "coord": [
+            4.886062533333333,
+            52.45063655333333
+        ]
+    },
+    "way-951670763": {
+        "tags": {
+            "access": "yes",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "Kure-Janstrand",
+            "sport": "swimming",
+            "supervised": "no",
+            "website": "https://www.zwemwater.nl/"
+        },
+        "coord": [
+            4.8942018805555545,
+            52.456282200000004
+        ]
+    },
+    "way-951670764": {
+        "tags": {
+            "access": "yes",
+            "description": "Middels website https://www.zwemwater.nl/ kan je door middel van invulling: t schoorlstrand de zwemwaterkwaliteit bekijken of gebruik maken van de app die op de website staat.",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "'t Schoorlstrand",
+            "sport": "swimming",
+            "supervised": "no",
+            "website": "https://www.zwemwater.nl/"
+        },
+        "coord": [
+            4.8804442649999995,
+            52.452368315
+        ]
+    },
     "way-953417334": {
         "tags": {
             "access": "customers",
@@ -17092,6 +19667,46 @@
         "coord": [
             6.184286912499999,
             51.4973259625
+        ]
+    },
+    "way-953562105": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Speelsloot",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.897850064285713,
+            52.46082917857143
+        ]
+    },
+    "way-953562114": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Doesstrand",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.893465922727273,
+            52.43836862727273
+        ]
+    },
+    "way-953564792": {
+        "tags": {
+            "access": "yes",
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lit": "no",
+            "name": "Baaiegatstrand Naturistenstrand",
+            "nudism": "yes",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            4.881973925,
+            52.455853837499994
         ]
     },
     "way-961391219": {
@@ -17112,6 +19727,18 @@
         "coord": [
             6.4661566,
             52.47219801999999
+        ]
+    },
+    "way-966707650": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Molenplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.6557372571428575,
+            52.34547025714286
         ]
     },
     "way-967281832": {
@@ -17166,8 +19793,8 @@
             "source:geometry:date": "2024"
         },
         "coord": [
-            -68.94669022222223,
-            12.108505477777776
+            -68.94665642222222,
+            12.108487277777776
         ]
     },
     "way-998213959": {
@@ -17776,6 +20403,17 @@
             12.11963074
         ]
     },
+    "way-1011851146": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            6.795431180597015,
+            52.180854427611955
+        ]
+    },
     "way-1014648476": {
         "tags": {
             "leisure": "sports_centre",
@@ -17794,6 +20432,48 @@
         "coord": [
             6.88098478,
             52.30542604
+        ]
+    },
+    "way-1016559022": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.459338430000001,
+            52.121279845000004
+        ]
+    },
+    "way-1016878001": {
+        "tags": {
+            "leisure": "swimming_area",
+            "name": "Speelvijver",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.468097739999999,
+            52.120429385
+        ]
+    },
+    "way-1017147207": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.465816136000001,
+            52.119176939999996
+        ]
+    },
+    "way-1029398234": {
+        "tags": {
+            "leisure": "swimming_area",
+            "natural": "water",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.7791770866666665,
+            52.25564116666667
         ]
     },
     "way-1029887579": {
@@ -17953,6 +20633,29 @@
             12.364677480000001
         ]
     },
+    "way-1055163309": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Kagerplassen 't Joppe Westoever",
+            "sport": "swimming",
+            "website": "https://zwemindex.nl/zwemwater/kagerplassen-t-joppe-westoever"
+        },
+        "coord": [
+            4.508332993333334,
+            52.19432963999999
+        ]
+    },
+    "way-1056278496": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.486186973076923,
+            52.19498904230769
+        ]
+    },
     "way-1058070934": {
         "tags": {
             "leisure": "swimming_pool",
@@ -17961,6 +20664,188 @@
         "coord": [
             -70.04291319999999,
             12.575778615384618
+        ]
+    },
+    "way-1058325313": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.4858861,
+            52.19926003333333
+        ]
+    },
+    "way-1059583552": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.4421447,
+            52.15902628181818
+        ]
+    },
+    "way-1059588926": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.26006632631579,
+            52.30633194210527
+        ]
+    },
+    "way-1059590177": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.279477099999999,
+            52.30182274444445
+        ]
+    },
+    "way-1059592594": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.147244550000001,
+            52.32695187857142
+        ]
+    },
+    "way-1059594904": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.376068125,
+            52.259751216666665
+        ]
+    },
+    "way-1059596076": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.530856927777777,
+            52.26651415555555
+        ]
+    },
+    "way-1059596603": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.535424969999999,
+            52.2714297
+        ]
+    },
+    "way-1059597445": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.540843672222221,
+            52.27780370000001
+        ]
+    },
+    "way-1059597785": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.541944413333334,
+            52.279892260000004
+        ]
+    },
+    "way-1059598515": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.542666679999999,
+            52.281767540000004
+        ]
+    },
+    "way-1059599718": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.557676029411765,
+            52.30856465294118
+        ]
+    },
+    "way-1059600748": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.6125858200000005,
+            52.350998733333334
+        ]
+    },
+    "way-1059602714": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.5486308125,
+            52.312858112499995
+        ]
+    },
+    "way-1059605080": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.546456577777779,
+            52.30968581111111
+        ]
+    },
+    "way-1059610031": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.800913666666666,
+            52.44296914444444
+        ]
+    },
+    "way-1059685088": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.518469957142857,
+            52.187517807142854
+        ]
+    },
+    "way-1060536743": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            7.031632537931034,
+            52.72525016896551
         ]
     },
     "way-1064031371": {
@@ -18053,6 +20938,36 @@
             51.804287599999995
         ]
     },
+    "way-1077671831": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.507936435714286,
+            52.087409292857146
+        ]
+    },
+    "way-1077671833": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.512463209090909,
+            52.08524886363636
+        ]
+    },
+    "way-1077671837": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.511255885714285,
+            52.08603045714286
+        ]
+    },
     "way-1078279731": {
         "tags": {
             "leisure": "swimming_pool",
@@ -18114,6 +21029,17 @@
         "coord": [
             4.560667504347826,
             51.57092576521741
+        ]
+    },
+    "way-1086419169": {
+        "tags": {
+            "man_made": "pier",
+            "mooring": "no",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.9674414,
+            52.27958625
         ]
     },
     "way-1087455485": {
@@ -20353,6 +23279,16 @@
             52.09174842272727
         ]
     },
+    "way-1092714377": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.104024638461539,
+            51.88573713846153
+        ]
+    },
     "way-1094462741": {
         "tags": {
             "addr:city": "Winsum",
@@ -20420,6 +23356,64 @@
         "coord": [
             4.693099383333335,
             51.81521497916666
+        ]
+    },
+    "way-1105063637": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Ursemmerplas",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.9233382181818195,
+            52.62564194242423
+        ]
+    },
+    "way-1105317779": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "name": "Strand van Luna",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.7972383894736845,
+            52.64871155263157
+        ]
+    },
+    "way-1105456701": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.331723172413794,
+            51.38092596551725
+        ]
+    },
+    "way-1105460878": {
+        "tags": {
+            "access": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.43305401147541,
+            51.49559520819672
+        ]
+    },
+    "way-1105586841": {
+        "tags": {
+            "access": "yes",
+            "fee": "yes",
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.501592933333333,
+            51.44928243333333
         ]
     },
     "way-1107113156": {
@@ -20633,6 +23627,18 @@
             52.17609783750001
         ]
     },
+    "way-1152427662": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "lit": "yes",
+            "location": "outdoor",
+            "swimming_pool": "wading"
+        },
+        "coord": [
+            4.851361819999999,
+            52.331544400000006
+        ]
+    },
     "way-1155131214": {
         "tags": {
             "leisure": "swimming_pool",
@@ -20679,6 +23685,18 @@
             52.87791180000001
         ]
     },
+    "way-1162925684": {
+        "tags": {
+            "leisure": "stadium",
+            "name": "Pieter van den Hoogenband Zwemstadion",
+            "sport": "swimming",
+            "wheelchair": "yes"
+        },
+        "coord": [
+            5.477903023437502,
+            51.4146847015625
+        ]
+    },
     "way-1167178967": {
         "tags": {
             "leisure": "swimming_pool",
@@ -20697,6 +23715,16 @@
         "coord": [
             6.557266728571428,
             52.00799142857142
+        ]
+    },
+    "way-1168260558": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.668196638461538,
+            52.19754603076923
         ]
     },
     "way-1174612286": {
@@ -20817,8 +23845,8 @@
             "start_date": "1980"
         },
         "coord": [
-            4.95869997,
-            52.33638734499999
+            4.958683528571429,
+            52.336386147619045
         ]
     },
     "way-1188339265": {
@@ -20883,6 +23911,16 @@
             52.6787598
         ]
     },
+    "way-1200654827": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.7213639605263165,
+            52.96292209473685
+        ]
+    },
     "way-1200951415": {
         "tags": {
             "building": "yes",
@@ -20895,6 +23933,20 @@
         "coord": [
             5.210257888888889,
             51.44664498888889
+        ]
+    },
+    "way-1201937789": {
+        "tags": {
+            "access": "yes",
+            "name": "Nuturist Beach",
+            "natural": "beach",
+            "nudism": "designated",
+            "sport": "swimming",
+            "surface": "sand"
+        },
+        "coord": [
+            3.47788524,
+            51.55890412
         ]
     },
     "way-1206786584": {
@@ -21832,6 +24884,17 @@
             51.92688498
         ]
     },
+    "way-1250554077": {
+        "tags": {
+            "amenity": "sports_centre",
+            "area": "yes",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.447883688888889,
+            52.367787944444444
+        ]
+    },
     "way-1253799378": {
         "tags": {
             "leisure": "swimming_pool",
@@ -21840,6 +24903,26 @@
         "coord": [
             5.9252175000000005,
             51.98330965714286
+        ]
+    },
+    "way-1260651943": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.0488106607142855,
+            52.248034125
+        ]
+    },
+    "way-1260651944": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming"
+        },
+        "coord": [
+            6.048048349999999,
+            52.24807153333333
         ]
     },
     "way-1262491358": {
@@ -21881,6 +24964,21 @@
         "coord": [
             4.90326317,
             52.33964003
+        ]
+    },
+    "way-1272216024": {
+        "tags": {
+            "access": "permissive",
+            "fee": "no",
+            "informal": "yes",
+            "leisure": "swimming_area",
+            "name": "Zoeterwoudsesingel",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            4.500583176470589,
+            52.153416239705884
         ]
     },
     "way-1281919964": {
@@ -21935,6 +25033,16 @@
             52.11747777999999
         ]
     },
+    "way-1293976284": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            5.358618888888888,
+            52.88054912222221
+        ]
+    },
     "way-1299568736": {
         "tags": {
             "leisure": "sports_centre",
@@ -21946,6 +25054,35 @@
         "coord": [
             5.428435066666667,
             53.163500777777784
+        ]
+    },
+    "way-1300455911": {
+        "tags": {
+            "area": "yes",
+            "leisure": "bathing_place",
+            "name": "Naaktrecreatie",
+            "name:de": "FKK",
+            "name:en": "Nudist beach",
+            "nudism": "yes",
+            "sport": "swimming"
+        },
+        "coord": [
+            3.681222398630136,
+            51.692981352054815
+        ]
+    },
+    "way-1300989217": {
+        "tags": {
+            "fee": "no",
+            "leisure": "swimming_area",
+            "lifeguard": "no",
+            "lit": "no",
+            "sport": "swimming",
+            "supervised": "no"
+        },
+        "coord": [
+            3.7611204076923084,
+            51.55474437692307
         ]
     },
     "way-1305461979": {
@@ -21971,6 +25108,16 @@
         "coord": [
             4.55649756,
             51.525352360000014
+        ]
+    },
+    "way-1306372291": {
+        "tags": {
+            "leisure": "swimming_area",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.588700223076923,
+            52.20261618461538
         ]
     },
     "way-1307072481": {
@@ -22089,6 +25236,20 @@
             52.101484766666665
         ]
     },
+    "way-1318319213": {
+        "tags": {
+            "name": "Naaktstrand Engelermeer",
+            "natural": "beach",
+            "nudism": "yes",
+            "source": "3dShapes",
+            "sport": "swimming",
+            "surface": "sand;grass"
+        },
+        "coord": [
+            5.24377386764706,
+            51.70133921764706
+        ]
+    },
     "way-1320712282": {
         "tags": {
             "access": "customers",
@@ -22098,6 +25259,16 @@
         "coord": [
             3.7551993719999994,
             51.731051344000015
+        ]
+    },
+    "way-1320954119": {
+        "tags": {
+            "natural": "beach",
+            "sport": "swimming"
+        },
+        "coord": [
+            4.752112209090909,
+            51.919912009090915
         ]
     },
     "way-1324336622": {
@@ -22412,15 +25583,84 @@
             51.97611772222223
         ]
     },
-    "rel-1549022": {
+    "way-1379884940": {
         "tags": {
+            "access": "yes",
             "leisure": "swimming_pool",
-            "source": "3dShapes",
-            "type": "multipolygon"
+            "location": "outdoor",
+            "swimming_pool": "kids"
         },
         "coord": [
-            6.732372754098362,
-            52.84440865737703
+            6.13678156,
+            52.885108620000004
+        ]
+    },
+    "way-1380089753": {
+        "tags": {
+            "leisure": "sports_centre",
+            "name": "Aquapark De Zandstuve",
+            "note": "Aquapark De Zandstuve schijnt onder deel te zijn van Zwembad De Stamper - een binnenbad, dat bij nader inzien in ... V r i e z e n v e e n blijkt te zijn.",
+            "operator": "Zwembad De Stamper (Vriezenveen)",
+            "sport": "swimming",
+            "website": "https://zwembaddestamper.nl/aquapark-de-zandstuve"
+        },
+        "coord": [
+            6.550955538636364,
+            52.461539977272736
+        ]
+    },
+    "way-1381073288": {
+        "tags": {
+            "access": "permissive",
+            "leisure": "swimming_pool"
+        },
+        "coord": [
+            5.7756811,
+            52.18676896000001
+        ]
+    },
+    "way-1382511779": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "swimming_pool": "kids"
+        },
+        "coord": [
+            6.55069192,
+            52.46199922000001
+        ]
+    },
+    "way-1383298700": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "location": "outdoor"
+        },
+        "coord": [
+            6.495592988888889,
+            52.54461711111112
+        ]
+    },
+    "way-1385059972": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "lit": "yes",
+            "location": "outdoor",
+            "swimming_pool": "spa"
+        },
+        "coord": [
+            4.85050406923077,
+            52.33151625000001
+        ]
+    },
+    "way-1387607155": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "name": "Waal-en Weidebad",
+            "sport": "swimming",
+            "website": "https://www.waalenweidebad.nl"
+        },
+        "coord": [
+            4.569544191304347,
+            51.84242971304348
         ]
     },
     "rel-2570273": {
@@ -22523,6 +25763,20 @@
             50.96975748125
         ]
     },
+    "rel-13068552": {
+        "tags": {
+            "description": "Kanovijver",
+            "natural": "water",
+            "operator": "IJsclub de Kanovijver Ermelo",
+            "sport": "swimming",
+            "type": "multipolygon",
+            "water": "pond"
+        },
+        "coord": [
+            5.617625018181818,
+            52.294733042424255
+        ]
+    },
     "rel-14373841": {
         "tags": {
             "access": "customers",
@@ -22555,6 +25809,16 @@
         "coord": [
             5.134738509999999,
             52.09967103500001
+        ]
+    },
+    "rel-19064751": {
+        "tags": {
+            "leisure": "swimming_pool",
+            "type": "multipolygon"
+        },
+        "coord": [
+            -68.84965442999997,
+            12.064009143333331
         ]
     }
 }

@@ -15,6 +15,10 @@ def run(countryCode, resultsFn, parsedFn):
       way["leisure"="swimming_pool"](area.country);
       relation["leisure"="swimming_pool"](area.country);
       
+      node["sport"="swimming"](area.country);
+      way["sport"="swimming"](area.country);
+      relation["sport"="swimming"](area.country);
+
       // Also include sports centers with swimming
       node["leisure"="sports_centre"]["sport"="swimming"](area.country);
       way["leisure"="sports_centre"]["sport"="swimming"](area.country);
