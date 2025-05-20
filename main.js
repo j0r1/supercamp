@@ -395,7 +395,11 @@ function setHomeCoords(map, latlng)
         homeMarker.removeFrom(map);
     
     const marker = L.marker([ latlng.lat, latlng.lng ], { icon: icons["HOME"] }).addTo(map);
+    const popupContent = `<strong>Home</strong><br>Latitude: ${latlng.lat}<br>Longitude: ${latlng.lng}`;
+    marker.bindPopup(popupContent);
+
     homeMarker = marker;
+
     homeStart = [ latlng.lng, latlng.lat ];
 
     localStorage["supercamp-home"] = JSON.stringify({ 
