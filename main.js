@@ -1,5 +1,7 @@
 "use strict";
 
+let mainMap = null;
+
 class MapGrid
 {
     constructor(numLat = 720, numLong = 1440)
@@ -268,7 +270,7 @@ function checkSuperMarket(tags)
     return "red";
 }
 
-function addMarkersForBounds(map, north, south, east, west, placeType, iconType)
+function addMarkersForBounds(north, south, east, west, placeType, iconType)
 {
     const urlKeys = [ "website", "contact:website", "url", "facebook", "contact:facebook" ];
 
@@ -301,7 +303,7 @@ function addMarkersForBounds(map, north, south, east, west, placeType, iconType)
             else
                 iconName = iconType;
     
-            marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconName]}).addTo(map);
+            marker = L.marker([value.coord[1], value.coord[0]], {icon: icons[iconName]}).addTo(mainMap);
     
             if ("tags" in value)
             {
@@ -343,7 +345,7 @@ function addMarkersForBounds(map, north, south, east, west, placeType, iconType)
     }
 }
 
-function removeOldMarkersForBounds(map, north, south, east, west)
+function removeOldMarkersForBounds(north, south, east, west)
 {
     let deletedMarkers = [];
     for (let mId in addedMarkers)
@@ -356,22 +358,22 @@ function removeOldMarkersForBounds(map, north, south, east, west)
         {
             // console.log("Removing marker " + mId + " from view");
             deletedMarkers.push(mId);
-            value.marker.removeFrom(map);
+            value.marker.removeFrom(mainMap);
         }
     }
     for (let mId of deletedMarkers)
         delete addedMarkers[mId];
 }
 
-function checkViewportChange(map)
+function checkViewportChange()
 {
-    const zoom = map.getZoom();   
-    const bounds = map.getBounds();
+    const zoom = mainMap.getZoom();   
+    const bounds = mainMap.getBounds();
     const north = bounds.getNorth();
     const south = bounds.getSouth();
     const east = bounds.getEast();
     const west = bounds.getWest();
-    const center = map.getCenter();
+    const center = mainMap.getCenter();
 
     localStorage["supercamp-view"] = JSON.stringify({ 
         "center": [center["lat"], center["lng"]], 
@@ -381,21 +383,34 @@ function checkViewportChange(map)
     if (zoom < limitZoomLevel)
         return;
 
-    removeOldMarkersForBounds(map, north, south, east, west);
+    removeOldMarkersForBounds(north, south, east, west);
     
-    addMarkersForBounds(map, north, south, east, west, "campsite", "green");
-    addMarkersForBounds(map, north, south, east, west, "supermarket", checkSuperMarket);
-    addMarkersForBounds(map, north, south, east, west, "fitness", "yellow");
-    addMarkersForBounds(map, north, south, east, west, "pool", "blue");
+    addMarkersForBounds(north, south, east, west, "campsite", "green");
+    addMarkersForBounds(north, south, east, west, "supermarket", checkSuperMarket);
+    addMarkersForBounds(north, south, east, west, "fitness", "yellow");
+    addMarkersForBounds(north, south, east, west, "pool", "blue");
 }
 
-function setHomeCoords(map, latlng)
+function clearHomeCoords()
 {
     if (homeMarker)
-        homeMarker.removeFrom(map);
+        homeMarker.removeFrom(mainMap);
+    homeMarker = null;
+    homeStart = null;
+
+    document.documentElement.style.setProperty('--desthomebutton-ptr', 'none');
+    document.documentElement.style.setProperty('--desthomebutton-cursor', 'not-allowed');
+    document.documentElement.style.setProperty('--desthomebutton-opac', '0.3');
+}
+
+function setHomeCoords(latlng)
+{
+    if (homeMarker)
+        homeMarker.removeFrom(mainMap);
     
-    const marker = L.marker([ latlng.lat, latlng.lng ], { icon: icons["HOME"] }).addTo(map);
-    const popupContent = `<strong>Home</strong><br>Latitude: ${latlng.lat}<br>Longitude: ${latlng.lng}`;
+    const marker = L.marker([ latlng.lat, latlng.lng ], { icon: icons["HOME"] }).addTo(mainMap);
+    let popupContent = `<strong>Home</strong><br>Latitude: ${latlng.lat}<br>Longitude: ${latlng.lng}`;
+    popupContent += '<br><br><button onclick="clearHomeCoords()">Clear</button>';
     marker.bindPopup(popupContent);
 
     homeMarker = marker;
@@ -415,11 +430,11 @@ function setHomeCoords(map, latlng)
 
 async function main()
 {
-    const map = L.map('map', { doubleClickZoom: false });
+    mainMap = L.map('map', { doubleClickZoom: false });
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
+    }).addTo(mainMap);
 
     for (let [ fn, type ] of [
         [ "parsed_campsites_nl.json", "campsite" ],
@@ -439,22 +454,22 @@ async function main()
     if ("supercamp-view" in localStorage)
     {
         const v = JSON.parse(localStorage["supercamp-view"]);
-        map.setView(v["center"], v["zoom"]);
+        mainMap.setView(v["center"], v["zoom"]);
     }
     else
-        map.fitBounds(mainGrid.getBounds());
+        mainMap.fitBounds(mainGrid.getBounds());
 
     if ("supercamp-home" in localStorage)
     {
         const latlng = JSON.parse(localStorage["supercamp-home"]);
-        setHomeCoords(map, latlng);
+        setHomeCoords(latlng);
     }
 
-    checkViewportChange(map);
+    checkViewportChange();
 
-    map.on("zoomend", () => checkViewportChange(map));
-    map.on("moveend", () => checkViewportChange(map));
-    map.on("dblclick", (e) => setHomeCoords(map, e.latlng));
+    mainMap.on("zoomend", () => checkViewportChange());
+    mainMap.on("moveend", () => checkViewportChange());
+    mainMap.on("dblclick", (e) => setHomeCoords(e.latlng));
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
