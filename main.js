@@ -336,6 +336,7 @@ function addMarkersForBounds(north, south, east, west, placeType, iconType)
                 popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
                 popupContent += `<br><br>Driving: `;
                 popupContent += `<button class="desthomebutton" onclick="getDirectionsFromHomeTo(${value.coord[0]}, ${value.coord[1]})">Get directions from home</button>`;
+                popupContent += `<br><br><a target="_blank" href="https://www.google.com/maps/@${value.coord[1]},${value.coord[0]},18z" style="text-decoration: none; font-size: 2em;">&#128506;</a>`
     
                 marker.bindPopup(popupContent);
     
