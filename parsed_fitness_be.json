@@ -1,4 +1,36 @@
 {
+    "node-299579788": {
+        "tags": {
+            "addr:city": "Leuven",
+            "addr:country": "BE",
+            "addr:housenumber": "32",
+            "addr:postcode": "3000",
+            "addr:street": "Sint-Jacobsplein",
+            "entrance:ramp": "no",
+            "leisure": "fitness_centre"
+        },
+        "coord": [
+            4.691644,
+            50.8800255
+        ]
+    },
+    "node-663979270": {
+        "tags": {
+            "addr:housenumber": "20",
+            "addr:street": "Avenue du Parc",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "contact:website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-mouscron-avenue-du-parc-24-7-3849d83589f7470398c0664d6ef3e6b0.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            3.2018976,
+            50.7372876
+        ]
+    },
     "node-745608735": {
         "tags": {
             "leisure": "fitness_centre",
@@ -18,6 +50,7 @@
             "addr:street": "Vredelaan",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
+            "check_date": "2025-06-01",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "sport": "fitness",
@@ -26,24 +59,6 @@
         "coord": [
             3.0982092,
             51.0572077
-        ]
-    },
-    "node-980405706": {
-        "tags": {
-            "addr:city": "Wilsele",
-            "addr:housenumber": "15",
-            "addr:postcode": "3012",
-            "addr:street": "Kolonel Begaultlaan",
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit",
-            "opening_hours": "24/7",
-            "sport": "fitness"
-        },
-        "coord": [
-            4.7058825,
-            50.8919261
         ]
     },
     "node-1013320763": {
@@ -198,21 +213,6 @@
             51.067749
         ]
     },
-    "node-1731181078": {
-        "tags": {
-            "addr:housenumber": "12",
-            "addr:postcode": "2000",
-            "addr:street": "Riemstraat",
-            "leisure": "fitness_centre",
-            "name": "HealthCity Zuidpool",
-            "sport": "gymnastics",
-            "website": "https://www.healthcity.be"
-        },
-        "coord": [
-            4.3930783,
-            51.2130897
-        ]
-    },
     "node-1907384588": {
         "tags": {
             "leisure": "fitness_centre",
@@ -221,6 +221,21 @@
         "coord": [
             4.5338877,
             51.063646
+        ]
+    },
+    "node-2058360228": {
+        "tags": {
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "contact:website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-turnhout-steenweg-op-gierle-24-7-c11694be11fe414da224977b0182abc4.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.9287333,
+            51.3140377
         ]
     },
     "node-2082708556": {
@@ -423,9 +438,12 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
-            "check_date": "2024-03-16",
+            "check_date": "2026-02-11",
+            "check_date:opening_hours": "2026-02-11",
+            "internet_access": "wlan",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-16:00",
             "sport": "fitness",
             "website": "https://www.basic-fit.com"
         },
@@ -470,22 +488,6 @@
             51.0393363
         ]
     },
-    "node-3042065857": {
-        "tags": {
-            "addr:housenumber": "276b",
-            "addr:street": "Chauss\u00e9e du Roi Baudouin",
-            "leisure": "fitness_centre",
-            "name": "Body Design",
-            "opening_hours": "Mo-Fr 08:30-22:00; Sa,Su 09:00-14:00",
-            "phone": "+32 65 31 45 00",
-            "sport": "fitness",
-            "website": "https://www.bodydesignmons.be"
-        },
-        "coord": [
-            4.0302878,
-            50.4332769
-        ]
-    },
     "node-3097586434": {
         "tags": {
             "addr:city": "Malmedy",
@@ -501,17 +503,6 @@
         "coord": [
             6.0436968,
             50.4199672
-        ]
-    },
-    "node-3133888992": {
-        "tags": {
-            "leisure": "fitness_centre",
-            "name": "Athletics",
-            "website": "https://athleticsfitness.be/"
-        },
-        "coord": [
-            3.1223961,
-            50.8075186
         ]
     },
     "node-3297720637": {
@@ -959,6 +950,7 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "check_date:opening_hours": "2025-08-28",
             "leisure": "fitness_centre",
             "name": "Basic Fit Berlaymont",
             "opening_hours": "Mo-Fr 08:00-22:30; Sa-Su 09:00-16:00"
@@ -989,8 +981,13 @@
             "addr:housenumber": "20 J",
             "addr:postcode": "2800",
             "addr:street": "Schali\u00ebnhoevedreef",
-            "leisure": "sports_centre",
-            "name": "Basic-Fit Mechelen Schalienhoevedreef",
+            "branch": "Mechelen Schalienhoevedreef",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "contact:website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-mechelen-schalienhoevedreef-24-7-66a2a171defa4ac2a9416370626c5801.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
             "sport": "fitness"
         },
         "coord": [
@@ -1049,17 +1046,20 @@
     },
     "node-4491130607": {
         "tags": {
+            "addr:city": "Bilzen-Hoeselt",
             "addr:housenumber": "14",
+            "addr:postcode": "3740",
             "addr:street": "Vrankrijk",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-bilzen-vrankrijk-24-7-73e511b06c134b42afea522d793550bf.html"
         },
         "coord": [
-            5.5091536,
-            50.8609185
+            5.5091254,
+            50.860971
         ]
     },
     "node-4514257306": {
@@ -1161,16 +1161,6 @@
             50.8452617
         ]
     },
-    "node-4718329051": {
-        "tags": {
-            "leisure": "fitness_centre",
-            "name": "Fit & Flex"
-        },
-        "coord": [
-            3.9908543,
-            51.1134075
-        ]
-    },
     "node-4719497929": {
         "tags": {
             "addr:city": "Kontich",
@@ -1239,6 +1229,7 @@
         "tags": {
             "addr:housenumber": "21",
             "addr:street": "Avenue de Tabora",
+            "check_date": "2025-09-27",
             "leisure": "fitness_centre",
             "name": "Centre Namurois des Sports",
             "name:fr": "Centre Namurois des Sports"
@@ -1269,15 +1260,36 @@
     },
     "node-4905560527": {
         "tags": {
+            "addr:city": "Poperinge",
+            "addr:housenumber": "17",
             "addr:postcode": "8970",
+            "addr:street": "Nieuwstraat",
             "leisure": "fitness_centre",
             "name": "Body Fit",
             "name:nl": "Body Fit",
-            "website": "http://www.bodyfit-poperinge.be"
+            "website": "https://www.bodyfit.be/"
         },
         "coord": [
-            2.7350432,
-            50.8539183
+            2.7347777,
+            50.853677
+        ]
+    },
+    "node-4908043236": {
+        "tags": {
+            "addr:city": "Buvrinnes",
+            "addr:housenumber": "396",
+            "addr:postcode": "7133",
+            "addr:street": "Rue de Merbes",
+            "brand": "CrossFit",
+            "brand:wikidata": "Q2072840",
+            "email": "crossfithawksnest@gmail.com",
+            "leisure": "fitness_centre",
+            "name": "CrossFit Hawks Nest",
+            "phone": "+32 64 28 19 15"
+        },
+        "coord": [
+            4.1747195,
+            50.382865
         ]
     },
     "node-4929599920": {
@@ -1313,7 +1325,7 @@
         "tags": {
             "brand": "CrossFit",
             "brand:wikidata": "Q2072840",
-            "contact:phone": "+32 476 25 30 03",
+            "contact:mobile": "+32 476 25 30 03",
             "contact:website": "http://crossfitrockrevolution.com",
             "leisure": "fitness_centre",
             "name": "CrossFit Rock Revolution",
@@ -1322,23 +1334,6 @@
         "coord": [
             4.3818732,
             50.8400484
-        ]
-    },
-    "node-5009563029": {
-        "tags": {
-            "addr:housenumber": "8",
-            "addr:place": "Place Saint-Paul",
-            "email": "liege@jimsfitness.com",
-            "leisure": "fitness_centre",
-            "name": "Jims",
-            "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-17:00",
-            "phone": "+32 4 221 23 53",
-            "sport": "fitness",
-            "website": "https://www.jims.be/fr/clubs/jims-li\u00e8ge"
-        },
-        "coord": [
-            5.5704522,
-            50.6398826
         ]
     },
     "node-5033952824": {
@@ -1425,7 +1420,6 @@
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-16:00",
-            "opening_hours:covid19": "restricted",
             "sport": "fitness;exercise",
             "website": "https://www.basic-fit.com/"
         },
@@ -1605,10 +1599,13 @@
             "addr:housenumber": "18",
             "addr:postcode": "3980",
             "addr:street": "Stationsstraat",
+            "email": "tessenderlo@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness Boutique Tessenderlo",
-            "phone": "+32 13 30 00 03",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-boutique-tessenderlo"
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su,PH 09:00-13:00",
+            "phone": "+32 13 26 92 43",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-tessenderlo"
         },
         "coord": [
             5.0906077,
@@ -1810,8 +1807,11 @@
     },
     "node-5708890556": {
         "tags": {
+            "brand": "Anytime Fitness",
+            "brand:wikidata": "Q4778364",
             "leisure": "fitness_centre",
             "name": "Anytime Fitness",
+            "opening_hours": "24/7",
             "website": "https://www.anytimefitness.nl/gyms/nl-1093/lommel-belgi%C3%AB-limburg-3920/"
         },
         "coord": [
@@ -2049,7 +2049,10 @@
     },
     "node-6178492745": {
         "tags": {
+            "addr:city": "Oostende",
+            "addr:country": "BE",
             "addr:housenumber": "611",
+            "addr:postcode": "8400",
             "addr:street": "Torhoutsesteenweg",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
@@ -2128,7 +2131,7 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
-            "check_date": "2024-02-09",
+            "check_date": "2025-11-19",
             "contact:website": "https://www.basic-fit.com/fr-be/salles-de-fitness/brussels-arts-loi",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
@@ -2158,13 +2161,17 @@
     "node-6240592007": {
         "tags": {
             "addr:city": "Maaseik",
-            "addr:housenumber": "24",
+            "addr:housenumber": "21",
             "addr:postcode": "3680",
             "addr:street": "Kloosterbempden",
+            "addr:unit": "2",
+            "email": "maaseik@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Maaseik",
+            "name": "Jims",
+            "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-20:00; Sa,Su,PH 09:00-13:00",
+            "phone": "+32 89 21 88 32",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/nl/over-ons/nrg-maaseik/",
+            "website": "https://www.jims.be/nl/clubs/jims-maaseik",
             "wheelchair": "yes"
         },
         "coord": [
@@ -2233,11 +2240,8 @@
     },
     "node-6342531541": {
         "tags": {
-            "addr:city": "Geel",
-            "addr:housenumber": "79",
-            "addr:postcode": "2440",
+            "addr:housenumber": "79B",
             "addr:street": "Antwerpseweg",
-            "addr:unit": "D",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
@@ -2246,12 +2250,13 @@
             "level": "0",
             "name": "Basic-Fit",
             "opening_hours": "Mo-Fr 07:00-22:30; Sa,Su 09:00-16:00",
+            "ref:vatin": "BE0810.221.697",
             "sport": "fitness",
             "website": "https://www.basic-fit.com"
         },
         "coord": [
-            4.9589497,
-            51.1470941
+            4.9589511,
+            51.1470844
         ]
     },
     "node-6350707012": {
@@ -2261,10 +2266,10 @@
             "addr:postcode": "8790",
             "addr:street": "Zuiderlaan",
             "branch": "Waregem",
-            "brand": "NRG Fitness Premium",
+            "brand": "Jims",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness Premium",
-            "website": "https://www.nrgpremium.be/"
+            "name": "Jims",
+            "website": "https://www.jims.be/nl/clubs/jims-waregem"
         },
         "coord": [
             3.4293982,
@@ -2350,19 +2355,21 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "layer": "-1",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "note": "is under the pedestrian streetlevel",
             "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-16:00",
             "sport": "fitness"
         },
         "coord": [
-            5.5713256,
-            50.6446467
+            5.5714666,
+            50.6446586
         ]
     },
     "node-6475766986": {
         "tags": {
-            "check_date": "2024-03-23",
+            "check_date": "2025-06-26",
             "contact:email": "brussels@yyoga.be",
             "contact:phone": "+32 2 201 74 97",
             "contact:website": "https://yyoga.be/studios/brussels/",
@@ -2465,6 +2472,9 @@
     },
     "node-6570509228": {
         "tags": {
+            "addr:housenumber": "2",
+            "addr:street": "Ren\u00e9 Deboecklaan",
+            "addr:unit": "1",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "changing_table": "no",
@@ -2473,6 +2483,8 @@
             "entrance:width": "0.77",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-halle-rene-deboecklaan-24-7-4acdb3d57ee44d1186d6b0e8bcb96c4d.html",
             "wheelchair:turning_circle": "yes"
         },
         "coord": [
@@ -2531,6 +2543,7 @@
             "leisure": "fitness_centre",
             "name": "Fit Halle",
             "opening_hours": "Mo-Tu 09:00-19:30; We 09:00-14:00; Th 09:00-19:30; Fr 09:00-17:00",
+            "phone": "+32 470 88 29 68",
             "website": "https://fithalle.be/"
         },
         "coord": [
@@ -2543,6 +2556,7 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "check_date": "2025-11-28",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7"
@@ -2600,8 +2614,8 @@
             "website": "https://www.basic-fit.com/nl-be/fitnessclub/basic-fit-hasselt-luikersteenweg-089bde845e2a424ca690162d5f7688b0.html"
         },
         "coord": [
-            5.3547188,
-            50.9089925
+            5.3547456,
+            50.9089604
         ]
     },
     "node-6828645221": {
@@ -2614,19 +2628,6 @@
         "coord": [
             4.4225272,
             51.2245742
-        ]
-    },
-    "node-6854438821": {
-        "tags": {
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "brand:wikipedia": "nl:Basic-Fit",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit"
-        },
-        "coord": [
-            4.4045083,
-            50.8582376
         ]
     },
     "node-6908105896": {
@@ -2654,6 +2655,23 @@
         "coord": [
             4.4099251,
             50.8432684
+        ]
+    },
+    "node-6923561081": {
+        "tags": {
+            "addr:city": "Aartselaar",
+            "addr:housenumber": "58",
+            "addr:postcode": "2630",
+            "addr:street": "Kapellestraat",
+            "contact:website": "https://easyactivestudio.be/aartselaar",
+            "leisure": "fitness_centre",
+            "name": "Easy Active Studio",
+            "opening_hours": "Mo-Su,PH 06:00-23:00",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.3890196,
+            51.1315087
         ]
     },
     "node-6924341406": {
@@ -2689,6 +2707,7 @@
     },
     "node-6984389207": {
         "tags": {
+            "check_date": "2026-04-29",
             "leisure": "fitness_centre",
             "name": "Bert boxing school (BBS)",
             "sport": "boxing",
@@ -2713,6 +2732,23 @@
         "coord": [
             5.4298784,
             51.2182549
+        ]
+    },
+    "node-7002616704": {
+        "tags": {
+            "addr:housenumber": "51B",
+            "addr:street": "Kattestraat",
+            "email": "heist-op-den-berg@jims.be",
+            "leisure": "fitness_centre",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su,PH 09:00-16:00",
+            "phone": "+32 15 34 39 84",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-heist-op-den-berg"
+        },
+        "coord": [
+            4.7176362,
+            51.0749271
         ]
     },
     "node-7006511843": {
@@ -2767,8 +2803,11 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "check_date": "2026-02-11",
+            "check_date:opening_hours": "2026-02-11",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "24/7",
             "sport": "fitness",
             "website": "https://www.basic-fit.com"
         },
@@ -2800,16 +2839,19 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "check_date": "2026-02-11",
+            "check_date:opening_hours": "2026-02-11",
+            "internet_access": "wlan",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
-            "opening_hours": "Mo-Fr 07:00-22:30; PH,Sa,Su 09:00-16:00",
+            "opening_hours": "24/7",
             "sport": "fitness",
             "website": "https://www.basic-fit.com",
             "wheelchair": "limited"
         },
         "coord": [
-            4.4193349,
-            51.1842275
+            4.4195427,
+            51.1839743
         ]
     },
     "node-7023057227": {
@@ -2831,29 +2873,16 @@
             51.2445245
         ]
     },
-    "node-7023057228": {
-        "tags": {
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "brand:wikipedia": "nl:Basic-Fit",
-            "check_date": "2024-09-15",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit",
-            "sport": "fitness",
-            "website": "https://www.basic-fit.com"
-        },
-        "coord": [
-            4.4096331,
-            51.2067104
-        ]
-    },
     "node-7023057229": {
         "tags": {
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "check_date": "2026-02-11",
+            "check_date:opening_hours": "2026-02-11",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su 09:00-16:00",
             "sport": "fitness",
             "website": "https://www.basic-fit.com"
         },
@@ -2946,7 +2975,8 @@
     "node-7126275493": {
         "tags": {
             "leisure": "fitness_centre",
-            "name": "Spirit Fitness"
+            "name": "Spirit Fitness",
+            "opening_hours": "Mo,Th 08:00-12:00,17:30-21:00; Tu 08:00-12:00,17:30-20:30; We 08:00-12:00,17:00-21:00; Fr 08:00-12:00,17:00-19:30; Sa 09:00-12:00"
         },
         "coord": [
             3.2168357,
@@ -2991,10 +3021,13 @@
             "addr:housenumber": "116",
             "addr:postcode": "2450",
             "addr:street": "Olmsebaan",
+            "email": "meerhout@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness Boutique Meerhout",
-            "phone": "+32 14 30 15 00",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-boutique-meerhout"
+            "name": "Jims",
+            "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-20:00; Sa,Su,PH 09:00-13:00",
+            "phone": "+32 14 70 44 09",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-meerhout"
         },
         "coord": [
             5.1093884,
@@ -3008,8 +3041,10 @@
             "addr:postcode": "8560",
             "addr:street": "europalaan",
             "check_date": "2025-02-28",
+            "email": "info@topform-gullegem.be",
             "leisure": "fitness_centre",
             "name": "Topform",
+            "opening_hours": "Mo 08:00-12:00, 16:00-21:00; Tu-We 08:00-12:00, 14:00-21:00; Th 08:00-12:00, 16:00-21:00; Fr 08:00-12:00, 14:00-21:00; Sa 08:00-12:00",
             "phone": "+32 56 42 19 25",
             "website": "https://www.topvorm-gullegem.be/"
         },
@@ -3080,10 +3115,13 @@
             "addr:housenumber": "40",
             "addr:postcode": "9230",
             "addr:street": "Cooppallaan",
+            "email": "wetteren@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Wetteren",
-            "opening_hours": "Mo-Fr 08:00-22:00; Sa, Su, PH 09:00-16:00; Dec 25 off; Jan 01 off",
-            "website": "https://www.nrgfitness.be"
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa,Su,PH 09:00-16:00; Dec 25 off; Jan 01 off",
+            "phone": "+32 9 369 30 09",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-wetteren"
         },
         "coord": [
             3.876134,
@@ -3159,35 +3197,13 @@
             51.038254
         ]
     },
-    "node-7486156596": {
-        "tags": {
-            "addr:city": "Braine-l'Alleud",
-            "addr:housenumber": "79",
-            "addr:postcode": "1420",
-            "addr:street": "Avenue L\u00e9on Jourez",
-            "addr:unit": "7",
-            "contact:facebook": "https://www.facebook.com/Le-Gymnasium-117348571698401",
-            "leisure": "fitness_centre",
-            "name": "Le Gymnasium",
-            "opening_hours": "Mo-Th 09:00-21:30; Fr 09:00-21:00; Sa,Su,PH 10:00-16:00",
-            "personal_trainer": "yes",
-            "phone": "+32 2 384 13 58",
-            "sauna": "yes",
-            "sport": "fitness;weightlifting;gymnastics",
-            "website": "https://www.le-gymnasium.be"
-        },
-        "coord": [
-            4.3742675,
-            50.6857789
-        ]
-    },
     "node-7495013501": {
         "tags": {
             "addr:housenumber": "181",
             "addr:street": "Dorpstraat",
             "check_date:opening_hours": "2023-04-17",
             "leisure": "fitness_centre",
-            "name": "Mansion",
+            "name": "Gym Mansion",
             "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su 06:00-18:00",
             "phone": "+32 16 60 61 72",
             "website": "https://phybie1.wixsite.com/website?lang=nl",
@@ -3279,24 +3295,9 @@
             51.0019623
         ]
     },
-    "node-7845591005": {
-        "tags": {
-            "addr:city": "Herk-de-Stad",
-            "addr:housenumber": "111",
-            "addr:postcode": "3540",
-            "addr:street": "Sint-Jorislaan",
-            "leisure": "fitness_centre",
-            "name": "FIT & CO",
-            "website": "https://www.fitenco.be/"
-        },
-        "coord": [
-            5.1938238,
-            50.9553885
-        ]
-    },
     "node-7856894509": {
         "tags": {
-            "check_date:opening_hours": "2022-12-19",
+            "check_date:opening_hours": "2025-10-22",
             "contact:phone": "+32 2 515 69 81",
             "contact:website": "https://www.emergencexl.com",
             "leisure": "fitness_centre",
@@ -3381,7 +3382,8 @@
             "addr:postcode": "4121",
             "addr:street": "Route du Condroz",
             "leisure": "fitness_centre",
-            "name": "MS Fitness"
+            "name": "Condroz Fit",
+            "website": "https://www.condrozfit.be/"
         },
         "coord": [
             5.4808536,
@@ -3481,7 +3483,7 @@
         "tags": {
             "addr:housenumber": "279",
             "addr:street": "Mechelsesteenweg",
-            "check_date": "2023-11-09",
+            "check_date": "2025-12-13",
             "email": "antwerpen@jimsfitness.com",
             "leisure": "fitness_centre",
             "name": "Jims Antwerpen",
@@ -3628,16 +3630,19 @@
     },
     "node-8824385274": {
         "tags": {
+            "branch": "Victor Hugo - Braine-l'Alleud",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
+            "contact:website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-braine-l%E2%80%99alleud-victor-hugo-24-7-25c7c4e8541c47469002b28e6427dfa1.html",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "24/7",
             "sport": "fitness"
         },
         "coord": [
-            4.4016132,
-            50.6856221
+            4.4016283,
+            50.6856043
         ]
     },
     "node-8852258931": {
@@ -3698,6 +3703,7 @@
             "addr:housenumber": "18",
             "addr:postcode": "2400",
             "addr:street": "Rode-Kruislaan",
+            "branch": "Mol",
             "email": "mol@moozegym.be",
             "leisure": "fitness_centre",
             "name": "Mooze Mol",
@@ -3834,7 +3840,7 @@
     "node-9190337841": {
         "tags": {
             "contact:email": "info@theyogaloft.be",
-            "contact:phone": "+32 484 12 34 56",
+            "contact:mobile": "+32 484 12 34 56",
             "contact:website": "https://brusselsyogaloft.com/",
             "full_name": "Brussels Yoga Loft Tomberg",
             "leisure": "fitness_centre",
@@ -3860,10 +3866,28 @@
             50.8816649
         ]
     },
+    "node-9238180528": {
+        "tags": {
+            "addr:city": "Arlon",
+            "addr:housenumber": "398",
+            "addr:postcode": "6700",
+            "addr:street": "Avenue de Longwy",
+            "addr:unit": "B",
+            "branch": "Ryborn",
+            "brand": "CrossFit",
+            "brand:wikidata": "Q2072840",
+            "leisure": "fitness_centre",
+            "name": "CrossFit"
+        },
+        "coord": [
+            5.824454,
+            49.6681777
+        ]
+    },
     "node-9239946460": {
         "tags": {
             "contact:email": "info@theyogaloft.be",
-            "contact:phone": "+32 484 12 34 56",
+            "contact:mobile": "+32 484 12 34 56",
             "contact:website": "https://brusselsyogaloft.com/",
             "full_name": "Brussels Yoga Loft Chatelain",
             "leisure": "fitness_centre",
@@ -3905,11 +3929,15 @@
     },
     "node-9300699191": {
         "tags": {
-            "email": "schilde@nrgfitness.be",
+            "addr:housenumber": "350",
+            "addr:street": "Turnhoutsebaan",
+            "email": "schilde@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG fitness premium",
-            "opening_hours": "Mo-Fr 07:00-22:00; PH,Sa,Su 09:00-16:00",
-            "phone": "+32 3 380 11 11"
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su,PH 09:00-20:00",
+            "phone": "+32 3 380 11 11",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-schilde"
         },
         "coord": [
             4.5862997,
@@ -4050,8 +4078,9 @@
             "addr:postcode": "2000",
             "addr:street": "Itali\u00eblei",
             "branch": "Reload",
+            "check_date": "2025-10-03",
             "leisure": "fitness_centre",
-            "name": "Reload",
+            "name": "Release North",
             "old_name": "Sportclub Het Eiland - Urban Cross Workouts",
             "phone": "+32 3 227 15 37",
             "sport": "crossfit;gym;fitness",
@@ -4107,6 +4136,7 @@
             "addr:housenumber": "9",
             "addr:postcode": "1340",
             "addr:street": "Espace du Coeur de Ville",
+            "check_date": "2026-04-06",
             "leisure": "fitness_centre",
             "name": "Newfit",
             "opening_hours": "Mo-Th 09:00-21:30; Fr 08:30-21:00; Sa-Su 10:00-14:00",
@@ -4189,6 +4219,21 @@
         "coord": [
             4.4256428,
             51.1750497
+        ]
+    },
+    "node-9751635567": {
+        "tags": {
+            "contact:email": "Daphne@serenityoga.be",
+            "contact:facebook": "https://www.facebook.com/Daphneserenityoga",
+            "contact:phone": "+32 472 89 06 69",
+            "contact:website": "https://www.serenityoga.be/",
+            "leisure": "fitness_centre",
+            "name": "Serenityoga",
+            "sport": "yoga"
+        },
+        "coord": [
+            4.3303368,
+            50.692809
         ]
     },
     "node-9756501154": {
@@ -4299,19 +4344,6 @@
             50.8400272
         ]
     },
-    "node-9885560868": {
-        "tags": {
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "brand:wikipedia": "nl:Basic-Fit",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit"
-        },
-        "coord": [
-            4.3552879,
-            50.8266754
-        ]
-    },
     "node-9900080318": {
         "tags": {
             "leisure": "fitness_centre",
@@ -4360,6 +4392,21 @@
         "coord": [
             4.3217047,
             50.8364478
+        ]
+    },
+    "node-9968069926": {
+        "tags": {
+            "contact:email": "nivelles@jims.be",
+            "contact:phone": "+32 67 33 56 19",
+            "contact:website": "https://www.jims.be/fr/clubs/jims-nivelles",
+            "leisure": "fitness_centre",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su 09:00-17:00",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.3267109,
+            50.5995934
         ]
     },
     "node-9999497935": {
@@ -4426,16 +4473,16 @@
     "node-10159564578": {
         "tags": {
             "addr:city": "Tielt",
-            "addr:housenumber": "56",
+            "addr:housenumber": "6",
             "addr:postcode": "8700",
-            "addr:street": "Kortrijkstraat",
-            "email": "tielt@nrgfitness.be",
+            "addr:street": "Vakstraat",
+            "email": "tielt@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Premium Tielt",
-            "opening_hours": "Mo-Th 08:30-22:30; Fr 08:30-21:30; Sa-Su 09:00-13:00",
-            "phone": "+32 51 42 49 15",
+            "name": "Jims",
+            "opening_hours": "Mo-Th 08:00-22:30; Fr 08:00-18:00; Sa,Su,PH 09:00-17:00",
+            "phone": "+32 51 43 37 48",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/club/nrg-premium-tielt"
+            "website": "https://www.jims.be/nl/clubs/jims-tielt"
         },
         "coord": [
             3.3273958,
@@ -4655,6 +4702,18 @@
             50.8168602
         ]
     },
+    "node-10653096002": {
+        "tags": {
+            "contact:website": "https://form.coach/",
+            "leisure": "fitness_centre",
+            "name": "form. centre",
+            "old_name": "Leah Specialty Bar & Shop"
+        },
+        "coord": [
+            4.4771922,
+            51.0263446
+        ]
+    },
     "node-10700649992": {
         "tags": {
             "check_date": "2024-06-03",
@@ -4679,13 +4738,16 @@
     },
     "node-10731313105": {
         "tags": {
-            "contact:website": "https://cyclostudio.be/",
+            "contact:website": "https://cyclostudio.be/studio-brussel/",
+            "email": "info@cyclostudio.be",
             "leisure": "fitness_centre",
-            "name": "Cyclo Studio Bxl"
+            "name": "Cyclo Studio Bxl",
+            "opening_hours": "Mo-Th 17:00-22:00; Sa-Su 9:45-12:00",
+            "sport": "cycling"
         },
         "coord": [
-            4.3481843,
-            50.8664109
+            4.347055,
+            50.8654006
         ]
     },
     "node-10739057544": {
@@ -4759,7 +4821,7 @@
             "leisure": "fitness_centre",
             "level": "1",
             "name": "Jims Brugge",
-            "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-17:00",
+            "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 09:00-17:00",
             "phone": "+32 50 31 02 60",
             "sport": "fitness",
             "website": "https://www.jims.be/nl/clubs/jims-brugge"
@@ -4813,20 +4875,9 @@
             50.7251243
         ]
     },
-    "node-10907554850": {
-        "tags": {
-            "leisure": "fitness_centre",
-            "name": "Shanti",
-            "sport": "yoga",
-            "website": "https://www.yoga.gent/"
-        },
-        "coord": [
-            3.7291913,
-            51.0550732
-        ]
-    },
     "node-10922054325": {
         "tags": {
+            "check_date:opening_hours": "2026-02-01",
             "contact:email": "louise@jimsfitness.com",
             "contact:phone": "+32 2 420 40 06",
             "contact:website": "https://www.jims.be/fr/clubs/jims-bxl-louise",
@@ -4875,6 +4926,20 @@
             50.9781351
         ]
     },
+    "node-10935331020": {
+        "tags": {
+            "addr:city": "De Pinte",
+            "addr:housenumber": "3",
+            "addr:postcode": "9840",
+            "addr:street": "Pintestraat",
+            "leisure": "fitness_centre",
+            "name": "XO FitLab"
+        },
+        "coord": [
+            3.64871,
+            50.9916318
+        ]
+    },
     "node-10969738054": {
         "tags": {
             "leisure": "fitness_centre",
@@ -4883,6 +4948,28 @@
         "coord": [
             3.2412709,
             51.3301889
+        ]
+    },
+    "node-10996161334": {
+        "tags": {
+            "addr:city": "Jemeppe-sur-Sambre",
+            "addr:housenumber": "55",
+            "addr:postcode": "5190",
+            "addr:street": "Route de Saussin",
+            "addr:unit": "5A",
+            "club": "sport",
+            "contact:facebook": "https://www.facebook.com/profile.php?id=61553577988013",
+            "email": "info@crossfitasterion.be",
+            "leisure": "fitness_centre",
+            "mobile": "+32 492 06 33 35",
+            "name": "Asterion",
+            "opening_hours": "Mo-Tu 10:00-12:00,17:30-21:00; We 10:00-12:00,16:30-21:00; Th 10:00-12:00,17:30-21:00; Fr 10:00-12:00,17:30-20:00; Sa-Su 10:00-13:30",
+            "sport": "crossfit",
+            "website": "https://www.asterionhq.be/"
+        },
+        "coord": [
+            4.7211975,
+            50.4934247
         ]
     },
     "node-11005532387": {
@@ -4964,6 +5051,7 @@
         "tags": {
             "addr:housenumber": "57A",
             "addr:street": "Waalsekaai",
+            "check_date": "2026-03-12",
             "leisure": "fitness_centre",
             "name": "The Brick Gym",
             "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 08:00-21:00",
@@ -4979,6 +5067,7 @@
         "tags": {
             "addr:housenumber": "58",
             "addr:street": "Waalsekaai",
+            "check_date": "2026-03-12",
             "leisure": "fitness_centre",
             "name": "The Brick CrossFit",
             "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su 09:00-13:00",
@@ -5171,14 +5260,18 @@
     },
     "node-11176800230": {
         "tags": {
+            "contact:email": "bxl@fyzix.be",
+            "contact:facebook": "https://www.facebook.com/fyzixgaremaritime/",
+            "contact:phone": "+32 2 681 22 96",
+            "contact:website": "https://www.fyzix-fitness.be/",
             "leisure": "fitness_centre",
             "name": "Fyzix",
             "sport": "fitness",
             "wheelchair": "yes"
         },
         "coord": [
-            4.3447567,
-            50.8651851
+            4.3448072,
+            50.8652022
         ]
     },
     "node-11190604465": {
@@ -5212,8 +5305,11 @@
     "node-11197529598": {
         "tags": {
             "brand": "Starting Strength",
+            "contact:facebook": "brusselsbarbell",
+            "contact:instagram": "brusselsbarbell",
             "contact:mobile": "+32 472 74 28 26",
             "contact:website": "https://brusselsbarbell.com/",
+            "email": "steve.ross@brusselsbarbell.com",
             "leisure": "fitness_centre",
             "name": "Brussels Barbell",
             "sport": "weightlifting"
@@ -5243,6 +5339,8 @@
         "tags": {
             "addr:housenumber": "3",
             "addr:street": "Gobelinstraat",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-oudenaarde-gobelinstraat-24-7-dc04f07f3e7441f0b43c07adac4996c7.html"
@@ -5293,8 +5391,8 @@
             "sport": "yoga"
         },
         "coord": [
-            4.1760163,
-            50.4120645
+            4.1760107,
+            50.4120743
         ]
     },
     "node-11279115654": {
@@ -5379,8 +5477,27 @@
             51.0888336
         ]
     },
+    "node-11336212286": {
+        "tags": {
+            "addr:housenumber": "516",
+            "addr:street": "Morekstraat",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "phone": "+32 2 588 77 10",
+            "sport": "fitness",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-wondelgem-morekstraat-24-7-df958b3c05854484b6613a7dbc552fd0.html"
+        },
+        "coord": [
+            3.7172457,
+            51.0898047
+        ]
+    },
     "node-11404418926": {
         "tags": {
+            "check_date:opening_hours": "2025-10-31",
             "contact:phone": "+32 2 534 14 62",
             "leisure": "fitness_centre",
             "name": "L'usine",
@@ -5442,7 +5559,8 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "opening_hours": "Mo-Su,PH 00:00-00:00"
         },
         "coord": [
             4.438235,
@@ -5557,13 +5675,13 @@
         "tags": {
             "addr:housenumber": "6",
             "addr:street": "Orlaylaan",
-            "email": "temse@nrgfitness.be",
+            "email": "temse@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness premium",
-            "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su,PH 09:00-16:00; Dec 25 off; Jan 1 off",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa-Su,PH 09:00-13:00; Dec 25 off; Jan 1 off",
             "phone": "+32 3 689 52 26",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-premium-temse"
+            "website": "https://www.jims.be/nl/clubs/jims-temse"
         },
         "coord": [
             4.2002979,
@@ -5590,7 +5708,10 @@
     },
     "node-11813651718": {
         "tags": {
+            "addr:city": "Oostende",
+            "addr:country": "BE",
             "addr:housenumber": "519",
+            "addr:postcode": "8400",
             "addr:street": "Torhoutsesteenweg",
             "email": "oostende@jimsfitness.com",
             "leisure": "fitness_centre",
@@ -5739,7 +5860,8 @@
     "node-11900486927": {
         "tags": {
             "leisure": "fitness_centre",
-            "name": "Body Training"
+            "name": "Body Training",
+            "wheelchair": "yes"
         },
         "coord": [
             4.378976,
@@ -5770,6 +5892,8 @@
             "brand:wikipedia": "nl:Basic-Fit",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-brussels-jette-vub-24-7-a7cdadf4fb3b432b9c1246bbe24a6422.html",
             "wheelchair": "no"
         },
         "coord": [
@@ -5810,9 +5934,7 @@
     },
     "node-11999681598": {
         "tags": {
-            "addr:city": "Herentals",
             "addr:housenumber": "58",
-            "addr:postcode": "2200",
             "addr:street": "Belgi\u00eblaan",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
@@ -5975,13 +6097,22 @@
     "node-11999681608": {
         "tags": {
             "addr:city": "Aalst",
+            "addr:floor": "G",
             "addr:housenumber": "9",
             "addr:postcode": "9300",
             "addr:street": "Kapiteintjesstraat",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
+            "check_date": "2026-05-06",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "payment:cash": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "phone": "+32 25887710",
+            "sport": "fitness",
+            "wheelchair": "yes"
         },
         "coord": [
             4.0351629,
@@ -5990,9 +6121,7 @@
     },
     "node-11999681609": {
         "tags": {
-            "addr:city": "Antwerpen",
             "addr:housenumber": "37",
-            "addr:postcode": "2000",
             "addr:street": "Riemstraat",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
@@ -6134,7 +6263,7 @@
             "leisure": "fitness_centre",
             "name": "Respiro",
             "opening_hours": "Mo 13:00-22:00; Tu-Th 07:30-22:00; Fr 09:00-21:00; Sa 09:00-16:00; Su 09:00-14:00",
-            "phone": "016 60 69 79",
+            "phone": "+32 16 60 69 79",
             "website": "https://www.respiro.be/"
         },
         "coord": [
@@ -6186,15 +6315,13 @@
     },
     "node-12077163167": {
         "tags": {
-            "addr:housenumber": "17",
-            "addr:street": "Oscar Van Kesbeeckstraat",
-            "email": "mechelen@nrgfitness.be",
+            "email": "mechelen@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness",
+            "name": "Jims",
             "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su,PH 09:00-16:00; Dec 25 off; Jan 1 off",
             "phone": "+32 15 64 88 90",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-mechelen"
+            "website": "https://www.jims.be/nl/clubs/jims-mechelen"
         },
         "coord": [
             4.4726986,
@@ -6229,6 +6356,7 @@
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7",
+            "sport": "fitness",
             "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-lanaken-steenweg-24-7-3ddb19793a13448a82b10719f2132518.html"
         },
         "coord": [
@@ -6239,7 +6367,8 @@
     "node-12100196765": {
         "tags": {
             "leisure": "fitness_centre",
-            "name": "Basic Fit Uccle"
+            "name": "Basic Fit Uccle",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa,Su,PH 09:00-16:00"
         },
         "coord": [
             4.339292,
@@ -6367,6 +6496,21 @@
         "coord": [
             3.7266647,
             51.0462835
+        ]
+    },
+    "node-12230201308": {
+        "tags": {
+            "contact:email": "jette@jimsfitness.com",
+            "contact:phone": "+32 2 426 81 00",
+            "contact:website": "https://www.jims.be/fr/clubs/jims-jette",
+            "leisure": "fitness_centre",
+            "name": "jims",
+            "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 09:00-17:00",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.3266106,
+            50.8718823
         ]
     },
     "node-12231342353": {
@@ -6558,8 +6702,8 @@
             "opening_hours": "Mo-Su 07:00-22:00"
         },
         "coord": [
-            4.3651655,
-            50.851795
+            4.3651863,
+            50.8517907
         ]
     },
     "node-12387225935": {
@@ -6579,9 +6723,13 @@
             "addr:housenumber": "5",
             "addr:postcode": "2950",
             "addr:street": "Eikendreef",
+            "email": "kapellen@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness Kapellen",
-            "sport": "fitness"
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su,PH 09:00-16:00",
+            "phone": "+32 3 288 80 43",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-kapellen"
         },
         "coord": [
             4.4266079,
@@ -6741,16 +6889,18 @@
     },
     "node-12481891893": {
         "tags": {
+            "addr:housenumber": "5",
+            "addr:street": "Zaatstraat",
             "leisure": "fitness_centre",
-            "name": "NRG",
+            "name": "Jim's",
             "opening_hours": "Mo-Fr 05:00-22:30; Sa,PH 09:00-16:00; Su 09:00-20:00",
-            "phone": "+3232933257",
+            "phone": "+3 293 32 57",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-schoten"
+            "website": "https://www.jims.be/nl/clubs/jims-schoten"
         },
         "coord": [
-            4.5070915,
-            51.253718
+            4.5071922,
+            51.2536323
         ]
     },
     "node-12507001819": {
@@ -6880,9 +7030,11 @@
     },
     "node-12613528444": {
         "tags": {
+            "branch": "florennes",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit",
-            "opening_hours": "24/7"
+            "name": "Basic-Fit"
         },
         "coord": [
             4.6103562,
@@ -6931,6 +7083,21 @@
             50.8224226
         ]
     },
+    "node-12749860702": {
+        "tags": {
+            "email": "jackysgym@skynet.be",
+            "leisure": "fitness_centre",
+            "name": "Jacky's Gym",
+            "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 09:00-13:00",
+            "phone": "+32 477 17 46 87",
+            "start_date": "1978",
+            "website": "https://www.jackysgym.com/"
+        },
+        "coord": [
+            3.6816701,
+            51.1061975
+        ]
+    },
     "node-12752310773": {
         "tags": {
             "contact:phone": "+32 2 588 77 10",
@@ -6975,7 +7142,7 @@
             "name": "De Loft",
             "opening_hours": "Mo-Su 06:00-23:00",
             "sport": "fitness",
-            "website": "deloft-fitness.be"
+            "website": "https://www.deloft-fitness.be/"
         },
         "coord": [
             3.1988105,
@@ -6988,7 +7155,7 @@
             "name": "De Loft",
             "opening_hours": "Mo-Su 06:00-23:00",
             "sport": "fitness",
-            "website": "deloft-fitness.be"
+            "website": "https://www.deloft-fitness.be/"
         },
         "coord": [
             3.2726531,
@@ -6999,12 +7166,1086 @@
         "tags": {
             "addr:housenumber": "6A",
             "addr:street": "Aarschotsesteenweg",
+            "branch": "Lier Mol",
+            "contact:email": "lier.mol@jims.be",
+            "contact:phone": "+32 3 689 23 19",
+            "contact:website": "https://www.jims.be/nl/clubs/jims-lier-mol",
             "leisure": "fitness_centre",
-            "name": "NRG Lier (Mol)"
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa,Su,PH 09:00-16:00",
+            "sport": "fitness"
         },
         "coord": [
             4.5758714,
             51.1240782
+        ]
+    },
+    "node-12842678301": {
+        "tags": {
+            "access": "customers",
+            "addr:housenumber": "90A",
+            "addr:street": "Nijverheidstraat",
+            "created_by": "On Wheels: 3.0.3",
+            "entrance:kerb:height": "0.12",
+            "entrance:step_count": "1",
+            "entrance:width": "1.13",
+            "leisure": "fitness_centre",
+            "name": "Encore Coaching"
+        },
+        "coord": [
+            3.9919331,
+            51.1096202
+        ]
+    },
+    "node-12847813494": {
+        "tags": {
+            "addr:housenumber": "21/2",
+            "addr:street": "Sint-Pieterstraat",
+            "addr:street_official": "St.-Pieterstraat",
+            "contact:facebook": "https://www.facebook.com/deyogastee.be/",
+            "contact:instagram": "https://www.instagram.com/de_yogastee/",
+            "email": "info@deyogastee.be",
+            "leisure": "fitness_centre",
+            "name": "De Yogastee",
+            "phone": "+32 495 94 28 25",
+            "sport": "yoga",
+            "website": "https://deyogastee.be/"
+        },
+        "coord": [
+            5.1144127,
+            51.1880427
+        ]
+    },
+    "node-12862146163": {
+        "tags": {
+            "addr:housenumber": "69",
+            "addr:street": "Legeweg",
+            "check_date": "2025-07-27",
+            "fee": "yes",
+            "leisure": "fitness_centre",
+            "name": "Grit.",
+            "payment:cash": "yes",
+            "payment:contactless": "yes",
+            "payment:credit_cards": "yes",
+            "payment:debit_cards": "yes",
+            "payment:maestro": "yes",
+            "phone": "+32 474 01 02 83; +32 496 24 68 42",
+            "source": "local knowledge",
+            "sport": "fitness",
+            "website": "https://gritbrugge.be",
+            "wheelchair": "yes"
+        },
+        "coord": [
+            3.2061648,
+            51.2042233
+        ]
+    },
+    "node-12866606085": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Gyym Tonic - Spa"
+        },
+        "coord": [
+            5.8579874,
+            50.4922914
+        ]
+    },
+    "node-12923219407": {
+        "tags": {
+            "addr:city": "Gent",
+            "addr:housenumber": "88",
+            "addr:postcode": "9000",
+            "addr:street": "Veldstraat",
+            "check_date": "2025-06-18",
+            "contact:instagram": "zweet.club",
+            "currency:XBT": "yes",
+            "email": "hello@zweet.club",
+            "leisure": "fitness_centre",
+            "level": "1",
+            "name": "Zweet Club",
+            "opening_hours": "Mo-Fr 06:30-21:30; Sa-Su 09:00-16:30",
+            "payment:lightning": "yes",
+            "payment:lightning_contactless": "no",
+            "payment:onchain": "yes",
+            "sport": "fitness",
+            "survey:date": "2025-06-18",
+            "website": "https://www.zweet.club/"
+        },
+        "coord": [
+            3.720952,
+            51.0509529
+        ]
+    },
+    "node-12952232031": {
+        "tags": {
+            "addr:city": "Veurne",
+            "addr:housenumber": "127",
+            "addr:postcode": "8630",
+            "addr:street": "Ieperse Steenweg",
+            "addr:unit": "B",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness;weightlifting",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-veurne-ieperse-steenweg-24-7-c979283586d5437a86430f95e4b27fd1.html"
+        },
+        "coord": [
+            2.6656057,
+            51.0601904
+        ]
+    },
+    "node-12980110399": {
+        "tags": {
+            "contact:instagram": "stephanie.point.yoga",
+            "contact:mobile": "+32 499 41 78 78",
+            "leisure": "fitness_centre",
+            "name": "Point Yoga",
+            "sport": "yoga"
+        },
+        "coord": [
+            5.5105078,
+            50.6621526
+        ]
+    },
+    "node-12994127164": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Yoga room",
+            "sport": "yoga"
+        },
+        "coord": [
+            4.4086444,
+            50.7087474
+        ]
+    },
+    "node-13013018301": {
+        "tags": {
+            "addr:housenumber": "380",
+            "addr:street": "Mechelsesteenweg",
+            "branch": "Lier Sas",
+            "email": "lier.sas@jims.be",
+            "internet_access": "wlan",
+            "leisure": "fitness_centre",
+            "level": "0",
+            "name": "Jims Sas Lier",
+            "opening_hours": "Mo,We,Fr 07:00-22:00; Tu,Th 08:00-22:00; Sa,Su,PH 09:00-18:00",
+            "phone": "+32 3 434 88 06",
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-lier-sas"
+        },
+        "coord": [
+            4.5250616,
+            51.1094438
+        ]
+    },
+    "node-13019750524": {
+        "tags": {
+            "addr:housenumber": "95",
+            "addr:street": "Albert I-laan",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-nieuwpoort-albert-i-laan-24-7-8fa20884d3a34b7dbbb7daab9904f3da.html"
+        },
+        "coord": [
+            2.7308238,
+            51.1437813
+        ]
+    },
+    "node-13075517401": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "gezondfitDilbeek"
+        },
+        "coord": [
+            4.2174898,
+            50.8785057
+        ]
+    },
+    "node-13076067947": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Kailash Yoga",
+            "sport": "yoga"
+        },
+        "coord": [
+            4.8714352,
+            50.4676117
+        ]
+    },
+    "node-13077476365": {
+        "tags": {
+            "addr:city": "Embourg",
+            "addr:housenumber": "150",
+            "addr:postcode": "4053",
+            "addr:street": "Voie de Li\u00e8ge",
+            "leisure": "fitness_centre",
+            "name": "Id\u00e9al fitness",
+            "phone": "+32 467 07 51 95"
+        },
+        "coord": [
+            5.617035,
+            50.5890722
+        ]
+    },
+    "node-13078088568": {
+        "tags": {
+            "addr:city": "Beaufays",
+            "addr:housenumber": "66",
+            "addr:postcode": "4052",
+            "addr:street": "Route de l'Abbaye",
+            "leisure": "fitness_centre",
+            "name": "Power Plate Certified Li\u00e8ge",
+            "phone": "+32471 39 16 09"
+        },
+        "coord": [
+            5.6429269,
+            50.5641141
+        ]
+    },
+    "node-13078256758": {
+        "tags": {
+            "email": "elise@boubouge.be",
+            "leisure": "fitness_centre",
+            "name": "boubouge",
+            "phone": "+32 474 44 02 98",
+            "website": "https://www.boubouge.be"
+        },
+        "coord": [
+            3.739677,
+            51.0370101
+        ]
+    },
+    "node-13078841815": {
+        "tags": {
+            "branch": "Cinquantenaire",
+            "contact:website": "https://www.animo-studios.com/cinquantenaire",
+            "leisure": "fitness_centre",
+            "name": "Animo"
+        },
+        "coord": [
+            4.3862103,
+            50.8388911
+        ]
+    },
+    "node-13086358644": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Body training studio",
+            "phone": "+32 478 79 79 79"
+        },
+        "coord": [
+            5.6204986,
+            50.5692556
+        ]
+    },
+    "node-13089077302": {
+        "tags": {
+            "addr:housenumber": "45",
+            "addr:street": "Smiskensstraat",
+            "email": "hallo@clubsterker.be",
+            "internet_access": "wlan",
+            "leisure": "fitness_centre",
+            "mobile": "+32 494 41 66 05",
+            "name": "Club Sterker",
+            "opening_hours": "Mo,We,Th 07:00-22:00; Tu 07:00-22:30; Fr 07:00-19:00; Sa-Su 07:00-13:00",
+            "website": "https://clubsterker.be/"
+        },
+        "coord": [
+            4.9460413,
+            51.3139176
+        ]
+    },
+    "node-13094976725": {
+        "tags": {
+            "contact:website": "https://www.aspria.com/en/brussels-arts-loi",
+            "leisure": "fitness_centre",
+            "level": "1;2",
+            "name": "Aspria",
+            "opening_hours": "Mo-Fr 06:30-22:30; Sa,Su,PH 09:00-19:00; Dec 25 off",
+            "swimming_pool": "indoor"
+        },
+        "coord": [
+            4.3696949,
+            50.8428628
+        ]
+    },
+    "node-13096954309": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "The Fitstudio",
+            "phone": "+32 478 48 43 42",
+            "website": "https://www.thefitstudio.be/"
+        },
+        "coord": [
+            3.0351083,
+            51.2714837
+        ]
+    },
+    "node-13097243800": {
+        "tags": {
+            "contact:housenumber": "71B",
+            "contact:street": "Avenue Louise - Louizalaan",
+            "contact:website": "https://www.aspria.com/en/brussels-avenue-louise",
+            "leisure": "fitness_centre",
+            "name": "Aspria",
+            "reservation": "members_only"
+        },
+        "coord": [
+            4.3573815,
+            50.8324258
+        ]
+    },
+    "node-13113088155": {
+        "tags": {
+            "addr:housenumber": "1071",
+            "addr:street": "Kortrijksesteenweg",
+            "addr:unit": "0401A",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "contact:website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-gent-sint-denijs-westrem-24-7-a4feddbf2c5143d3a944438afad13c03.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            3.6856083,
+            51.0197698
+        ]
+    },
+    "node-13137787462": {
+        "tags": {
+            "addr:city": "Heusden-Zolder",
+            "addr:country": "BE",
+            "addr:housenumber": "17",
+            "addr:postcode": "3550",
+            "addr:street": "Dorpsstraat",
+            "leisure": "fitness_centre",
+            "name": "New Gym",
+            "phone": "+32 1153 68 15",
+            "website": "http://www.newgym.be/"
+        },
+        "coord": [
+            5.3115895,
+            51.0231892
+        ]
+    },
+    "node-13138298342": {
+        "tags": {
+            "addr:housenumber": "172",
+            "addr:street": "Heiveldstraat",
+            "email": "info@militarysportacademy.com",
+            "leisure": "fitness_centre",
+            "name": "Military Sport Academy",
+            "website": "https://militarysportacademy.com/"
+        },
+        "coord": [
+            3.7600146,
+            51.0637199
+        ]
+    },
+    "node-13167230839": {
+        "tags": {
+            "contact:website": "https://form.coach/",
+            "leisure": "fitness_centre",
+            "name": "form.south"
+        },
+        "coord": [
+            4.4664132,
+            51.0178676
+        ]
+    },
+    "node-13167257169": {
+        "tags": {
+            "contact:website": "https://form.coach/",
+            "leisure": "fitness_centre",
+            "name": "form. west"
+        },
+        "coord": [
+            4.4677469,
+            51.0274559
+        ]
+    },
+    "node-13179051791": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "X-Treme Fitness",
+            "phone": "+32 83 21 24 52",
+            "sauna": "yes",
+            "swimming_pool": "yes",
+            "website": "http://x-tremefitness.be/"
+        },
+        "coord": [
+            5.1140111,
+            50.3139435
+        ]
+    },
+    "node-13190548123": {
+        "tags": {
+            "addr:housenumber": "47",
+            "addr:postcode": "2000",
+            "addr:street": "Hopland",
+            "branch": "Release City",
+            "check_date": "2025-10-03",
+            "email": "hello@release-antwerp.be",
+            "leisure": "fitness_centre",
+            "name": "Release",
+            "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su,PH 08:00-17:00",
+            "phone": "+32 32271537",
+            "website": "https://release-antwerp.be"
+        },
+        "coord": [
+            4.4117893,
+            51.2168186
+        ]
+    },
+    "node-13228309662": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Jims"
+        },
+        "coord": [
+            5.2008243,
+            50.8284019
+        ]
+    },
+    "node-13243825871": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit"
+        },
+        "coord": [
+            2.9705291,
+            51.2505964
+        ]
+    },
+    "node-13254570314": {
+        "tags": {
+            "amenity": "bench",
+            "backrest": "yes",
+            "leisure": "fitness_centre",
+            "name": "Beweegbank"
+        },
+        "coord": [
+            5.1615304,
+            50.9432058
+        ]
+    },
+    "node-13289175428": {
+        "tags": {
+            "contact:email": "kampenhout@jims.be",
+            "contact:phone": "+32 16 43 50 62",
+            "contact:website": "https://www.jims.be/nl/clubs/jims-kampenhout",
+            "leisure": "fitness_centre",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-22:00; Sa,Su,PH 09:00-13:00",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.5569751,
+            50.9412946
+        ]
+    },
+    "node-13300245563": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Mahss",
+            "sport": "fitness",
+            "website": "https://www.mahss.info"
+        },
+        "coord": [
+            5.7114409,
+            50.9449647
+        ]
+    },
+    "node-13304556347": {
+        "tags": {
+            "addr:city": "Amay",
+            "addr:housenumber": "37",
+            "addr:postcode": "4540",
+            "addr:street": "Quai de Lorraine",
+            "leisure": "fitness_centre",
+            "name": "4BodyEvolution Ampsin - Box Hyrox",
+            "opening_hours": "Mo 07:15-20:45; Tu 10:30-20:45; We 17:15-19:30; Th 17:15-20:45; Fr 10:30-19:30; Sa 10:15-12:30; Su 09:30-11:30",
+            "sport": "fitness",
+            "website": "https://4bodyevolution.be/"
+        },
+        "coord": [
+            5.2802389,
+            50.5376022
+        ]
+    },
+    "node-13311998005": {
+        "tags": {
+            "contact:email": "ahimsayoga@hotmail.be",
+            "contact:facebook": "https://www.facebook.com/p/Ahimsa-Yoga-100051068413236/",
+            "contact:phone": "+32 470 25 36 38",
+            "leisure": "fitness_centre",
+            "name": "Ahimsa Yoga",
+            "sport": "yoga"
+        },
+        "coord": [
+            4.3703377,
+            50.6834435
+        ]
+    },
+    "node-13312004467": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "level": "1",
+            "name": "Fusion Yoga Studio",
+            "sport": "yoga"
+        },
+        "coord": [
+            4.3699628,
+            50.6836403
+        ]
+    },
+    "node-13313076300": {
+        "tags": {
+            "email": "info@axionfitnessclub.be",
+            "leisure": "fitness_centre",
+            "name": "Axion Fitness Club",
+            "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-14:00; Su 09:00-13:00",
+            "personal_trainer": "yes",
+            "phone": "+32 460 95 49 98",
+            "sauna": "no",
+            "swimming_pool": "no",
+            "website": "https://www.axionfitnessclub.be/"
+        },
+        "coord": [
+            4.9584029,
+            51.1619562
+        ]
+    },
+    "node-13320080567": {
+        "tags": {
+            "alt_name": "CrossFit Waterloo",
+            "branch": "Waterloo",
+            "brand": "CrossFit",
+            "brand:wikidata": "Q2072840",
+            "contact:email": "info.crossfitwaterloo@gmail.com",
+            "contact:facebook": "https://www.facebook.com/people/CrossFit-Waterloo/61572625691708/",
+            "contact:phone": "+32 470 19 43 69",
+            "contact:website": "https://crossfit-waterloo.web.app/",
+            "leisure": "fitness_centre",
+            "name": "CrossFit",
+            "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-12:00"
+        },
+        "coord": [
+            4.4053032,
+            50.6890923
+        ]
+    },
+    "node-13330646567": {
+        "tags": {
+            "email": "invictustrainingcentre@hotmail.com",
+            "leisure": "fitness_centre",
+            "mobile": "+32 470 59 24 45",
+            "name": "Invictus Training Center",
+            "website": "https://www.invictustrainingcentre.com/"
+        },
+        "coord": [
+            3.6168569,
+            50.7506631
+        ]
+    },
+    "node-13336367534": {
+        "tags": {
+            "contact:facebook": "https://www.facebook.com/people/Namastay-Studio-by-Laura-Schils-Yoga-Pilates-Relaxation/100093013330931/",
+            "contact:phone": "+32 494 18 44 34",
+            "contact:website": "https://www.namastaystudio.com",
+            "leisure": "fitness_centre",
+            "name": "Namastay Studio",
+            "sport": "yoga;pilates"
+        },
+        "coord": [
+            4.3691185,
+            50.6841278
+        ]
+    },
+    "node-13336726617": {
+        "tags": {
+            "contact:email": "hello@bymanuella.com",
+            "contact:instagram": "https://www.instagram.com/bymanuellastudio/",
+            "contact:phone": "+32 497 99 07 70",
+            "contact:website": "https://www.bymanuella.com/",
+            "leisure": "fitness_centre",
+            "name": "By Manuella",
+            "sport": "yoga;pilates"
+        },
+        "coord": [
+            4.3517433,
+            50.7149874
+        ]
+    },
+    "node-13344705566": {
+        "tags": {
+            "contact:mobile": "+32 499 25 30 43",
+            "contact:website": "https://www.bepilates.be/",
+            "leisure": "fitness_centre",
+            "name": "Bepilates",
+            "opening_hours": "Mo-Fr 07:00-21:00; Sa 09:00-17:00; Su 11:00-15:00",
+            "sport": "pilates"
+        },
+        "coord": [
+            4.4011187,
+            50.8337886
+        ]
+    },
+    "node-13345941524": {
+        "tags": {
+            "contact:facebook": "https://www.facebook.com/people/Hello-Studio/61579983760426/",
+            "contact:phone": "+32 456 91 08 92",
+            "contact:website": "https://www.helloreformer.be/",
+            "description": "Studio de pilates Reformer.",
+            "email": "info@helloreformer.com",
+            "leisure": "fitness_centre",
+            "name": "Hello Studio",
+            "sport": "pilates"
+        },
+        "coord": [
+            4.3820629,
+            50.6857351
+        ]
+    },
+    "node-13347599398": {
+        "tags": {
+            "addr:city": "Esneux",
+            "addr:housenumber": "7",
+            "addr:postcode": "4130",
+            "addr:street": "la haze",
+            "leisure": "fitness_centre",
+            "name": "pep's",
+            "sport": "yoga",
+            "website": "https://www.mamanpeps.be/"
+        },
+        "coord": [
+            5.6016474,
+            50.5220557
+        ]
+    },
+    "node-13355177283": {
+        "tags": {
+            "contact:website": "https://www.infrafit-waterloo.be/",
+            "description": "Seul \u00e9quipement disponible : v\u00e9lo infrarouge",
+            "leisure": "fitness_centre",
+            "name": "InfraFit Waterloo",
+            "opening_hours": "Mo,We-Fr 08:00-20:00; Tu off; Sa,Su 10:00-17:00",
+            "payment:apple_pay": "yes",
+            "payment:cards": "yes",
+            "sport": "cycling"
+        },
+        "coord": [
+            4.400204,
+            50.7182216
+        ]
+    },
+    "node-13356402220": {
+        "tags": {
+            "branch": "Brussels",
+            "contact:website": "https://www.infrafit.be/",
+            "full_name": "Infrafit Brussels",
+            "leisure": "fitness_centre",
+            "name": "InfraFit",
+            "sport": "cycling"
+        },
+        "coord": [
+            4.4210353,
+            50.8435564
+        ]
+    },
+    "node-13376248470": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Rite",
+            "website": "https://www.rite-studios.com/"
+        },
+        "coord": [
+            4.3946131,
+            51.2154604
+        ]
+    },
+    "node-13390642320": {
+        "tags": {
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "contact:website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-sint-niklaas-prins-boudewijnlaan-24-7-2d9f3560f98d460fa8dcaa954d2da66a.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.1680292,
+            51.1625237
+        ]
+    },
+    "node-13403976983": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "1490 Training Club"
+        },
+        "coord": [
+            4.5658056,
+            50.6497891
+        ]
+    },
+    "node-13426335519": {
+        "tags": {
+            "addr:housenumber": "42A",
+            "addr:street": "Bahnhofstra\u00dfe",
+            "check_date": "2025-12-31",
+            "leisure": "fitness_centre",
+            "name": "Murali Yoga",
+            "sport": "yoga"
+        },
+        "coord": [
+            6.128221,
+            50.6678225
+        ]
+    },
+    "node-13440401734": {
+        "tags": {
+            "addr:housenumber": "863",
+            "addr:street": "Bredabaan",
+            "email": "info@therootsclub.be",
+            "fee": "yes",
+            "leisure": "fitness_centre",
+            "name": "The Roots",
+            "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su 09:00-18:00",
+            "sport": "fitness",
+            "start_date": "2026-01-23",
+            "website": "https://www.therootsclub.be/"
+        },
+        "coord": [
+            4.5124304,
+            51.3118577
+        ]
+    },
+    "node-13475070041": {
+        "tags": {
+            "contact:housenumber": "26",
+            "contact:street": "Rue \u00c9gide Van Ophem - \u00c9gide Van Ophemstraat",
+            "contact:website": "https://blc-club.be/",
+            "leisure": "fitness_centre",
+            "name": "Body Life Changing Club",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.3312682,
+            50.7921216
+        ]
+    },
+    "node-13482089852": {
+        "tags": {
+            "addr:unit": "4",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "brand:wikipedia": "nl:Basic-Fit",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.805223,
+            51.347676
+        ]
+    },
+    "node-13483261778": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Technofit"
+        },
+        "coord": [
+            4.9688827,
+            51.2376357
+        ]
+    },
+    "node-13484444811": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Studio Syl",
+            "operator": "bv SM2 Group",
+            "personal_trainer": "yes",
+            "ref:vatin": "BE0770.359.152",
+            "sport": "pilates"
+        },
+        "coord": [
+            4.6713683,
+            51.1610266
+        ]
+    },
+    "node-13495232083": {
+        "tags": {
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit"
+        },
+        "coord": [
+            4.554498,
+            50.483785
+        ]
+    },
+    "node-13505041423": {
+        "tags": {
+            "addr:housenumber": "77D",
+            "addr:street": "Bruggestraat",
+            "brand": "Snap Fitness",
+            "brand:wikidata": "Q7547254",
+            "leisure": "fitness_centre",
+            "name": "Snap Fitness",
+            "website": "https://www.snapfitness.com/"
+        },
+        "coord": [
+            3.2529217,
+            50.9250634
+        ]
+    },
+    "node-13506445997": {
+        "tags": {
+            "addr:housenumber": "18",
+            "addr:street": "Zuidstationstraat",
+            "leisure": "fitness_centre",
+            "name": "Rite",
+            "sport": "pilates"
+        },
+        "coord": [
+            3.7325472,
+            51.0489861
+        ]
+    },
+    "node-13512080087": {
+        "tags": {
+            "addr:city": "Diest",
+            "addr:housenumber": "108",
+            "addr:postcode": "3290",
+            "addr:street": "Leuvensesteenweg",
+            "leisure": "fitness_centre",
+            "name": "@My Gym",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            5.0434746,
+            50.9750026
+        ]
+    },
+    "node-13513070816": {
+        "tags": {
+            "addr:city": "Wielsbeke",
+            "addr:housenumber": "11",
+            "addr:postcode": "8710",
+            "addr:street": "spoorstraat",
+            "check_date": "2026-01-30",
+            "email": "smartmovemovesmart@gmail.com",
+            "leisure": "fitness_centre",
+            "name": "Move Smart, Smart Move",
+            "phone": "+32 475 32 96 33",
+            "ref:vatin": "BE0693.823.578",
+            "website": "https://smartmovemovesmart.be"
+        },
+        "coord": [
+            3.3698152,
+            50.9048407
+        ]
+    },
+    "node-13518975592": {
+        "tags": {
+            "brand": "CrossFit",
+            "leisure": "fitness_centre",
+            "name": "CrossFit Brugge",
+            "website": "https://www.crossfitbrugge.be/"
+        },
+        "coord": [
+            3.2024507,
+            51.2457369
+        ]
+    },
+    "node-13534018949": {
+        "tags": {
+            "addr:housenumber": "5",
+            "addr:street": "Nijverheidszone 'Begijnenmeers'",
+            "leisure": "fitness_centre",
+            "name": "Mooze Lifestyle Gym",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.0945342,
+            50.8851418
+        ]
+    },
+    "node-13544640143": {
+        "tags": {
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "brand:wikipedia": "nl:Basic-Fit",
+            "contact:website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-antwerpen-kempischdok-westkaai-101-f6bc2c9ed242406f8a2fdeb9a560ce89.html",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "sport": "fitness",
+            "website": "https://www.basic-fit.com"
+        },
+        "coord": [
+            4.4131713,
+            51.2315648
+        ]
+    },
+    "node-13595820356": {
+        "tags": {
+            "addr:housenumber": "1",
+            "addr:street": "Paradeplein",
+            "leisure": "fitness_centre",
+            "name": "RITE",
+            "website": "https://www.rite-studios.com/"
+        },
+        "coord": [
+            4.4233811,
+            51.202383
+        ]
+    },
+    "node-13601892211": {
+        "tags": {
+            "addr:city": "Montegn\u00e9e",
+            "addr:housenumber": "19",
+            "addr:postcode": "4420",
+            "addr:street": "Rue Paul Janson",
+            "contact:facebook": "https://www.facebook.com/bodyfitnesscenterliege/",
+            "fee": "yes",
+            "leisure": "sports_centre",
+            "name": "Body Fitness Center",
+            "opening_hours": "Mo-We,Fr 10:00-12:00,15:00-20:00; Sa 10:00-13:00",
+            "sport": "fitness"
+        },
+        "coord": [
+            5.5168458,
+            50.6397404
+        ]
+    },
+    "node-13647100477": {
+        "tags": {
+            "addr:housenumber": "175",
+            "addr:street": "Dadizeelsestraat",
+            "email": "evelieningelbeen@gmail.com",
+            "leisure": "fitness_centre",
+            "mobile": "+32 492 27 77 61",
+            "name": "Evita",
+            "operator": "Evelien Ingelbeen",
+            "sport": "yoga",
+            "website": "https://www.studio-evita.be/"
+        },
+        "coord": [
+            3.0782399,
+            50.8630279
+        ]
+    },
+    "node-13677300265": {
+        "tags": {
+            "addr:housenumber": "18",
+            "addr:street": "Leiestraat",
+            "contact:facebook": "https://www.facebook.com/profile.php?id=61584999157347",
+            "email": "info@maeve-studio.com",
+            "leisure": "fitness_centre",
+            "name": "Maeve",
+            "phone": "+32 56 13 65 08",
+            "sport": "pilates"
+        },
+        "coord": [
+            3.2649766,
+            50.82849
+        ]
+    },
+    "node-13684580901": {
+        "tags": {
+            "check_date": "2026-03-27",
+            "contact:mobile": "+32 484 68 61 13",
+            "leisure": "fitness_centre",
+            "name": "Malicia Training Center"
+        },
+        "coord": [
+            4.3762736,
+            50.8238989
+        ]
+    },
+    "node-13722630502": {
+        "tags": {
+            "check_date": "2026-04-11",
+            "contact:phone": "+32 2 736 48 16",
+            "leisure": "fitness_centre",
+            "name": "Gym Muay Tha\u00ef \u2013 Andr\u00e9 Rigiani"
+        },
+        "coord": [
+            4.3909685,
+            50.8360069
+        ]
+    },
+    "node-13722671901": {
+        "tags": {
+            "check_date": "2026-04-11",
+            "contact:website": "https://www.velastudio.be/",
+            "leisure": "fitness_centre",
+            "level": "0",
+            "name": "Vela Studio",
+            "opening_hours": "\"by appointment\"",
+            "sport": "pilates"
+        },
+        "coord": [
+            4.3581907,
+            50.8255328
+        ]
+    },
+    "node-13733994701": {
+        "tags": {
+            "addr:housenumber": "55",
+            "addr:street": "Grote Steenweg",
+            "contact:facebook": "BasicFitBelgie",
+            "contact:instagram": "BASICFIT_BE",
+            "contact:twitter": "BasicFitBE",
+            "internet_access": "wlan",
+            "leisure": "fitness_centre",
+            "name": "Basic Fit 24/7",
+            "opening_hours": "24/7",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-nijlen-grote-steenweg-55-f9f570f7af104bfab7f4a22a56465f69.html"
+        },
+        "coord": [
+            4.6351783,
+            51.1450648
+        ]
+    },
+    "node-13770985311": {
+        "tags": {
+            "addr:city": "Li\u00e8ge",
+            "addr:housenumber": "30-32",
+            "addr:postcode": "4000",
+            "addr:street": "Rue de l'Universit\u00e9",
+            "leisure": "fitness_centre",
+            "name": "Jims Li\u00e8ge",
+            "sport": "fitness",
+            "website": "https://www.jims.be/fr/clubs/jims-liege-universite"
+        },
+        "coord": [
+            5.5739876,
+            50.6414498
+        ]
+    },
+    "node-13787905987": {
+        "tags": {
+            "leisure": "fitness_centre",
+            "name": "Studio 15",
+            "sport": "yoga;pilates",
+            "website": "https://www.studio-15.be/"
+        },
+        "coord": [
+            3.6097859,
+            51.034162
         ]
     },
     "way-23587369": {
@@ -7033,18 +8274,16 @@
             "addr:housenumber": "13",
             "addr:postcode": "4100",
             "addr:street": "Route du Condroz",
-            "branch": "boncelles",
+            "branch": "Boncelles",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "building": "yes",
             "internet_access": "wlan",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
-            "name:en": "Basic-fit",
-            "name:fr": "Basic-fit",
             "opening_hours": "24/7",
-            "sport": "10pin",
-            "website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-boncelles-route-du-condroz-24-7-c677bb4df8c64c0e809913af3cf2e4e9.html?utm_medium=yext&utm_source=gmb",
+            "sport": "fitness",
+            "website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-boncelles-route-du-condroz-24-7-c677bb4df8c64c0e809913af3cf2e4e9.html",
             "wheelchair": "yes"
         },
         "coord": [
@@ -7078,13 +8317,13 @@
             "addr:postcode": "2630",
             "addr:street": "Kontichsesteenweg",
             "building": "yes",
-            "contact:facebook": "https://www.facebook.com/p/NRG-premium-Aartselaar-100076206430060/",
-            "email": "aartselaar@nrgfitness.be",
+            "email": "aartselaar@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:00; Su,Su,PH 09:00-13:00",
             "phone": "+32 3 458 18 68",
             "sport": "fitness",
-            "website": "https://www.nrgfitness.be/"
+            "website": "https://www.jims.be/nl/clubs/jims-aartselaar"
         },
         "coord": [
             4.396493628571428,
@@ -7249,12 +8488,15 @@
     "way-130513512": {
         "tags": {
             "addr:housenumber": "305",
+            "addr:street": "Leuvensesteenweg",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
             "building": "yes",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "website": "https://www.basic-fit.com/nl-be/clubs/basic-fit-vilvoorde-leuvensesteenweg-24-7-26f758950a9b4473b92ae98e5b469a2d.html"
         },
         "coord": [
             4.452022111111111,
@@ -7271,7 +8513,7 @@
             "addr:suburb": "Oostduinkerke",
             "building": "yes",
             "leisure": "fitness_centre",
-            "name": "Wave",
+            "name": "Grinta",
             "source:geometry:date": "2012-10-11",
             "source:geometry:ref": "Gbg/3826069"
         },
@@ -7384,13 +8626,14 @@
             "facebook": "https://www.facebook.com/CrossFitLaVesdre/",
             "leisure": "fitness_centre",
             "name": "CrossFit La Vesdre",
-            "note": "\u00d6ffnungszeiten, Telefonnummern und Mail-Anschrift bitte der Webseite entnehmen.",
+            "source:geometry:date": "2016-06-06",
+            "source:geometry:ref": "Picc/2192617",
             "sport": "fitness;gymnastics",
             "website": "https://www.crossfitlavesdre.be"
         },
         "coord": [
-            5.862518992857142,
-            50.59434538571429
+            5.862533068181819,
+            50.59433539545454
         ]
     },
     "way-166523839": {
@@ -7433,6 +8676,7 @@
             "building": "yes",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "opening_hours": "Mo-Su,PH 00:00-00:00",
             "sport": "fitness"
         },
         "coord": [
@@ -7613,7 +8857,7 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
-            "building": "yes",
+            "building": "commercial",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7"
@@ -7659,23 +8903,6 @@
         "coord": [
             4.4594585,
             51.269315783333326
-        ]
-    },
-    "way-221013911": {
-        "tags": {
-            "addr:housenumber": "97",
-            "addr:postcode": "9100",
-            "addr:street": "Prins Boudewijnlaan",
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit",
-            "source:geometry:date": "2009-06-12",
-            "source:geometry:ref": "Gbg/1327629"
-        },
-        "coord": [
-            4.1681417000000005,
-            51.16241335555556
         ]
     },
     "way-224893354": {
@@ -7739,27 +8966,31 @@
             "name": "Jims",
             "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-17:00",
             "phone": "+32 71 41 30 82",
+            "source:geometry:date": "20160609170515",
+            "source:geometry:ref": "Picc/801206",
             "sport": "fitness",
             "website": "https://www.jims.be/fr/clubs/jims-montignies"
         },
         "coord": [
-            4.468928383333333,
-            50.42033761666667
+            4.46899406,
+            50.420349
         ]
     },
     "way-236838811": {
         "tags": {
-            "addr:housenumber": "26",
+            "addr:housenumber": "22",
             "addr:street": "Rue de Huy",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "building": "yes",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "source:geometry:date": "2016-08-09",
+            "source:geometry:ref": "Picc/1905435"
         },
         "coord": [
-            5.250114300000001,
-            50.69365026
+            5.2500608,
+            50.69364531428572
         ]
     },
     "way-237124662": {
@@ -7793,15 +9024,24 @@
         "tags": {
             "addr:housenumber": "170",
             "addr:street": "Karel de Stoutelaan",
+            "branch": "Houtkaai",
+            "brand": "Jims",
             "building": "industrial",
+            "contact:email": "brugge.kaai@jims.be",
+            "contact:phone": "+32 50 31 03 92",
+            "contact:website": "https://www.jims.be/nl/clubs/jims-brugge-houtkaai",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness Brugge",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 07:00-22:30; Sa,Su,PH 09:00-16:00",
+            "sauna": "yes",
             "source:geometry:date": "2015-07-09",
-            "source:geometry:ref": "Gbg/5262363"
+            "source:geometry:ref": "Gbg/5262363",
+            "sport": "fitness",
+            "wheelchair": "yes"
         },
         "coord": [
-            3.2052565142857143,
-            51.21669142857144
+            3.205203122222222,
+            51.21667601111112
         ]
     },
     "way-251537594": {
@@ -7810,14 +9050,16 @@
             "addr:housenumber": "496",
             "addr:postcode": "7050",
             "addr:street": "Route d'Ath",
-            "building": "yes",
+            "building": "house",
             "leisure": "sports_centre",
             "name": "Fitness & D\u00e9tente Body Gym",
+            "source:geometry:date": "2017-08-02",
+            "source:geometry:ref": "Picc/308802",
             "sport": "fitness"
         },
         "coord": [
-            3.9071616400000004,
-            50.54218852
+            3.9071508800000005,
+            50.54217319999999
         ]
     },
     "way-253222379": {
@@ -7929,15 +9171,17 @@
             "branch": "Charleroi Mont-sur-Marchienne",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
-            "building": "yes",
+            "building": "retail",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7",
+            "source:geometry:date": "20160609170515",
+            "source:geometry:ref": "Picc/3552671",
             "website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-charleroi-mont-sur-marchienne-av.-paul-pastur-24-7-27d4220816ea4d3d8d63f63ea0f19493.html"
         },
         "coord": [
-            4.4229542833333335,
-            50.399186224999994
+            4.422980308333334,
+            50.39921360833333
         ]
     },
     "way-315952239": {
@@ -8104,7 +9348,9 @@
     },
     "way-372871117": {
         "tags": {
-            "addr:housenumber": "7;9",
+            "addr:city": "Montignies-sur-Sambre",
+            "addr:housenumber": "7",
+            "addr:postcode": "6061",
             "addr:street": "Rue de la Pers\u00e9v\u00e9rance",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
@@ -8114,12 +9360,14 @@
             "male": "no",
             "name": "Basic-Fit Ladies",
             "opening_hours": "Mo-Fr 08:00-22:30; Sa-Su 09:00-16:00",
+            "source:geometry:date": "20160609170515",
+            "source:geometry:ref": "Picc/1909646",
             "sport": "fitness",
             "website": "https://www.basic-fit.com/fr-be/clubs/basic-fit-ladies-montignies-sur-sambre-230252c9dc274a6995bcf4c4c0e170bd.html"
         },
         "coord": [
-            4.467407771428571,
-            50.4202404
+            4.46749254,
+            50.42023296
         ]
     },
     "way-374010516": {
@@ -8204,11 +9452,13 @@
             "building": "yes",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
+            "source:geometry:date": "20160608161352",
+            "source:geometry:ref": "Picc/3638336",
             "sport": "multi"
         },
         "coord": [
-            3.5935630125,
-            50.503873999999996
+            3.593683491666667,
+            50.50394619166667
         ]
     },
     "way-396618981": {
@@ -8251,6 +9501,23 @@
             50.267000109090915
         ]
     },
+    "way-413091758": {
+        "tags": {
+            "addr:housenumber": "2B",
+            "addr:street": "Parc Industriel",
+            "brand": "Basic-Fit",
+            "brand:wikidata": "Q40165577",
+            "building": "industrial",
+            "leisure": "fitness_centre",
+            "name": "Basic-Fit",
+            "opening_hours": "24/7",
+            "sport": "fitness"
+        },
+        "coord": [
+            4.303737099999999,
+            50.68501763333333
+        ]
+    },
     "way-427902545": {
         "tags": {
             "addr:housenumber": "17-18;20;19B",
@@ -8265,8 +9532,8 @@
             "source:geometry:ref": "Gbg/4487195"
         },
         "coord": [
-            5.341953133333334,
-            50.93196737407407
+            5.341982073684211,
+            50.931951573684216
         ]
     },
     "way-452674906": {
@@ -8306,9 +9573,7 @@
     },
     "way-464602991": {
         "tags": {
-            "addr:city": "Seraing",
             "addr:housenumber": "43",
-            "addr:postcode": "4100",
             "addr:street": "Boulevard Pasteur",
             "building": "retail",
             "email": "seraing.haut@jims.be",
@@ -8369,28 +9634,6 @@
             51.020721944444446
         ]
     },
-    "way-494988547": {
-        "tags": {
-            "addr:city": "Antwerpen",
-            "addr:housenumber": "8-10",
-            "addr:postcode": "2000",
-            "addr:street": "Zeevaartstraat",
-            "building": "yes",
-            "contact:email": "info@release-antwerp.be",
-            "contact:phone": "+32 3 227 15 37",
-            "leisure": "fitness_centre",
-            "name": "Release",
-            "old_name": "Sportclub Het Eiland",
-            "opening_hours": "Mo-Fr 06:30-22:00, Sa-Su 09:00-17:00; PH 09:00-17:00",
-            "phone": "+32 3 227 15 37",
-            "sport": "fitness;yoga;boxing;cycling",
-            "website": "https://release-antwerp.be/"
-        },
-        "coord": [
-            4.40905755,
-            51.22755284000001
-        ]
-    },
     "way-496373852": {
         "tags": {
             "leisure": "fitness_centre",
@@ -8400,22 +9643,6 @@
         "coord": [
             5.597792700000001,
             51.08545762
-        ]
-    },
-    "way-503536216": {
-        "tags": {
-            "addr:city": "Heusden-Zolder",
-            "addr:country": "BE",
-            "addr:housenumber": "17",
-            "addr:postcode": "3550",
-            "addr:street": "Dorpsstraat",
-            "building": "commercial",
-            "leisure": "fitness_centre",
-            "name": "New Gym"
-        },
-        "coord": [
-            5.3116978043478245,
-            51.023130813043466
         ]
     },
     "way-511235766": {
@@ -8457,11 +9684,13 @@
             "addr:state": "Limburg",
             "addr:street": "Diestersesteenweg",
             "building": "commercial",
-            "email": "paal@nrgfitness.be",
+            "email": "paal@jims.be",
             "leisure": "fitness_centre",
-            "name": "NRG Fitness",
+            "name": "Jims",
+            "opening_hours": "Mo-Fr 08:00-23:00; Sa,Su,PH 09:00-16:00",
             "phone": "+32 11 42 89 93",
-            "website": "https://www.nrgfitness.be/club/nrg-fitness-paal"
+            "sport": "fitness",
+            "website": "https://www.jims.be/nl/clubs/jims-paal"
         },
         "coord": [
             5.166107945454545,
@@ -8515,13 +9744,14 @@
             "contact:website": "https://www.elaisawellness.com",
             "leisure": "fitness_centre",
             "name": "Elaisa Energetic Wellness",
+            "operator": "Mu-Valley BV",
             "sauna": "yes",
             "source:geometry:date": "2020-02-25",
             "source:geometry:ref": "Gbg/7121721"
         },
         "coord": [
-            5.682467111764705,
-            51.00169294117647
+            5.682476422222222,
+            51.00169372777778
         ]
     },
     "way-606399007": {
@@ -8537,6 +9767,22 @@
         "coord": [
             5.8249448428571435,
             49.687481114285724
+        ]
+    },
+    "way-628252624": {
+        "tags": {
+            "addr:housenumber": "127",
+            "addr:street": "Koninginnelaan",
+            "building": "commercial",
+            "leisure": "fitness_centre",
+            "name": "Jims",
+            "source:geometry:date": "2005-05-31",
+            "source:geometry:ref": "Gbg/228113",
+            "sport": "fitness"
+        },
+        "coord": [
+            5.699992066666667,
+            50.98600425555556
         ]
     },
     "way-628685052": {
@@ -8591,24 +9837,6 @@
             50.868318244444445
         ]
     },
-    "way-671508720": {
-        "tags": {
-            "addr:city": "Kaggevinne-Diest",
-            "addr:housenumber": "85",
-            "addr:postcode": "3293",
-            "addr:street": "Diestersteenweg",
-            "building": "yes",
-            "email": "patricksfitness@gmail.com",
-            "leisure": "fitness_centre",
-            "name": "Patrick's fitness",
-            "phone": "+32 13 33 70 96",
-            "website": "http://www.patricksfitness.be/"
-        },
-        "coord": [
-            5.0354567375,
-            50.9799912
-        ]
-    },
     "way-674754543": {
         "tags": {
             "addr:city": "Waregem",
@@ -8617,9 +9845,10 @@
             "addr:street": "Groene Wandeling",
             "building": "yes",
             "leisure": "fitness_centre",
-            "name": "Fitness Van Der Bauwhede / Koen",
+            "name": "Get Fit - Club Waregem",
             "source:geometry:date": "2006-09-27",
-            "source:geometry:ref": "Gbg/536892"
+            "source:geometry:ref": "Gbg/536892",
+            "website": "https://getfitclub.be/"
         },
         "coord": [
             3.413452383333333,
@@ -8701,6 +9930,8 @@
             "building": "yes",
             "leisure": "fitness_centre",
             "name": "Fitters Gym",
+            "opening_hours": "Mo-Fr 08:30-22:00 || Mo-Fr 06:00-08:30 open \"enkel leden\"; Sa 09:00-15:00; Su,PH 09:00-12:00",
+            "phone": "+32 471 93 44 65",
             "source:geometry:date": "2012-01-10",
             "source:geometry:ref": "Gbg/3104186",
             "website": "https://fittersgym.be"
@@ -8708,6 +9939,22 @@
         "coord": [
             3.1955696714285717,
             51.21089585714286
+        ]
+    },
+    "way-731936068": {
+        "tags": {
+            "addr:city": "Oudsbergen",
+            "addr:country": "BE",
+            "addr:housenumber": "201",
+            "addr:postcode": "3660",
+            "addr:street": "Weg naar As",
+            "building": "commercial",
+            "leisure": "fitness_centre",
+            "name": "Fitpoint fitness"
+        },
+        "coord": [
+            5.581724650000001,
+            51.02330460000001
         ]
     },
     "way-732428773": {
@@ -8724,24 +9971,6 @@
         "coord": [
             4.6328742400000005,
             50.42933452
-        ]
-    },
-    "way-751114241": {
-        "tags": {
-            "addr:city": "Maasmechelen",
-            "addr:country": "BE",
-            "addr:housenumber": "130",
-            "addr:postcode": "3630",
-            "addr:street": "Pauwengraaf",
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "building": "yes",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit"
-        },
-        "coord": [
-            5.690689437500001,
-            50.9887753875
         ]
     },
     "way-759560437": {
@@ -8768,6 +9997,20 @@
         "coord": [
             4.205541200000001,
             50.697867887499996
+        ]
+    },
+    "way-793896692": {
+        "tags": {
+            "building": "yes",
+            "leisure": "fitness_centre",
+            "name": "Athletic Gym",
+            "phone": "+32 4 382 13 83",
+            "sport": "fitness;bodybuilding;remise_en_forme",
+            "website": "https://www.facebook.com/athleticgymsprimont/?locale=fr_FR"
+        },
+        "coord": [
+            5.64071998,
+            50.51702958
         ]
     },
     "way-795958265": {
@@ -8839,8 +10082,8 @@
             "source:geometry:ref": "Picc/1391548"
         },
         "coord": [
-            4.519235344,
-            50.40330515600001
+            4.519245025,
+            50.40330425416667
         ]
     },
     "way-826625342": {
@@ -8850,34 +10093,17 @@
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
             "brand:wikipedia": "nl:Basic-Fit",
-            "building": "yes",
+            "building": "retail",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7",
+            "source:geometry:date": "2017-08-25",
+            "source:geometry:ref": "Picc/360400",
             "sport": "fitness"
         },
         "coord": [
-            4.43395238,
-            50.45178654000001
-        ]
-    },
-    "way-832877964": {
-        "tags": {
-            "addr:city": "Rijkevorsel",
-            "addr:postcode": "2310",
-            "addr:street": "Merksplassesteenweg",
-            "brand": "Basic-Fit",
-            "brand:wikidata": "Q40165577",
-            "brand:wikipedia": "nl:Basic-Fit",
-            "building": "yes",
-            "leisure": "fitness_centre",
-            "name": "Basic-Fit",
-            "opening_hours": "24/7",
-            "sport": "fitness"
-        },
-        "coord": [
-            4.8052791599999995,
-            51.34751518
+            4.433887527272727,
+            50.451746481818184
         ]
     },
     "way-835323633": {
@@ -8928,7 +10154,7 @@
             "email": "info@brooklyngym.be",
             "leisure": "fitness_centre",
             "name": "Brooklyn Gym",
-            "opening_hours": "Mo-Fr 07:00-21:30; Sa-Su 09:00-15:00",
+            "opening_hours": "Mo-Th 08:00-21:30; Fr 08:00-21:30; Sa 08:00-14:00; Su 09:00-14:00",
             "phone": "+32 13 66 42 21",
             "website": "https://www.brooklyngym.be/"
         },
@@ -8973,17 +10199,21 @@
     },
     "way-876345837": {
         "tags": {
+            "addr:city": "Couillet",
             "addr:housenumber": "351",
+            "addr:postcode": "6010",
             "addr:street": "Route de Philippeville",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
-            "building": "yes",
+            "building": "commercial",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit"
+            "name": "Basic-Fit",
+            "source:geometry:date": "20160609170515",
+            "source:geometry:ref": "Picc/142753"
         },
         "coord": [
-            4.465670279999999,
-            50.3821583
+            4.4657015625000005,
+            50.382141524999994
         ]
     },
     "way-889065723": {
@@ -9002,6 +10232,23 @@
             50.97432221666667
         ]
     },
+    "way-893658962": {
+        "tags": {
+            "addr:housenumber": "9B",
+            "addr:street": "Rue Saint-Martin",
+            "building": "yes",
+            "historic": "farm",
+            "leisure": "fitness_centre",
+            "name": "Le Heredia gym & danse",
+            "source:geometry:date": "2016-06-27",
+            "source:geometry:ref": "Picc/331773",
+            "sport": "fitness"
+        },
+        "coord": [
+            5.097359180000001,
+            50.549933180000004
+        ]
+    },
     "way-933206263": {
         "tags": {
             "addr:city": "Tienen",
@@ -9010,8 +10257,9 @@
             "addr:street": "Zijdelingsestraat",
             "building": "yes",
             "leisure": "fitness_centre",
+            "mobile": "+32 476 35 31 10",
             "name": "Champion Gym",
-            "opening_hours:covid19": "closed",
+            "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-17:00; Su 09:00-13:00",
             "sport": "bodybuilding;fitness",
             "website": "https://www.championgym.be/"
         },
@@ -9037,22 +10285,11 @@
             50.981057893333336
         ]
     },
-    "way-990198671": {
-        "tags": {
-            "barrier": "fence",
-            "contact:website": "https://tour-taxis.com/nl/strongbox/",
-            "full_name": "Strongbox Tour & Taxis",
-            "leisure": "fitness_centre",
-            "name": "StrongBox"
-        },
-        "coord": [
-            4.348406933333334,
-            50.86624816666667
-        ]
-    },
     "way-1000368469": {
         "tags": {
+            "addr:city": "Erbis\u0153ul",
             "addr:housenumber": "131",
+            "addr:postcode": "7050",
             "addr:street": "Route d'Ath",
             "building": "detached",
             "description": "Centre de fitness et de sant\u00e9",
@@ -9070,13 +10307,15 @@
         "tags": {
             "addr:housenumber": "116",
             "addr:street": "Boulevard L\u00e9opold III",
-            "building": "yes",
+            "building": "commercial",
             "leisure": "fitness_centre",
-            "name": "Body One Gym"
+            "name": "Body One Gym",
+            "source:geometry:date": "20160608161352",
+            "source:geometry:ref": "Picc/1338382"
         },
         "coord": [
-            3.5972756500000003,
-            50.503379200000005
+            3.5972352176470577,
+            50.503373247058825
         ]
     },
     "way-1014432774": {
@@ -9285,10 +10524,10 @@
             "contact:facebook": "https://www.facebook.com/BodiesByRedone/",
             "contact:instagram": "redouane_personaltraining",
             "contact:website": "https://www.redouane.be/",
-            "fixme": "Not a real fitness centre, only a personal trainer.",
+            "house": "detached",
             "leisure": "fitness_centre",
             "name": "Redouane",
-            "personal_trainer": "yes",
+            "personal_trainer": "only",
             "ref:vatin": "BE0650712325",
             "source:geometry:date": "2009-02-16",
             "source:geometry:ref": "Gbg/1945537"
@@ -9355,7 +10594,7 @@
             "brand:wikidata": "Q40165577",
             "building": "retail",
             "leisure": "fitness_centre",
-            "name": "Basic-Fit",
+            "name": "Basic-Fit Anderlues",
             "opening_hours": "24/7",
             "source:geometry:date": "2023",
             "source:geometry:ref": "missing"
@@ -9365,7 +10604,7 @@
             50.4064927375
         ]
     },
-    "rel-18483364": {
+    "way-1392867136": {
         "tags": {
             "addr:city": "La Louvi\u00e8re",
             "addr:housenumber": "12",
@@ -9373,18 +10612,38 @@
             "addr:street": "Avenue de Wallonie",
             "brand": "Basic-Fit",
             "brand:wikidata": "Q40165577",
-            "building": "retail",
+            "building": "commercial",
             "leisure": "fitness_centre",
             "name": "Basic-Fit",
             "opening_hours": "24/7",
             "source:geometry:date": "2016-06-15",
             "source:geometry:ref": "Picc/1758249;Picc/2994600",
-            "type": "multipolygon",
             "website": "https://www.basic-fit.com/"
         },
         "coord": [
-            4.199361938888889,
-            50.483717577777774
+            4.199241885714286,
+            50.48376337142857
+        ]
+    },
+    "way-1467359144": {
+        "tags": {
+            "addr:city": "Antwerpen",
+            "addr:housenumber": "37",
+            "addr:postcode": "2000",
+            "addr:street": "Oudeleeuwenrui",
+            "check_date": "2026-01-15",
+            "contact:email": "info@release-antwerp.be",
+            "leisure": "fitness_centre",
+            "name": "Release",
+            "old_name": "Sportclub Het Eiland",
+            "opening_hours": "Mo-Fr 06:30-22:00; Sa-Su,PH 08:00-17:00",
+            "phone": "+32 3 227 15 37",
+            "sport": "fitness;yoga;boxing;cycling",
+            "website": "https://release-antwerp.be/"
+        },
+        "coord": [
+            4.40878549,
+            51.2274982
         ]
     }
 }

@@ -13,7 +13,11 @@
     },
     "node-793478448": {
         "tags": {
+            "caravans": "yes",
             "name": "De Heide",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.deheide.be/"
         },
@@ -39,7 +43,7 @@
             "contact:instagram": "https://www.instagram.com/glamping_lescargot/",
             "contact:website": "https://www.lescargot.be/",
             "name": "Minicamping l'escargot",
-            "phone": "+32 (0)8785 3845",
+            "phone": "+32 87 85 38 45",
             "tourism": "camp_site"
         },
         "coord": [
@@ -118,8 +122,8 @@
             "website": "https://leeuwerikenveld.be"
         },
         "coord": [
-            5.028477,
-            50.843479
+            5.0277166,
+            50.8435578
         ]
     },
     "node-1975021863": {
@@ -140,17 +144,6 @@
         "coord": [
             4.4651642,
             51.0699719
-        ]
-    },
-    "node-1975021866": {
-        "tags": {
-            "name": "Trieu du Bois",
-            "tourism": "camp_site",
-            "wheelchair": "yes"
-        },
-        "coord": [
-            4.398608,
-            50.50502
         ]
     },
     "node-1985858966": {
@@ -211,7 +204,7 @@
             "name:en": "Camper Van Spaces in the Kalmthoutse Heide Parking Area Nord",
             "name:nl": "Kampeerautoplaatsen Parking Kalmthoutse Heide Nord",
             "picnic_area": "yes",
-            "power_supply": "yes",
+            "power_supply": "no",
             "power_supply:fee": "yes",
             "sanitary_dump_station": "no",
             "services:charge": "1 EUR: water,power_supply",
@@ -280,10 +273,18 @@
         "tags": {
             "backcountry": "yes",
             "camp_site": "basic",
+            "capacity:tents": "5",
+            "caravans": "no",
+            "drinking_water": "no",
             "fee": "no",
-            "name": "Bivouac des Trois Fontanes",
+            "name": "Bivouac des Trois Fontaines",
             "name:nl": "Bivakzone Trois Fontaines",
+            "openfire": "no",
+            "opening_hours": "Mo-Su 16:00-10:00",
             "reservation": "required",
+            "shower": "no",
+            "static_caravans": "no",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.cm-tourisme.be/fr/a/aire-de-bivouac-de-la-roche-trouee"
         },
@@ -308,7 +309,13 @@
     },
     "node-3660721497": {
         "tags": {
+            "caravans": "no",
+            "drinking_water": "no",
             "name": "Bivouac du Nouveau Monde",
+            "power_supply": "no",
+            "shower": "no",
+            "tents": "yes",
+            "toilets": "no",
             "tourism": "camp_site"
         },
         "coord": [
@@ -316,23 +323,21 @@
             49.9862215
         ]
     },
-    "node-3660728147": {
-        "tags": {
-            "disused": "yes",
-            "name": "Bivouac des Fr\u00e8s",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.2458545,
-            50.1481265
-        ]
-    },
     "node-3660728148": {
         "tags": {
+            "backcountry": "yes",
+            "camp_site": "basic",
+            "capacity:tents": "10",
             "caravans": "no",
+            "drinking_water": "no",
             "fee": "no",
-            "name": "Bivouac de Froidchapelle",
+            "name": "Bivouac du Bois de Hernoy",
+            "openfire": "no",
+            "opening_hours": "16:00-10:00",
+            "reservation": "required",
             "static_caravans": "no",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -372,6 +377,7 @@
             "name:de": "Wohnmobilstellplatz Bellem",
             "power_supply": "no",
             "sanitary_dump_station": "no",
+            "shower": "no",
             "toilets": "no",
             "tourism": "caravan_site",
             "wheelchair": "yes"
@@ -438,22 +444,21 @@
     },
     "node-4417578749": {
         "tags": {
-            "addr:city": "Overijse",
             "addr:housenumber": "104",
-            "addr:postcode": "3090",
             "addr:street": "Kouterstraat",
             "caravans": "yes",
+            "contact:email": "campingwelcomeoverijse@gmail.com",
             "contact:mobile": "+32 477 53 09 01",
+            "contact:phone": "+32 2 687 75 77",
             "description": "Verblijfcamping met voornamelijke vaste staanplaatsen. 8 plaatsen voor tenten, 4 voor trekkers.",
-            "email": "campingwelcomeoverijse@gmail.com",
             "name": "Welcome",
             "permanent_camping": "yes",
-            "phone": "+32 2 687 75 77",
             "source": "https://www.overijse.be/campings",
             "stars": "2",
             "static_caravans": "yes",
             "tents": "yes",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.overijse.be/campings"
         },
         "coord": [
             4.5491566,
@@ -485,20 +490,6 @@
         "coord": [
             4.9285289,
             50.8007752
-        ]
-    },
-    "node-4592469420": {
-        "tags": {
-            "camp_site": "basic",
-            "caravans": "no",
-            "fee": "yes",
-            "tents": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.gamping.com/land/15453"
-        },
-        "coord": [
-            4.3182787,
-            50.4662876
         ]
     },
     "node-4836665353": {
@@ -558,25 +549,6 @@
         "coord": [
             6.0553838,
             50.5990179
-        ]
-    },
-    "node-5182171732": {
-        "tags": {
-            "backcountry": "yes",
-            "drinking_water": "no",
-            "fee": "no",
-            "name": "Aire de bivouac de la Gileppe",
-            "openfire": "no",
-            "operator": "Walloon Agency for Nature and Forests (DNF)",
-            "reservation": "yes",
-            "shower": "no",
-            "toilets": "no",
-            "tourism": "camp_site",
-            "website": "https://botrange.be/nl/bivouacs/zone-a-gileppe/"
-        },
-        "coord": [
-            6.0054976,
-            50.5728573
         ]
     },
     "node-5210506563": {
@@ -762,18 +734,20 @@
     },
     "node-6538020985": {
         "tags": {
-            "access": "private",
+            "access": "permit",
             "backcountry": "yes",
             "bar": "no",
             "bicycle": "dismount",
             "camp_site": "basic",
             "capacity": "10",
+            "capacity:tents": "3",
             "caravans": "no",
+            "description": "Bivakzone Nellekensbos  is een priv\u00e9-bivakzone van de familie Barb\u00e9. Aanmelding ter plaatse is niet nodig, wel steeds je komst per SMS \u00e9\u00e9n dag voordien bevestigen of op de aankomstdag zelf maar dan wel ten laatste in de voormiddag.",
             "description:reservation": "you must announce your arrival one day in advance or same day before noon: contact the family Barb\u00e9 by text message (no phone call)",
             "drinking_water": "no",
+            "fee": "no",
             "foot": "customers",
             "internet_access": "no",
-            "internet_access:fee": "no",
             "maxstay": "18 hours",
             "maxtents": "3",
             "motor_vehicle": "no",
@@ -783,6 +757,7 @@
             "phone": "+32 478 25 72 39",
             "reservation": "yes",
             "sanitary_dump_station": "no",
+            "static_caravans": "no",
             "swimming_pool": "no",
             "tents": "yes",
             "toilets": "yes",
@@ -792,23 +767,28 @@
             "wheelchair": "no"
         },
         "coord": [
-            4.072333,
-            50.8135748
+            4.0711928,
+            50.8152497
         ]
     },
     "node-6559555294": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Hooilingen Hoeselt",
+            "alt_name": "Paalkampeerplaats Hooilingen Hoeselt;Paalkamperen Hooilingen",
             "backcountry": "yes",
+            "camp_site": "basic",
+            "capacity:persons": "10",
             "capacity:tents": "3",
             "description": "site voor paalkamperen",
-            "drinking_water": "no",
+            "drinking_water": "yes",
             "fee": "no",
             "name": "Bivakzone Hooilingen",
             "openfire": "yes",
+            "operator": "Regionaal Landschap Haspengouw en Voeren",
+            "reservation": "no",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.bivakzone.be/5-x-haspengouw.html"
+            "website": "https://www.rlhv.be/Kamperen%20in%20de%20bivakzones",
+            "website:0": "https://www.bivakzone.be/5-x-haspengouw.html"
         },
         "coord": [
             5.4721387,
@@ -835,14 +815,19 @@
     },
     "node-6712690692": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Grootbos Riemst",
+            "alt_name": "Paalkampeerplaats Grootbos Riemst;Paalkamperen Grootbos",
             "backcountry": "yes",
+            "camp_site": "basic",
+            "capacity:persons": "4",
             "capacity:tents": "2",
             "description": "site voor paalkamperen",
             "drinking_water": "no",
+            "fee": "no",
+            "maxstay": "1 day",
             "name": "Bivakzone Grootbos",
             "name:fr": "Point de bivouac Grootbos",
             "openfire": "no",
+            "reservation": "required",
             "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.bivakzone.be/5-x-haspengouw.html"
@@ -861,6 +846,7 @@
             "caravans": "no",
             "fee": "yes",
             "group_only": "yes",
+            "name": "Kampeerterrein De Winner",
             "operator": "De Winner",
             "power_supply": "no",
             "tents": "yes",
@@ -869,29 +855,31 @@
             "website": "https://www.hopper.be/nl/jeugdverblijf/de-winner/accommodatie/kamperen/"
         },
         "coord": [
-            5.3843629,
-            51.1782147
+            5.3842932,
+            51.1781424
         ]
     },
     "node-6821000037": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Speelboomgaard Grootloon",
+            "alt_name": "Paalkampeerplaats Speelboomgaard Grootloon;Paalkamperen Speelboomgaard",
             "backcountry": "yes",
             "bicycle": "no",
             "camp_site": "basic",
+            "capacity:persons": "10",
+            "capacity:tents": "2",
             "description": "site voor paalkamperen",
             "drinking_water": "no",
             "fee": "no",
             "maxstay": "48 hours",
-            "maxtents": "3",
             "motor_vehicle": "no",
             "name": "Bivakzone Grootloon",
             "name:fr": "Zone bivouac Borgloon",
             "openfire": "yes",
-            "operator": "the Flemish Agency for Nature and Forests",
+            "operator": "Regionaal Landschap Haspengouw en Voeren",
+            "reservation": "no",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.natuurenbos.be/kamperen",
+            "website": "https://www.rlhv.be/Kamperen%20in%20de%20bivakzones",
             "website:0": "https://www.bivakzone.be/5-x-haspengouw.html"
         },
         "coord": [
@@ -901,12 +889,15 @@
     },
     "node-6821038485": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Hornebos Heers",
+            "alt_name": "Paalkampeerplaats Hornebos Heers;Paalkamperen Hornebos",
             "backcountry": "yes",
             "bicycle": "yes",
+            "camp_site": "basic",
+            "capacity:persons": "4",
             "capacity:tents": "2",
             "description": "site voor paalkamperen",
             "drinking_water": "no",
+            "maxstay": "1 day",
             "motor_vehicle": "no",
             "name": "Bivakzone Hornebos Heers",
             "name:fr": "Point de bivouac",
@@ -925,13 +916,15 @@
     },
     "node-6821054100": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Eykenbos Sint-Truiden",
+            "alt_name": "Paalkampeerplaats Eykenbos Sint-Truiden;Paalkamperen Eyckenbos",
             "backcountry": "yes",
             "bicycle": "yes",
             "camp_site": "basic",
+            "capacity:persons": "10",
+            "capacity:tents": "3",
             "description": "site voor paalkamperen",
             "drinking_water": "no",
-            "maxtents": "3",
+            "maxstay": "1 day",
             "motor_vehicle": "no",
             "name": "Bivakzone Eyckenbos Kerkom",
             "name:fr": "Point de bivouac Eykenbos",
@@ -945,26 +938,6 @@
         "coord": [
             5.1858911,
             50.7698736
-        ]
-    },
-    "node-6821097278": {
-        "tags": {
-            "alt_name": "Paalkampeerplaats Jesseren Borgloon",
-            "backcountry": "yes",
-            "capacity:tents": "1",
-            "description": "site voor paalkamperen",
-            "drinking_water": "no",
-            "name": "Bivakzone Jesseren",
-            "name:fr": "Zone bivouac Jesseren",
-            "openfire": "no",
-            "toilets": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.natuurenbos.be/kamperen",
-            "website:0": "https://www.natuurenbos.be/sites/default/files/bivakzones_in_haspengouw_0.pdf"
-        },
-        "coord": [
-            5.3833091,
-            50.801662
         ]
     },
     "node-7077676989": {
@@ -1173,6 +1146,7 @@
             "capacity": "2",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "countryside",
+            "drinking_water": "no",
             "fee": "no",
             "internet_access": "no",
             "maxstay": "1 night",
@@ -1238,7 +1212,8 @@
             "sanitary_dump_station": "yes",
             "toilets": "no",
             "tourism": "caravan_site",
-            "water_point": "yes"
+            "water_point": "yes",
+            "wheelchair": "yes"
         },
         "coord": [
             5.3216041,
@@ -1259,7 +1234,7 @@
             "name:nl": "Kampeerautoplaatsen Parking Kalmthoutse Heide",
             "picnic_table": "yes",
             "power_supply": "yes",
-            "sanitary_dump_station": "no",
+            "sanitary_dump_station": "yes",
             "toilets": "yes",
             "tourism": "caravan_site",
             "water_point": "yes",
@@ -1293,8 +1268,8 @@
             "website": "https://reisnaardeboer.be/locaties/de-vallei-hoeve/"
         },
         "coord": [
-            3.6011054,
-            51.084784
+            3.6010974,
+            51.0849003
         ]
     },
     "node-9926207938": {
@@ -1364,7 +1339,7 @@
     "node-10796573668": {
         "tags": {
             "caravans": "yes",
-            "contact:website": "https://sicerfontaine.be/camping-les-roches/",
+            "contact:website": "https://sicerfontaine.be/locations/camping-les-roches/",
             "fee": "yes",
             "motorhome": "yes",
             "name": "Camping Les Roches",
@@ -1385,11 +1360,17 @@
         "tags": {
             "addr:housenumber": "10",
             "addr:street": "'t Veld",
+            "caravans": "yes",
             "contact:facebook": "https://www.facebook.com/minicampingtveld",
             "contact:instagram": "https://www.instagram.com/minicampingtveld/",
+            "drinking_water": "yes",
             "email": "minicampingtveld@gmail.com",
+            "fee": "yes",
             "mobile": "+32 497 51 09 79",
             "name": "Minicamping 't Veld",
+            "power_supply": "yes",
+            "shower": "yes",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://sites.google.com/view/minicampingtveld/homepage"
         },
@@ -1456,7 +1437,9 @@
         "tags": {
             "addr:housenumber": "14",
             "addr:street": "In der Rotheck",
+            "caravans": "yes",
             "name": "La H\u00eatraie",
+            "tents": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -1490,8 +1473,8 @@
             "water_point": "yes"
         },
         "coord": [
-            3.8039812,
-            50.4515953
+            3.8040232,
+            50.4515757
         ]
     },
     "node-11421736140": {
@@ -1528,19 +1511,22 @@
         "tags": {
             "access": "yes",
             "backcountry": "yes",
-            "capacity:persons": "2",
+            "camp_site": "basic",
+            "capacity:persons": "10",
+            "capacity:tents": "3",
             "caravans": "no",
             "fee": "no",
+            "maxstay": "1 day",
             "name": "Bivakzone Schelfheide",
             "operator": "Agentschap voor Natuur en Bos",
-            "static_caravans": "no",
+            "reservation": "required",
             "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.natuurenbos.be/natuurgebieden/schelfheide#:~:text=bivakzone,een%20houten%20tentenplatform%20zijn%20aanwezig."
         },
         "coord": [
-            5.1788293,
-            50.8813824
+            5.1781176,
+            50.8811286
         ]
     },
     "node-11947815769": {
@@ -1563,7 +1549,19 @@
     },
     "node-11988900070": {
         "tags": {
-            "name": "bivouac de la vallee des oiseaux",
+            "camp_site": "basic",
+            "capacity:tents": "5",
+            "caravans": "no",
+            "drinking_water": "no",
+            "fee": "no",
+            "name": "Bivouac de la Vall\u00e9e des Oiseaux",
+            "openfire": "no",
+            "opening_hours": "16:00-10:00",
+            "picnic_table": "no",
+            "reservation": "required",
+            "static_caravans": "no",
+            "tents": "yes",
+            "toilets": "no",
             "tourism": "camp_site"
         },
         "coord": [
@@ -1592,16 +1590,24 @@
     },
     "node-12086110601": {
         "tags": {
+            "capacity": "15",
             "caravan_site": "motorhome_stopover",
+            "charge": "13 EUR",
             "construction": "caravan_site",
+            "internet_access": "wlan",
             "name": "Camping-Car Park Libramont-Chevigny",
-            "network": "CAMPING CAR-PARK",
-            "tourism": "construnction",
-            "website": "https://www.campingcarpark.com/en_GB/stay/stopover-site-motorhome/wallonie/68-luxembourg/libramont-chevigny"
+            "network": "CAMPING-CAR PARK",
+            "power_supply:capacity": "32",
+            "power_supply:maxcurrent": "6",
+            "shower": "no",
+            "toilets": "no",
+            "tourism": "caravan_site",
+            "water_point": "yes",
+            "website": "https://www.campingcarpark.com/fr_FR/camping-car/wallonie/luxembourg/libramont-chevigny"
         },
         "coord": [
-            5.3860712,
-            49.9248206
+            5.3861814,
+            49.924825
         ]
     },
     "node-12088918869": {
@@ -1614,7 +1620,7 @@
             "internet_access": "no",
             "name": "Kampeerterrein \"Op De Hei\"",
             "openfire": "yes",
-            "phone": "043811368",
+            "phone": "+32 4 381 13 68",
             "picnic_table": "no",
             "sanitary_dump_station": "no",
             "shower": "no",
@@ -1673,15 +1679,6 @@
             50.7311729
         ]
     },
-    "node-12142268673": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            5.861673,
-            50.5313833
-        ]
-    },
     "node-12144117960": {
         "tags": {
             "capacity": "2",
@@ -1718,16 +1715,18 @@
     "node-12209176548": {
         "tags": {
             "access": "yes",
+            "backcountry": "yes",
             "capacity:tents": "5",
             "caravans": "no",
             "fee": "no",
+            "motorhome": "no",
             "name": "Bivouac du Ch\u00e2teau Doyen",
             "openfire": "no",
             "opening_hours": "16:00-10:00",
             "operator": "cm tourisme",
             "reservation": "required",
             "static_caravans": "no",
-            "tents": "only",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.cm-tourisme.be/fr/a/aire-de-bivouac-des-fres"
         },
@@ -1762,14 +1761,23 @@
     "node-12273542083": {
         "tags": {
             "access": "yes",
+            "alt_name": "Paalkamperen - National Park Visitor Center;Bivakzone Terhills Eisden",
+            "backcountry": "yes",
+            "camp_site": "basic",
             "capacity:persons": "10",
+            "capacity:tents": "3",
             "caravans": "no",
-            "fee": "no",
-            "name": "Paalkamperen - National Park Visitor Center",
+            "drinking_water": "yes",
+            "fee": "yes",
+            "maxstay": "1 day",
+            "name": "Paalkamperen Terhills",
+            "openfire": "no",
             "operator": "Nationaal Park Hoge Kempen",
-            "static_caravans": "no",
-            "tents": "yes",
-            "tourism": "camp_site"
+            "reservation": "required",
+            "shower": "yes",
+            "toilets": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.nationaalparkhogekempen.be/nl/paalkamperen"
         },
         "coord": [
             5.7027208,
@@ -1840,8 +1848,8 @@
             "website": "https://visit-aalst.be/nl/bereikbaarheid-en-parkeren/parkeerplaats-voor-mobilhomes-met-sanizuil"
         },
         "coord": [
-            4.0564361,
-            50.938059
+            4.0579916,
+            50.9382988
         ]
     },
     "node-12533839102": {
@@ -1866,13 +1874,19 @@
     "node-12680874878": {
         "tags": {
             "access": "yes",
+            "alt_name": "Bivakzone Thorpark As",
             "backcountry": "yes",
             "camp_site": "basic",
-            "capacity:persons": "10 personen - 3 tenten",
+            "capacity:persons": "10",
+            "capacity:tents": "3",
+            "description": "site voor paalkamperen",
+            "drinking_water": "no",
             "fee": "no",
-            "name": "Paalkamperen Thorpark - Nationaal Park Hoge Kempen",
+            "maxstay": "1 day",
+            "name": "Paalkamperen Thorpark",
             "operator": "Nationaal Park Hoge Kempen",
             "reservation": "required",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.nationaalparkhogekempen.be/nl/paalkamperen"
         },
@@ -1888,6 +1902,8 @@
             "fee": "yes",
             "group_only": "no",
             "internet_access": "no",
+            "name": "Bivouac \u00e0 Chokier",
+            "opening_hours": "Mo-Su 18:00-09:00",
             "operator": "CAB Li\u00e8ge",
             "reservation": "required",
             "sanitary_dump_station": "no",
@@ -1909,6 +1925,127 @@
         "coord": [
             6.1349024,
             50.3479276
+        ]
+    },
+    "node-12917397737": {
+        "tags": {
+            "access": "private",
+            "caravans": "no",
+            "group_only": "yes",
+            "name": "Ragnarok Larp",
+            "operator": "https://ragnaroklarp.be/",
+            "static_caravans": "no",
+            "tents": "yes",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            5.8511376,
+            50.1634133
+        ]
+    },
+    "node-12986380651": {
+        "tags": {
+            "capacity:caravans": "5",
+            "caravan_site": "motorhome_stopover",
+            "fee": "no",
+            "maxstay": "72 hours",
+            "name": "Eekhoornparking",
+            "note": "Seems to be a temporary amenity with few services, if any; a better location still in the process of being found",
+            "permanent_camping": "no",
+            "source": "https://www.vrt.be/vrtnws/nl/2025/07/07/campers-parking-vrijbroekpark-mechelen-toerisme/",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.4524791,
+            51.0162519
+        ]
+    },
+    "node-13050402760": {
+        "tags": {
+            "addr:housenumber": "25",
+            "addr:street": "Tiegemberg",
+            "name": "camping op den berg",
+            "tourism": "camp_site",
+            "website": "https://www.campingopdenberg.be/"
+        },
+        "coord": [
+            3.4678753,
+            50.8271538
+        ]
+    },
+    "node-13063804501": {
+        "tags": {
+            "addr:housenumber": "2",
+            "addr:street": "Bellewaardestraat",
+            "name": "'t hof Bellewaerde",
+            "tourism": "camp_site",
+            "website": "https://www.thofbellewaerde.be"
+        },
+        "coord": [
+            2.9403324,
+            50.8520148
+        ]
+    },
+    "node-13137775423": {
+        "tags": {
+            "access": "yes",
+            "alt_name": "Paalkamperen Domein Kiewit",
+            "backcountry": "yes",
+            "camp_site": "basic",
+            "capacity:persons": "8",
+            "capacity:tents": "3",
+            "caravans": "no",
+            "drinking_water": "yes",
+            "fee": "no",
+            "fixme": "staat niet op de preciese plaats",
+            "maxstay": "1 day",
+            "name": "Bivakzone Domein Kiewit",
+            "openfire": "no",
+            "operator": "Domein Kiewit",
+            "reservation": "required",
+            "toilets": "yes",
+            "tourism": "camp_site",
+            "website": "https://booking.camping.care/bivakzones/accommodations/199409"
+        },
+        "coord": [
+            5.378971,
+            50.9608529
+        ]
+    },
+    "node-13156145975": {
+        "tags": {
+            "name": "LA Besace",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.4161596,
+            50.16417
+        ]
+    },
+    "node-13272178738": {
+        "tags": {
+            "group_only": "yes",
+            "name": "La hutte du castor",
+            "panoramax": "c212f4f7-71e7-4edb-bbef-1bc298a75428",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            5.7275141,
+            50.7403933
+        ]
+    },
+    "node-13716778784": {
+        "tags": {
+            "caravans": "yes",
+            "contact:website": "https://www.campinggentele.be/",
+            "fee": "yes",
+            "name": "Camping Gentele",
+            "tents": "yes",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            3.1981174,
+            51.2353634
         ]
     },
     "way-27003802": {
@@ -1951,11 +2088,12 @@
     },
     "way-32265039": {
         "tags": {
+            "name": "Camping des Acacias",
             "tourism": "camp_site"
         },
         "coord": [
-            4.161054407142857,
-            50.62568640714286
+            4.16105485,
+            50.62568639285714
         ]
     },
     "way-32907782": {
@@ -1972,19 +2110,28 @@
             "capacity": "100",
             "caravans": "yes",
             "description": "Camping for campers, caravans and tents. Near the historic city of Antwerp",
+            "drinking_water": "yes",
             "email": "welcome@citycampingantwerp.be",
             "facebook": "https://www.facebook.com/CitycampingAntwerp",
             "fee": "yes",
+            "internet_access": "wlan",
             "name": "City Camping Antwerp",
             "operator": "werkmmaat vzw",
             "payment:credit_cards": "yes",
             "payment:debit_cards": "yes",
             "payment:maestro": "yes",
             "phone": "+32 3 219 81 79",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "sauna": "no",
+            "shower": "yes",
             "stars": "3",
+            "swimming_pool": "no",
             "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.citycampingantwerp.be/"
+            "website": "https://www.citycampingantwerp.be/",
+            "wheelchair": "yes"
         },
         "coord": [
             4.393867476923076,
@@ -1999,8 +2146,8 @@
             "website": "https://www.europarcs.be/vakantieparken/belgie/limburg-(be)/hoge-kempen"
         },
         "coord": [
-            5.549057210526316,
-            50.9283380736842
+            5.549468434782608,
+            50.92814114782609
         ]
     },
     "way-39093900": {
@@ -2067,8 +2214,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            2.7635313361111113,
-            51.15947892222223
+            2.7635324583333336,
+            51.1594778888889
         ]
     },
     "way-44701492": {
@@ -2082,12 +2229,16 @@
     },
     "way-47249337": {
         "tags": {
+            "cabins": "yes",
+            "caravans": "yes",
             "contact:facebook": "https://www.facebook.com/polleurbe",
             "contact:instagram": "https://www.instagram.com/domainepolleur/",
             "contact:website": "https://www.campingpolleur.be/",
+            "motorhome": "yes",
             "name": "Camping de Polleur",
             "name:fr": "Camping de Polleur",
             "name:nl": "Camping van Polleur",
+            "tents": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -2119,15 +2270,17 @@
             "capacity": "15",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "forest",
+            "fee": "no",
             "maxstay": "72 hours",
             "name": "Sporthal centrum Brasschaat",
             "power_supply": "yes",
+            "reservation": "no",
             "sanitary_dump_station": "yes",
             "tourism": "caravan_site"
         },
         "coord": [
-            4.50293064,
-            51.285980280000004
+            4.50298015,
+            51.285934733333335
         ]
     },
     "way-50842819": {
@@ -2139,17 +2292,19 @@
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "sports_centre;city",
             "caravans": "no",
-            "charge": "20 EUR",
-            "check_in": "09:00-20:00; Jun-Sep 09:00-21:00",
+            "charge": "25 EUR",
+            "charge:conditional": "20 EUR@(Oct-May)",
+            "check_in": "09:00-20:00;Jun-Sep 09:00-21:00",
             "check_out": "17:00",
+            "description": "Great location for Antwerp. 3.5 km walk to centre or take bus 22 from Antwerp Expo to Groenplaats.",
             "dog": "leashed",
             "email": "david@nocterra.com",
             "fee": "yes",
             "name": "Camperpark Vogelzang Antwerpen",
-            "note": "\"Groene parking\" voor motorhomes, op gras en op asfalt.",
+            "note": "\"Groene parking\" voor motorhomes, op gras en op beton.",
             "phone": "+32 471308530",
             "power_supply": "yes",
-            "power_supply:charge": "1 EUR/kWh",
+            "power_supply:charge": "5 EUR",
             "power_supply:fee": "yes",
             "power_supply:maxcurrent": "16",
             "reservation": "no",
@@ -2158,14 +2313,16 @@
             "sanitary_dump_station:fee": "no",
             "sanitary_dump_station:grey_water": "yes",
             "tents": "no",
+            "toilets": "yes",
             "tourism": "caravan_site",
             "water_point": "yes",
             "water_point:fee": "yes",
-            "website": "https://camperparkvogelzang.be"
+            "website": "https://www.vogelzangantwerpen.com/",
+            "wikimedia_commons": "Category:Camperpark Vogelzang Antwerpen"
         },
         "coord": [
-            4.4013466,
-            51.1902219125
+            4.401370963636364,
+            51.19054496363637
         ]
     },
     "way-55694786": {
@@ -2223,8 +2380,8 @@
             "website": "https://www.degroenelinden.be/"
         },
         "coord": [
-            4.606439752631579,
-            51.32761706315789
+            4.6065581049999995,
+            51.32768759
         ]
     },
     "way-60582288": {
@@ -2270,7 +2427,9 @@
     },
     "way-74330779": {
         "tags": {
-            "tourism": "camp_site"
+            "name": "Krekenpoort",
+            "tourism": "camp_site",
+            "website": "https://krekenpoort.be/"
         },
         "coord": [
             3.5804258966666676,
@@ -2293,8 +2452,8 @@
             "website": "https://www.campingsalamander.be/"
         },
         "coord": [
-            5.660181345,
-            50.976880355000006
+            5.6602204333333335,
+            50.976886447619044
         ]
     },
     "way-75720861": {
@@ -2385,9 +2544,16 @@
             "addr:postcode": "3078",
             "addr:street": "Grevenbos (Onze-Lieve-Heerstraat",
             "barrier": "fence",
+            "brand": "Athena",
             "camp_site": "serviced",
+            "email": "helios@athena-naturisme.org",
             "name": "Naturisme Camping Athena Helios",
             "nudism": "yes",
+            "phone": "+32 16 48 80 17",
+            "toilets": "yes",
+            "toilets:access": "customers",
+            "toilets:fee": "no",
+            "toilets:handwashing": "yes",
             "tourism": "camp_site",
             "website": "https://naturisme-athena.org/helios/"
         },
@@ -2419,8 +2585,8 @@
             "website": "https://www.kampeerverblijfparkdiepvennen.be"
         },
         "coord": [
-            4.317676671875,
-            51.02109609218752
+            4.317627971212122,
+            51.02105698333335
         ]
     },
     "way-85605430": {
@@ -2571,19 +2737,8 @@
             "wheelchair": "yes"
         },
         "coord": [
-            2.9788439627450978,
-            51.25150474117648
-        ]
-    },
-    "way-88705074": {
-        "tags": {
-            "name": "Camping Edelwei\u00df",
-            "tourism": "camp_site",
-            "url": "http://www.buellingen.com/wb/pages/de.php?lang=DE"
-        },
-        "coord": [
-            6.275298566666666,
-            50.40634632500001
+            2.978850144230769,
+            51.251525232692316
         ]
     },
     "way-88707959": {
@@ -2621,6 +2776,8 @@
             "alt_name": "Camping Blaarmeersen",
             "contact:email": "gent@urban-gardens.be",
             "contact:phone": "+32 9 396 93 92",
+            "fee": "yes",
+            "group_only": "no",
             "name": "Urban Gardens",
             "tents": "yes",
             "tourism": "camp_site",
@@ -2656,8 +2813,8 @@
             "website": "https://domainedubocq.be/en/"
         },
         "coord": [
-            4.943530846341464,
-            50.321564143902435
+            4.943558738095238,
+            50.32152162619047
         ]
     },
     "way-90968967": {
@@ -2715,20 +2872,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            4.066962663636364,
-            51.229823399999994
-        ]
-    },
-    "way-92440325": {
-        "tags": {
-            "addr:housenumber": "50",
-            "addr:street": "Rue de Malcamp\u00e9",
-            "name": "Les Gen\u00eats",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.417999664705882,
-            50.17933582941177
+            4.0670493347826095,
+            51.229802121739134
         ]
     },
     "way-92534326": {
@@ -2830,7 +2975,8 @@
             "addr:street": "Rue des Villas",
             "name": "Les Arpents Verts",
             "phone": "+32 82 61 22 45",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.campinglesarpentsverts.be"
         },
         "coord": [
             4.8576970714285705,
@@ -2847,8 +2993,8 @@
             "website": "https://www.adventure-valley.be/hebergements/glamping"
         },
         "coord": [
-            5.452311610714287,
-            50.34545238928571
+            5.452404410344827,
+            50.34545013103449
         ]
     },
     "way-95989595": {
@@ -2868,7 +3014,9 @@
             "addr:street": "Rue des Glawans",
             "caravans": "yes",
             "name": "Les Rochers du Glawan",
+            "shower": "yes",
             "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "http://www.glawan.be/"
         },
@@ -2908,13 +3056,14 @@
             "addr:housenumber": "50",
             "addr:postcode": "6940",
             "addr:street": "Rue Haute Comm\u00e8ne",
-            "name": "Outdoor camping Barvaux",
+            "name": "Camping de la Vall\u00e9e",
+            "phone": "+32 475 389 255",
             "tourism": "camp_site",
-            "website": "https://www.campingardennen.nl"
+            "website": "https://camping-delavallee.be"
         },
         "coord": [
-            5.507039832500001,
-            50.365483139999995
+            5.507034280000001,
+            50.36548459499999
         ]
     },
     "way-96865022": {
@@ -3166,15 +3315,13 @@
             "website": "https://www.molenzijdseheide.be/"
         },
         "coord": [
-            4.834996115789474,
-            51.370401389473685
+            4.834176715384617,
+            51.37209989999999
         ]
     },
     "way-103898118": {
         "tags": {
-            "addr:city": "Noiseux",
             "addr:housenumber": "1",
-            "addr:postcode": "5377",
             "addr:street": "Rue de Foret",
             "name": "R\u00e9sidentiel Le Panoramique",
             "tourism": "camp_site"
@@ -3186,13 +3333,11 @@
     },
     "way-103898139": {
         "tags": {
-            "addr:city": "Noiseux",
             "addr:housenumber": "1",
-            "addr:postcode": "5377",
             "addr:street": "Rue des Chasseurs Ardennais",
+            "contact:website": "http://www.campingsangaree.com",
             "name": "La Sangare",
-            "tourism": "camp_site",
-            "website": "http://www.campingsangaree.com"
+            "tourism": "camp_site"
         },
         "coord": [
             5.3665475777777765,
@@ -3232,8 +3377,8 @@
             "website": "https://domaine-charmilles.be/camping/"
         },
         "coord": [
-            6.110772057142857,
-            50.47473159999999
+            6.110753787499999,
+            50.474751775
         ]
     },
     "way-104790963": {
@@ -3412,8 +3557,8 @@
             "website": "https://www.camping-astrid.be/"
         },
         "coord": [
-            2.9684137406249995,
-            51.24903245312501
+            2.9683998212121208,
+            51.24899360909092
         ]
     },
     "way-105194619": {
@@ -3432,8 +3577,8 @@
             "website": "https://www.campingduinzicht.be/"
         },
         "coord": [
-            2.967466153488372,
-            51.2467147232558
+            2.9674572133333332,
+            51.24670401333332
         ]
     },
     "way-105194636": {
@@ -3612,8 +3757,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            5.882731758333333,
-            50.48487179166667
+            5.8826908875,
+            50.48488399374999
         ]
     },
     "way-108362484": {
@@ -3732,21 +3877,14 @@
             50.300960333333336
         ]
     },
-    "way-112567265": {
-        "tags": {
-            "name": "Cobut",
-            "tourism": "camp_site",
-            "website": "https://www.hotelcobut.be/"
-        },
-        "coord": [
-            4.7918687277777785,
-            50.29303107222223
-        ]
-    },
     "way-112617436": {
         "tags": {
+            "access": "private",
+            "caravans": "no",
             "name": "Le Molignia",
             "permanent_camping": "only",
+            "static_caravans": "yes",
+            "tents": "no",
             "tourism": "camp_site",
             "website": "https://campinglemolignia.mystrikingly.com/"
         },
@@ -3836,7 +3974,7 @@
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "canal",
             "charge": "6 EUR/24 hours",
-            "fee": "no",
+            "fee": "yes",
             "maxstay": "2 days",
             "name": "Passantenhaven De Welvaart",
             "power_supply": "yes",
@@ -3954,11 +4092,12 @@
     },
     "way-116330171": {
         "tags": {
+            "name": "Domaine auberge francopole",
             "tourism": "camp_site"
         },
         "coord": [
-            5.99648117826087,
-            50.45257302608696
+            5.996481917391305,
+            50.452573539130434
         ]
     },
     "way-116848280": {
@@ -4103,9 +4242,11 @@
             "addr:postcode": "8620",
             "addr:street": "Brugse Steenweg",
             "addr:suburb": "Sint-Joris",
+            "caravans": "yes",
             "email": "nieuwpoort@kompascamping.be",
             "name": "Kompas Camping Nieuwpoort",
             "phone": "+32 58 23 60 37",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.kompascamping.be/nieuwpoort/"
         },
@@ -4189,10 +4330,15 @@
             "caravans": "yes",
             "contact:email": "camping.les.trieux@skynet.be",
             "contact:phone": "+32 473 81 07 42",
+            "drinking_water": "yes",
             "internet_access": "wlan",
             "internet_access:fee": "no",
             "name": "Camping Les Trieux",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
             "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.campinglestrieux.be/"
         },
@@ -4250,8 +4396,22 @@
             49.820285459677415
         ]
     },
+    "way-123701415": {
+        "tags": {
+            "contact:website": "https://www.verblijfparkbreebos.be/",
+            "name": "Breebos - Verblijfpark",
+            "note": "One park with adjacent camp_sites/caravan_sites",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.807453978651685,
+            51.3446526247191
+        ]
+    },
     "way-123701606": {
         "tags": {
+            "contact:website": "https://www.verblijfparkbreebos.be/",
+            "name": "Breebos - Kavels Ter Heide",
             "tourism": "camp_site"
         },
         "coord": [
@@ -4303,8 +4463,8 @@
             "website": "https://www.dewielen.be/"
         },
         "coord": [
-            3.1512081041666664,
-            51.30988318333334
+            3.151178230434783,
+            51.30989767391305
         ]
     },
     "way-125415143": {
@@ -4387,8 +4547,8 @@
             "website": "http://kampeerverblijfpark-tstropke.be/"
         },
         "coord": [
-            3.683563623333333,
-            51.03993596666667
+            3.684199221428571,
+            51.039762189285725
         ]
     },
     "way-126108554": {
@@ -4450,15 +4610,13 @@
             "tourism": "camp_site"
         },
         "coord": [
-            4.942365968750002,
-            49.85013653125
+            4.942370637500002,
+            49.850152050000005
         ]
     },
     "way-127089676": {
         "tags": {
-            "addr:city": "Lichtaart",
             "addr:housenumber": "64",
-            "addr:postcode": "2460",
             "addr:street": "Herentalsesteenweg",
             "cabins": "yes",
             "caravans": "yes",
@@ -4495,17 +4653,19 @@
             "website": "https://www.residentieparkoasis.be/"
         },
         "coord": [
-            2.8452654571428573,
-            51.198714105357126
+            2.845362745679012,
+            51.19819218148147
         ]
     },
     "way-127350151": {
         "tags": {
-            "tourism": "camp_site"
+            "name": "Mercator",
+            "tourism": "camp_site",
+            "website": "https://marvaparken.be/parken/mercator-park"
         },
         "coord": [
-            2.8167860444444446,
-            51.18103729444445
+            2.8167865450000003,
+            51.181095490000004
         ]
     },
     "way-127350268": {
@@ -4566,18 +4726,6 @@
         "coord": [
             2.7922140509433966,
             51.17443504339622
-        ]
-    },
-    "way-128570627": {
-        "tags": {
-            "name": "Verblijfpark Breebos",
-            "note": "One park with adjacent camp_sites/caravan_sites",
-            "tourism": "camp_site",
-            "website": "https://www.verblijfparkbreebos.be/"
-        },
-        "coord": [
-            4.8044550500000005,
-            51.346117362499996
         ]
     },
     "way-128635529": {
@@ -4684,11 +4832,13 @@
     },
     "way-129023421": {
         "tags": {
-            "tourism": "camp_site"
+            "name": "Camping de la Glycine",
+            "tourism": "camp_site",
+            "website": "https://campingdelaglycine.be/"
         },
         "coord": [
-            5.002007271428572,
-            49.81011888571429
+            5.0020449312499995,
+            49.8099910625
         ]
     },
     "way-129023429": {
@@ -4751,15 +4901,18 @@
             "access": "permissive",
             "addr:housenumber": "1",
             "addr:street": "Halliru",
-            "caravans": "no",
+            "cabins": "yes",
+            "caravans": "yes",
             "disused": "yes",
             "fee": "no",
+            "motorhome": "yes",
             "name": "Le Hameau de la Semois",
             "note:en": "may open in summer 2025",
             "operator": "Floreal Holidays",
             "static_caravans": "no",
+            "tents": "yes",
             "tourism": "camp_site",
-            "website": "https://www.florealgroup.be/"
+            "website": "https://www.florealgroup.be/vakantiedorpen/le-hameau-de-la-semois"
         },
         "coord": [
             5.046706731818183,
@@ -4768,9 +4921,15 @@
     },
     "way-129654752": {
         "tags": {
+            "addr:city": "Bouillon",
             "addr:housenumber": "64",
+            "addr:postcode": "6830",
             "addr:street": "Vieille Route de France",
-            "name": "Camping Moulin de la Falize",
+            "contact:email": "info@papillonbouillon.be",
+            "contact:instagram": "papillonbouillon",
+            "contact:phone": "+32472056038",
+            "contact:website": "https://papillonbouillon.be",
+            "name": "Camping Papillon Bouillon",
             "tourism": "camp_site"
         },
         "coord": [
@@ -4794,9 +4953,11 @@
         "tags": {
             "addr:city": "Hotton",
             "addr:housenumber": "10",
+            "addr:postcode": "6990",
             "addr:street": "Rue des Fonzays",
             "caravans": "yes",
             "drinking_water": "yes",
+            "email": "hello@campingeauzone.be",
             "fee": "yes",
             "name": "Camping Eau Zone",
             "power_supply": "yes",
@@ -4841,15 +5002,17 @@
             "tourism": "camp_site"
         },
         "coord": [
-            5.519281061904762,
-            50.37451446190477
+            5.51923260952381,
+            50.37453096190476
         ]
     },
     "way-131120940": {
         "tags": {
             "addr:city": "Bertrix",
             "addr:street": "Route du Maka",
+            "caravans": "yes",
             "name": "Camping Maka",
+            "tents": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -4859,7 +5022,9 @@
     },
     "way-131138507": {
         "tags": {
+            "caravans": "yes",
             "name": "Camping Saint-Remacle",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.camping-saint-remacle.be/"
         },
@@ -4894,8 +5059,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            2.7585836409090905,
-            51.15441910681818
+            2.758588002272727,
+            51.15441509090909
         ]
     },
     "way-132348060": {
@@ -4941,6 +5106,7 @@
     },
     "way-132803007": {
         "tags": {
+            "name": "Riviera",
             "tourism": "camp_site"
         },
         "coord": [
@@ -4975,7 +5141,8 @@
             "tents": "no",
             "toilets": "yes",
             "tourism": "caravan_site",
-            "website": "https://www.florealgroup.be/nl/camping/camperpark-blankenberge"
+            "website": "https://www.florealgroup.be/nl/camping/camperpark-blankenberge",
+            "wheelchair": "yes"
         },
         "coord": [
             3.147293850000001,
@@ -4995,18 +5162,25 @@
     "way-141059094": {
         "tags": {
             "name": "De Brink",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.hopper.be/nl/jeugdverblijf/de-brink/"
         },
         "coord": [
-            4.8496179538461535,
-            51.202195661538454
+            4.849749210526317,
+            51.20140629473685
         ]
     },
     "way-144585603": {
         "tags": {
             "addr:housenumber": "1",
             "addr:street": "Worriken",
+            "camp_site": "serviced",
+            "drinking_water": "yes",
+            "fee": "yes",
             "name": "Camping Worriken",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -5042,7 +5216,10 @@
         "tags": {
             "addr:housenumber": "1",
             "addr:street": "Chemin de la Vall\u00e9e",
+            "cabins": "yes",
+            "caravans": "yes",
             "name": "Camping de la Salm",
+            "tents": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -5052,7 +5229,13 @@
     },
     "way-147186149": {
         "tags": {
+            "addr:city": "Hotton",
+            "addr:housenumber": "12",
+            "addr:postcode": "6990",
+            "addr:street": "Rue des Fonzays",
+            "email": "havilimo@hotmail.com",
             "name": "Camping du P\u00e8re Andr\u00e9",
+            "phone": "+32 476 56 57 40",
             "tourism": "camp_site",
             "website": "https://www.campingbelgique.be/en/campings/camping-le-pere-andre/"
         },
@@ -5063,20 +5246,34 @@
     },
     "way-148578392": {
         "tags": {
+            "access": "customers",
             "addr:city": "Baelen",
             "addr:housenumber": "68",
             "addr:postcode": "4837",
             "addr:street": "Rue de l'Invasion",
+            "camp_site": "serviced",
+            "capacity:caravans": "30",
+            "capacity:persons": "150",
+            "capacity:tents": "20",
+            "caravans": "yes",
+            "charge": "32",
+            "drinking_water": "yes",
             "email": "camping@montdragon.be",
             "fee": "yes",
             "name": "Mont Dragon",
             "old_name": "Camping Wesertal",
+            "payment:cash": "yes",
+            "payment:debit_cards": "yes",
+            "power_supply": "yes",
+            "shower": "yes",
+            "static_caravans": "no",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.montdragon.be/"
         },
         "coord": [
-            6.012689253846153,
-            50.61215993076924
+            6.012596838461538,
+            50.61214290769231
         ]
     },
     "way-149913455": {
@@ -5143,32 +5340,35 @@
         "tags": {
             "addr:housenumber": "190A",
             "addr:street": "Donklaan",
-            "fee": "yes",
             "name": "Rodeo",
             "static_caravans": "only",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.verblijfparkrodeo.be"
         },
         "coord": [
-            3.9775531800000006,
-            51.05014450666666
+            3.9774960687500003,
+            51.0501257875
         ]
     },
     "way-150974750": {
         "tags": {
-            "fax": "+32 9 231 45 28",
             "name": "Camping Lake Park",
             "operator": "North Sea Caravans",
             "phone": "+32 9 231 93 19",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.lakepark.be/"
         },
         "coord": [
-            3.9725740285714286,
-            51.04660344642857
+            3.972573392857143,
+            51.04660331428572
         ]
     },
     "way-151843047": {
         "tags": {
-            "tourism": "camp_site"
+            "name": "Verblijfpark Kouter",
+            "permanent_camping": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.verblijfpark-kouter.be/"
         },
         "coord": [
             3.9709573849999997,
@@ -5336,8 +5536,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            4.007464886363636,
-            51.18468097272728
+            4.007367286956522,
+            51.18455002608695
         ]
     },
     "way-156999488": {
@@ -5500,14 +5700,14 @@
             "addr:postcode": "8660",
             "addr:street": "Duinhoekstraat",
             "fee": "yes",
-            "name": "Plopsa Village",
+            "name": "Plopsaland Village",
             "operator": "Plopsa",
             "tourism": "camp_site",
             "website": "https://www.plopsavillage.be"
         },
         "coord": [
-            2.591320057777778,
-            51.08241567777778
+            2.5914013000000007,
+            51.082414986956515
         ]
     },
     "way-167645854": {
@@ -5517,7 +5717,7 @@
             "drinking_water": "yes",
             "fee": "yes",
             "motor_vehicle": "yes",
-            "name": "Camping Malpertuus",
+            "name": "Camping Bosrand",
             "permanent_camping": "yes",
             "power_supply": "yes",
             "shower": "yes",
@@ -5525,7 +5725,7 @@
             "toilets": "yes",
             "tourism": "camp_site",
             "washing_machine": "yes",
-            "website": "https://www.campingmalpertuus.be/"
+            "website": "https://www.campingbosrand.be/"
         },
         "coord": [
             3.6427874538461538,
@@ -5617,6 +5817,39 @@
             50.4718535923077
         ]
     },
+    "way-174661011": {
+        "tags": {
+            "bbq": "no",
+            "capacity": "56",
+            "caravan_site": "motorhome_stopover",
+            "caravan_site:type": "town",
+            "charge": "15 EUR",
+            "charge:conditional": "13.52 EUR @ (Oct-Apr)",
+            "construction": "caravan_site",
+            "disused:amenity": "parking",
+            "disused:parking": "surface",
+            "dog": "leashed",
+            "fee": "yes",
+            "internet_access": "wlan",
+            "maxlength": "none",
+            "name": "Aire Camping-Car Mons",
+            "name:en": "Motorhome area of Mons",
+            "network": "CAMPING-CAR PARK",
+            "power_supply:capacity": "56",
+            "power_supply:maxcurrent": "6",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "trailer": "yes",
+            "water_point": "yes",
+            "website": "https://www.campingcarpark.com/fr_FR/sejour/camping/wallonie/70-hainaut/mons"
+        },
+        "coord": [
+            3.963042836363636,
+            50.45134113636364
+        ]
+    },
     "way-178312413": {
         "tags": {
             "addr:city": "Deinze",
@@ -5657,10 +5890,7 @@
     },
     "way-182836199": {
         "tags": {
-            "addr:city": "Lichtaart",
-            "addr:country": "BE",
             "addr:housenumber": "40",
-            "addr:postcode": "2460",
             "addr:street": "Olensteenweg",
             "contact:mobile": "+32 486 41 19 10",
             "fax": "+32 14 55 32 92",
@@ -5676,8 +5906,8 @@
             "website": "https://www.campingkorteheide.be/"
         },
         "coord": [
-            4.8991463756756755,
-            51.19985614864865
+            4.899036294594593,
+            51.1997654027027
         ]
     },
     "way-183729614": {
@@ -5688,6 +5918,7 @@
             "caravans": "yes",
             "fee": "yes",
             "name": "Camping l'Hirondelle",
+            "operator": "Capfun",
             "phone": "+32 85 71 11 31",
             "shower": "yes",
             "tents": "yes",
@@ -5695,8 +5926,8 @@
             "website": "https://www.lhirondelle.be"
         },
         "coord": [
-            5.121539349999999,
-            50.583933320833346
+            5.121548170833332,
+            50.58393764166669
         ]
     },
     "way-183754553": {
@@ -5732,8 +5963,8 @@
             "website": "http://www.camping-la-charbonniere.be/"
         },
         "coord": [
-            5.205749126666665,
-            49.80196603333334
+            5.2057509066666645,
+            49.80196458000001
         ]
     },
     "way-184996958": {
@@ -5741,7 +5972,9 @@
             "addr:city": "Herbeumont",
             "addr:housenumber": "13",
             "addr:street": "Lingl\u00e9",
+            "caravans": "yes",
             "name": "Cote d'Aise",
+            "tents": "no",
             "tourism": "camp_site"
         },
         "coord": [
@@ -5754,7 +5987,12 @@
             "addr:city": "Herbeumont",
             "addr:postcode": "6887",
             "addr:street": "Rue de la Garenne",
+            "caravans": "yes",
+            "drinking_water": "yes",
             "name": "Sport Camp",
+            "power_supply": "yes",
+            "shower": "yes",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.sportsinlux.com/camping"
         },
@@ -5788,7 +6026,8 @@
             "caravans": "yes",
             "name": "Domein de Gavers",
             "tents": "yes",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://oost-vlaanderen.be/ontspannen/recreatiedomeinen/de-gavers/overnachten/camping-de-gavers/kampeerplaatsen.html"
         },
         "coord": [
             3.9227418379310346,
@@ -5819,6 +6058,7 @@
             "addr:housenumber": "109",
             "addr:postcode": "8310",
             "addr:street": "Veltemweg",
+            "caravans": "yes",
             "email": "info@camping-memling.be",
             "internet_access": "wlan",
             "internet_access:fee": "no",
@@ -5826,6 +6066,7 @@
             "phone": "+32 50 35 58 45",
             "power_supply": "yes",
             "sanitary_dump_station": "customers",
+            "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.brugescamping.be/"
         },
@@ -5914,11 +6155,13 @@
             "addr:housenumber": "24",
             "addr:postcode": "6980",
             "addr:street": "Rue de Harz\u00e9",
+            "bar": "yes",
             "caravans": "yes",
-            "email": "info@campingbenelux.be",
+            "email": "stay@club-benelux.be",
             "fax": "+32 84 41 23 59;+32 58 51 26 18",
             "hot_water": "yes",
             "internet_access": "wlan",
+            "internet_access:fee": "no",
             "name": "Camping Benelux",
             "phone": "+32 84 41 15 59;+32 58 51 25 46",
             "power_supply": "yes",
@@ -5928,11 +6171,11 @@
             "tents": "yes",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://campingbenelux.be/"
+            "website": "https://club-benelux.be/"
         },
         "coord": [
-            5.570241499999999,
-            50.19072599285716
+            5.570320810638297,
+            50.19045910851064
         ]
     },
     "way-199576115": {
@@ -5989,35 +6232,6 @@
         "coord": [
             5.583865212500001,
             50.17643110624999
-        ]
-    },
-    "way-199576119": {
-        "tags": {
-            "addr:city": "La Roche-en-Ardenne",
-            "addr:country": "BE",
-            "addr:housenumber": "8",
-            "addr:postcode": "6980",
-            "addr:street": "Rue des Echav\u00e9es",
-            "area": "yes",
-            "bicycle": "yes",
-            "caravans": "yes",
-            "email": "info@campingbenelux.be",
-            "fax": "+32 58 51 26 18",
-            "fixme": "Survey if the both camping are now merged (check entrance)",
-            "internet_access": "wlan",
-            "name": "Camping Le Grillon",
-            "note": "Looks like the camping has merged with camping Benelux",
-            "phone": "+32 84 41 20 62;+32 58 51 25 46",
-            "power_supply": "yes",
-            "shower": "yes",
-            "tents": "yes",
-            "toilets": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.campinglegrillon.be"
-        },
-        "coord": [
-            5.568983049999999,
-            50.18917535
         ]
     },
     "way-199576120": {
@@ -6137,16 +6351,6 @@
         "coord": [
             5.418043921052631,
             49.83294598947369
-        ]
-    },
-    "way-207301431": {
-        "tags": {
-            "name": "Kempenheuvel",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            5.567142752941177,
-            51.13702483823529
         ]
     },
     "way-211728251": {
@@ -6271,7 +6475,6 @@
             "addr:street": "Kessenicherweg",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "countryside",
-            "charge": "16 EUR",
             "dog": "yes",
             "dog_park": "yes",
             "email": "Kris@camperplaatskessenich.be",
@@ -6286,9 +6489,9 @@
             "sanitary_dump_station:chemical_toilet": "yes",
             "sanitary_dump_station:grey_water": "yes",
             "seasonal": "yes",
-            "shower": "no",
+            "shower": "yes",
             "surface": "grass",
-            "toilets": "no",
+            "toilets": "yes",
             "tourism": "caravan_site",
             "water_point": "yes",
             "website": "https://www.camperplaatskessenich.be/"
@@ -6335,11 +6538,17 @@
     },
     "way-219124918": {
         "tags": {
-            "tourism": "camp_site"
+            "caravans": "yes",
+            "name": "Worriken",
+            "payment:credit_cards": "yes",
+            "sanitary_dump_station": "customers",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.worriken.be/"
         },
         "coord": [
-            6.2202912857142865,
-            50.42568012499999
+            6.22066139375,
+            50.4263369125
         ]
     },
     "way-220325910": {
@@ -6347,7 +6556,8 @@
             "caravans": "yes",
             "name": "Camping De Binnenvaart",
             "tents": "yes",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.limburgcampings.be/de-binnenvaart/"
         },
         "coord": [
             5.4185454900000005,
@@ -6360,9 +6570,16 @@
             "addr:housenumber": "37",
             "addr:postcode": "3294",
             "addr:street": "Heide",
+            "caravans": "yes",
             "email": "campinghetswinnenbos@hotmail.com",
             "name": "Het Swinnenbos",
             "phone": "+32 499 40 47 93",
+            "power_supply": "yes",
+            "sauna": "no",
+            "shower": "yes",
+            "swimming_pool": "no",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://hetswinnenbos.be/"
         },
@@ -6428,8 +6645,8 @@
             "website": "https://www.campingdeslacs.be/"
         },
         "coord": [
-            4.408702372222221,
-            50.194539066666685
+            4.408529765384616,
+            50.194388290384616
         ]
     },
     "way-224176152": {
@@ -6478,8 +6695,8 @@
             "website": "http://www.camping-vielsalm.com"
         },
         "coord": [
-            5.7542455,
-            50.24053067222222
+            5.7542087478260875,
+            50.24036313478261
         ]
     },
     "way-231706411": {
@@ -6515,8 +6732,11 @@
     },
     "way-232143263": {
         "tags": {
+            "caravans": "yes",
             "name": "Heidestrand",
-            "tourism": "camp_site"
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.heidestrand.be/"
         },
         "coord": [
             5.317695690277779,
@@ -6568,8 +6788,8 @@
             "website": "https://www.sitheux.be/"
         },
         "coord": [
-            5.806956617857144,
-            50.53812374999999
+            5.806960660344829,
+            50.53815931724137
         ]
     },
     "way-234805684": {
@@ -6660,8 +6880,8 @@
             "water_point": "yes"
         },
         "coord": [
-            4.756554511111111,
-            50.43432526666667
+            4.7564542,
+            50.434195463636364
         ]
     },
     "way-247097006": {
@@ -6687,33 +6907,6 @@
         "coord": [
             2.8374259551282055,
             51.19498869358975
-        ]
-    },
-    "way-251480313": {
-        "tags": {
-            "addr:city": "Langdorp",
-            "addr:housenumber": "8,10",
-            "addr:postcode": "3201",
-            "addr:street": "Klein Opperstraat",
-            "caravans": "yes",
-            "name": "Natuurleven 't Vennebos",
-            "nudism": "designated",
-            "tents": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.natuurleven.be/"
-        },
-        "coord": [
-            4.893162915,
-            51.017979894999996
-        ]
-    },
-    "way-252100776": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.89436414,
-            51.01728266
         ]
     },
     "way-252107638": {
@@ -6750,8 +6943,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            5.528793229545456,
-            49.72530197500001
+            5.528789602325582,
+            49.72525528837209
         ]
     },
     "way-259029082": {
@@ -6879,7 +7072,7 @@
             "mobile": "+49 176 96889007",
             "name": "Natur-Camping Hammerbr\u00fccke",
             "openfire": "yes",
-            "opening_hours": "Mo -So 10:00-13:00 und 15:00-20:00",
+            "opening_hours": "Mo-Su 10:00-13:00, 15:00-20:00",
             "operator": "Kirstin Evenschor",
             "phone": "+32 87 78 31 26",
             "power_supply": "yes",
@@ -6906,8 +7099,8 @@
             "website": "https://campingdesgrandspres.be/"
         },
         "coord": [
-            5.187138845833332,
-            50.54912787083334
+            5.1870376,
+            50.54911044615385
         ]
     },
     "way-278831136": {
@@ -6995,7 +7188,7 @@
             "capacity": "33",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "town",
-            "charge": "14 EUR",
+            "charge": "15 EUR",
             "drinking_water": "yes",
             "fee": "yes",
             "internet_access": "yes",
@@ -7048,12 +7241,12 @@
             "addr:street": "Bolwerkstraat",
             "cabins": "yes",
             "caravans": "yes",
-            "email": "info@jeugdstadion.be",
+            "email": "ieper@urban-gardens.be",
             "fee": "yes",
             "internet_access": "wlan",
             "kitchen": "no",
             "lit": "yes",
-            "name": "Camping Jeugdstadion",
+            "name": "Camping Urban Gardens",
             "phone": "+32 57 21 72 82",
             "power_supply": "yes",
             "reservation": "yes",
@@ -7064,7 +7257,7 @@
             "toilets": "yes",
             "tourism": "camp_site",
             "waste_disposal": "yes",
-            "website": "http://www.jeugdstadion.be/E/index.php"
+            "website": "https://urban-gardens.be/nl/ieper/"
         },
         "coord": [
             2.897351076923076,
@@ -7074,7 +7267,6 @@
     "way-290600143": {
         "tags": {
             "backcountry": "no",
-            "camp_site": "reception",
             "caravans": "no",
             "drinking_water": "yes",
             "group_only": "yes",
@@ -7097,7 +7289,6 @@
     "way-290600144": {
         "tags": {
             "backcountry": "no",
-            "camp_site": "reception",
             "caravans": "no",
             "drinking_water": "yes",
             "group_only": "yes",
@@ -7252,6 +7443,7 @@
     },
     "way-312046691": {
         "tags": {
+            "cabins": "no",
             "capacity": "10",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "countryside",
@@ -7260,14 +7452,17 @@
             "power_supply": "no",
             "sanitary_dump_station": "no",
             "seasonal": "no",
+            "shower": "no",
             "surface": "asphalt",
+            "tents": "no",
+            "toilets": "no",
             "tourism": "caravan_site",
             "water_point": "no",
             "website": "https://visitwallonia.be/fr-be/content/aire-de-motor-homes-muno-province-de-luxembourg"
         },
         "coord": [
-            5.16926656,
-            49.711964720000005
+            5.169348371428572,
+            49.71199404285715
         ]
     },
     "way-317779635": {
@@ -7280,26 +7475,18 @@
             "caravans": "yes",
             "contact:email": "info@campinglecanada.be",
             "contact:phone": "+32 495 54 32 31",
+            "drinking_water": "yes",
             "fee": "yes",
             "name": "Camping le Canada",
+            "shower": "yes",
             "static_caravans": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site"
         },
         "coord": [
             5.352185984000001,
             49.739645679999995
-        ]
-    },
-    "way-318258005": {
-        "tags": {
-            "addr:housenumber": "32",
-            "addr:street": "Rettigny",
-            "name": "Moulin de Bistain",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            5.867064366000001,
-            50.150846981999976
         ]
     },
     "way-319248341": {
@@ -7350,20 +7537,11 @@
             "sanitary_dump_station": "yes",
             "tents": "no",
             "tourism": "caravan_site",
-            "website": "https://www.interparking.be/nl-BE/find-parking/Kampeerautoterreinen-1---2/"
+            "website": "https://www.interparking.be/nl/parkeren/brugge/kampeerautoterrein/"
         },
         "coord": [
             3.225826418584072,
             51.1956506840708
-        ]
-    },
-    "way-324023562": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.209986821739131,
-            50.571958391304356
         ]
     },
     "way-325691939": {
@@ -7451,7 +7629,7 @@
             "website": "https://www.bivakzone.be/het-spoor-meerdaal.html"
         },
         "coord": [
-            4.692446883333333,
+            4.692447016666667,
             50.78857993333333
         ]
     },
@@ -7560,7 +7738,14 @@
     "way-365342177": {
         "tags": {
             "addr:street": "Rue de Lingl\u00e9",
+            "caravans": "yes",
+            "drinking_water": "yes",
             "name": "Les Ochay",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -7582,8 +7767,8 @@
             "water_point": "no"
         },
         "coord": [
-            5.873571728571429,
-            50.390901199999995
+            5.8736088375,
+            50.3909039875
         ]
     },
     "way-372257622": {
@@ -7615,8 +7800,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            3.979824027272727,
-            51.048822018181816
+            3.9798236727272727,
+            51.04882198181817
         ]
     },
     "way-373706270": {
@@ -7648,13 +7833,14 @@
     },
     "way-378931256": {
         "tags": {
-            "alt_name": "Paalkampeerplaats Het Vinne",
+            "alt_name": "Paalkampeerplaats Het Vinne;Bivakzone Het Vinne",
             "backcountry": "yes",
             "bicycle": "yes",
             "camp_site": "basic",
-            "capacity": "10",
+            "capacity:persons": "9",
+            "capacity:tents": "3",
             "caravans": "no",
-            "description:reservation": "Registration by phone on arrival before pinching tent.",
+            "description:reservation": "online https://booking.camping.care/bivakzones",
             "drinking_water": "no",
             "fee": "no",
             "image": "http://www.bivakzone.be/images/vinne/paalcamping_het_vinne2.jpg",
@@ -7663,23 +7849,25 @@
             "impromptu": "yes",
             "landuse": "grass",
             "maxstay": "48 hours",
-            "maxtents": "3",
             "motor_vehicle": "no",
-            "name": "Het Vinne - Zoutleeuw",
+            "name": "Paalkamperen Het Vinne - Zoutleeuw",
             "openfire": "yes",
-            "opening_hours": "Apr 1 - Sep 30",
-            "operator": "The Government of Flemish Brabant",
-            "phone": "+32 11 78 18 19",
+            "opening_hours": "Apr 01-Sep 30",
+            "operator": "Provincie Vlaams-Brabant",
             "reservation": "yes",
             "sanitary_dump_station": "no",
+            "shower": "no",
+            "static_caravans": "no",
+            "tents": "yes",
             "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.bivakzone.be/het-vinne.html",
+            "website:0": "https://www.vlaamsbrabant.be/nl/vrije-tijd-en-toerisme/provinciedomein-het-vinne-zoutleeuw#fake-tab-nav--995",
             "wheelchair": "no"
         },
         "coord": [
-            5.13266832,
-            50.84512674
+            5.1326615166666665,
+            50.84508375000001
         ]
     },
     "way-381939825": {
@@ -7724,9 +7912,11 @@
             "addr:housenumber": "251",
             "addr:postcode": "2040",
             "addr:street": "Putsebaan",
-            "alt_name": "Jeugdverblijfscentrum Ruige Heide; JVC Ruige Heide/Grote Heide",
+            "alt_name": "Jeugdverblijfscentrum Ruige Heide;JVC Ruige Heide/Grote Heide",
+            "leisure": "playground",
             "name": "Ruige Heide",
             "operator": "CJT Centrum voor Jeugdtoerisme",
+            "playground": "forest",
             "tourism": "camp_site",
             "url": "http://www.cjt.be/boekingscentrale/fiche.aspx?nr=2071"
         },
@@ -7742,10 +7932,10 @@
             "addr:postcode": "5564",
             "addr:street": "Rue Gilbock",
             "description": "Small family camp site, cozy with basic amenities",
-            "name": "Camping des Sk\u00e2ssis",
-            "phone": "+32 474 96 36 09",
+            "name": "Camping des 3 Pommiers",
+            "phone": "+32 497 64 47 40",
             "tourism": "camp_site",
-            "website": "https://campingdesskassis.be/"
+            "website": "https://www.camping3pommiers.be/"
         },
         "coord": [
             5.058139300000001,
@@ -7758,7 +7948,7 @@
             "addr:street": "Rue du Moulin",
             "caravans": "yes",
             "motorhome": "yes",
-            "name": "Moulin de M\u00e9line",
+            "name": "Moulin de M\u00e9lines",
             "tents": "yes",
             "tourism": "camp_site",
             "website": "https://www.moulin-de-melines.be/"
@@ -7789,8 +7979,8 @@
             "website": "https://www.keienven.be/"
         },
         "coord": [
-            4.547215920000001,
-            51.34570232
+            4.547005383333333,
+            51.34578049999999
         ]
     },
     "way-410936679": {
@@ -7895,19 +8085,23 @@
     },
     "way-420288154": {
         "tags": {
+            "alt_name": "Paalkampeerplaats Itter; Paalkamperen Duinengordel Itter",
             "backcountry": "yes",
             "bicycle": "yes",
             "camp_site": "basic",
+            "capacity:persons": "10",
+            "capacity:tents": "3",
             "description": "site voor paalkamperen",
+            "drinking_water": "no",
             "fee": "no",
-            "maxtents": "3",
-            "name": "Paalkampeerplaats Itter",
+            "maxstay": "1 day",
+            "name": "Paalkamperen Itter",
             "openfire": "no",
-            "opening_hours": "24/7",
             "operator": "Agentschap voor Natuur en Bos",
+            "reservation": "required",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.duinengordel.be/#!bivakzones-itter-en-solt/q53r8",
+            "website": "https://www.nationaalparkhogekempen.be/nl/paalkamperen",
             "website:0": "https://bivakzone.be/duinengordel/201-bivakzone-paalkamperen-itter-en-solt.html"
         },
         "coord": [
@@ -7917,20 +8111,22 @@
     },
     "way-420288156": {
         "tags": {
+            "alt_name": "Paalkampeerplaats Solt; Paalkamperen Duinengordel Solt",
             "backcountry": "yes",
             "camp_site": "basic",
-            "capacity": "10",
+            "capacity:persons": "10",
+            "capacity:tents": "3",
             "description": "site voor paalkamperen",
             "drinking_water": "no",
             "fee": "no",
-            "maxstay": "2 days",
-            "maxtents": "3",
+            "maxstay": "1 day",
             "name": "Paalkamperen Solt",
             "openfire": "no",
             "operator": "Agentschap voor Natuur en Bos",
+            "reservation": "required",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.duinengordel.be/#!bivakzones-itter-en-solt/q53r8",
+            "website": "https://www.nationaalparkhogekempen.be/nl/paalkamperen",
             "website:0": "https://bivakzone.be/duinengordel/201-bivakzone-paalkamperen-itter-en-solt.html"
         },
         "coord": [
@@ -8065,8 +8261,8 @@
             "website": "https://www.foretdesainthubert-tourisme.be/en/mobilhomes/HBG-A0-0066-44UJ&type=26/"
         },
         "coord": [
-            5.3390926625,
-            50.084705825
+            5.339112,
+            50.084732100000004
         ]
     },
     "way-438168291": {
@@ -8118,9 +8314,10 @@
     },
     "way-442786676": {
         "tags": {
-            "name": "Waai - La Rochette",
+            "name": "La Rochette",
             "phone": "+32 63 31 24 60",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://campinglarochette.be/"
         },
         "coord": [
             5.250099737037037,
@@ -8155,13 +8352,20 @@
             "website": "http://campingshansurlesse.be/FR/pirotfr.html"
         },
         "coord": [
-            5.18496256,
-            50.127949233333325
+            5.1849866625,
+            50.127949556249995
         ]
     },
     "way-443565173": {
         "tags": {
+            "caravans": "yes",
+            "drinking_water": "yes",
+            "internet_access": "wlan",
             "name": "Camping de Ch\u00eanefleur",
+            "power_supply": "yes",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://fr.chenefleur.be/"
         },
@@ -8230,15 +8434,6 @@
             50.39614633888888
         ]
     },
-    "way-454932250": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.804528870588235,
-            50.291813835294114
-        ]
-    },
     "way-457324447": {
         "tags": {
             "addr:street": "Europacamp",
@@ -8258,7 +8453,6 @@
             "addr:street": "Quai du Camping",
             "capacity": "105",
             "caravans": "yes",
-            "contact:phone": "+32 82 22 40 02",
             "email": "camping.communal@dinant.be",
             "fee": "yes",
             "internet_access": "wlan",
@@ -8271,8 +8465,26 @@
             "website": "http://www.dinant.be/tourisme/campings/camping-communal"
         },
         "coord": [
-            4.896615970370369,
-            50.27778624444444
+            4.896564757692307,
+            50.27781745769231
+        ]
+    },
+    "way-457768622": {
+        "tags": {
+            "addr:city": "Lanaken",
+            "addr:country": "BE",
+            "addr:housenumber": "47",
+            "addr:postcode": "3620",
+            "addr:street": "Lepelvormweg",
+            "caravans": "yes",
+            "name": "San Lanaco",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.sanlanaco.eu/"
+        },
+        "coord": [
+            5.636905980000001,
+            50.905037899999996
         ]
     },
     "way-458064106": {
@@ -8288,6 +8500,8 @@
     },
     "way-458120943": {
         "tags": {
+            "addr:housenumber": "15",
+            "addr:street": "Rue des Etangs",
             "capacity:tents": "50",
             "caravans": "yes",
             "fee": "yes",
@@ -8349,8 +8563,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            5.359344077777778,
-            50.17209471111111
+            5.359362654545455,
+            50.172284931818176
         ]
     },
     "way-461940880": {
@@ -8440,6 +8654,7 @@
     },
     "way-463689442": {
         "tags": {
+            "fixme": "Does this camp site still exist?",
             "tourism": "camp_site"
         },
         "coord": [
@@ -8449,6 +8664,7 @@
     },
     "way-463689443": {
         "tags": {
+            "fixme": "Does this camp site still exist?",
             "tourism": "camp_site"
         },
         "coord": [
@@ -8458,6 +8674,7 @@
     },
     "way-463689444": {
         "tags": {
+            "fixme": "Does this camp site still exist?",
             "tourism": "camp_site"
         },
         "coord": [
@@ -8467,13 +8684,19 @@
     },
     "way-463841477": {
         "tags": {
+            "addr:city": "Hotton",
+            "addr:housenumber": "8",
+            "addr:postcode": "6990",
+            "addr:street": "Rue de Durbuy",
+            "email": "info@campinglabrise.be",
             "name": "Camping La Brise",
+            "phone": "+32 478642363",
             "tourism": "camp_site",
             "website": "https://campinglabrise.be/"
         },
         "coord": [
-            5.437548673333334,
-            50.28172985333334
+            5.437529233333334,
+            50.28175587333333
         ]
     },
     "way-463929700": {
@@ -8598,7 +8821,15 @@
             "addr:housenumber": "37",
             "addr:street": "Dieupart",
             "alt_name": "Camping Dieupart",
-            "name": "Domaine Chateau de Dieupart",
+            "cabins": "yes",
+            "caravans": "yes",
+            "drinking_water": "yes",
+            "name": "Domaine Ch\u00e2teau de Dieupart",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site",
             "website": "https://www.dieupart.be/",
             "wheelchair": "no"
@@ -8622,6 +8853,7 @@
         "tags": {
             "cabins": "yes",
             "caravans": "yes",
+            "contact:website": "https://www.zilvermeer.be/nl/overnachten",
             "email": "camping@zilvermeer.be",
             "motorhome": "yes",
             "name": "Camping Zilvermeer",
@@ -8630,8 +8862,7 @@
             "stars": "4",
             "tents": "yes",
             "toilets": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.zilvermeer.be/overnachten/camping.html"
+            "tourism": "camp_site"
         },
         "coord": [
             5.175754133333333,
@@ -8666,6 +8897,7 @@
     },
     "way-510562932": {
         "tags": {
+            "access": "customers",
             "addr:housenumber": "154",
             "addr:postcode": "6687",
             "addr:street": "Rue Tro Do We",
@@ -8763,9 +8995,11 @@
     },
     "way-522701725": {
         "tags": {
+            "alt_name": "Bivakzone De Getedraak - Drieslinter;Paalkamperen De Getedraak",
             "backcountry": "yes",
             "camp_site": "basic",
-            "capacity": "10",
+            "capacity:persons": "10",
+            "capacity:tents": "4",
             "drinking_water": "no",
             "fee": "no",
             "image": "http://www.bivakzone.be/images/getedraak/bivakzone_getedraak3.jpg",
@@ -8773,11 +9007,10 @@
             "image:2": "http://www.bivakzone.be/images/getedraak/vuurpunt.jpg",
             "image:3": "http://www.bivakzone.be/images/getedraak/bivakzone_getedraak2.jpg",
             "maxstay": "24 hours",
-            "maxtents": "4",
             "motor_vehicle": "no",
-            "name": "De Getedraak - Drieslinter",
+            "name": "Paalkampereerzone Getedraak",
             "openfire": "yes",
-            "operator": "the town of Linter, in cooperation with other organizations",
+            "operator": "Gemeente LInter; Regionaal Landschap Zuid-Hageland; Natuurpunt",
             "reservation": "no",
             "toilets": "yes",
             "tourism": "camp_site",
@@ -8790,10 +9023,12 @@
     },
     "way-532664662": {
         "tags": {
+            "addr:housenumber": "16",
+            "addr:street": "Rue de Crocq",
             "capacity": "49",
             "caravans": "yes",
             "motorhome": "yes",
-            "name": "Villegiature du Marais",
+            "name": "Vill\u00e9giature du Marais",
             "permanent_camping": "yes",
             "static_caravans": "yes",
             "tents": "yes",
@@ -8801,8 +9036,8 @@
             "website": "https://terres-de-meuse.be/offres/camping-villegiature-du-marais-wasseiges-fr-2356384/"
         },
         "coord": [
-            5.00833645,
-            50.60661738
+            5.00833595,
+            50.606615680000004
         ]
     },
     "way-549641596": {
@@ -9161,6 +9396,7 @@
             "addr:housenumber": "8",
             "addr:postcode": "8972",
             "addr:street": "Barlebuizestraat",
+            "addr:suburb": "Krombeke",
             "campers": "yes",
             "capacity": "25",
             "caravans": "yes",
@@ -9176,22 +9412,10 @@
             50.89080270000001
         ]
     },
-    "way-647766902": {
-        "tags": {
-            "access": "private",
-            "permanent_camping": "only",
-            "toilets": "yes",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.71139333,
-            50.892966349999995
-        ]
-    },
     "way-647873466": {
         "tags": {
             "access": "yes",
-            "alt_name": "Paalkampeerplaats De Warande",
+            "alt_name": "Paalkampeerplaats De Warande;Paalkamperen De Warande",
             "backcountry": "yes",
             "camp_site": "basic",
             "capacity:tents": "3",
@@ -9200,16 +9424,18 @@
             "drinking_water": "no",
             "fee": "no",
             "image": "http://www.bivakzone.be/images/warande/dewarande2.jpg",
-            "maxstay": "2 days",
-            "maxtents": "3",
+            "maxstay": "1 day",
             "motor_vehicle": "no",
             "name": "Bivakzone De Warande",
+            "note": "21 aug 2025: tijdelijk gesloten - temporarily closed",
             "openfire": "yes",
-            "operator": "the Flemish Agency for Nature and Forests",
+            "operator": "Agentschap Natuur en Bos",
+            "reservation": "required",
             "tents": "yes",
             "toilets": "yes",
             "tourism": "camp_site",
-            "website": "https://www.bivakzone.be/de-warande-achel.html"
+            "website": "https://www.bivakzone.be/de-warande-achel.html",
+            "website:0": "https://www.natuurenbos.be/activiteiten/bivakzone"
         },
         "coord": [
             5.49930973,
@@ -9219,6 +9445,8 @@
     "way-649652389": {
         "tags": {
             "cabins": "yes",
+            "contact:website": "https://www.zilvermeer.be/nl/overnachten",
+            "name": "Camping Zilvermeer",
             "tourism": "camp_site"
         },
         "coord": [
@@ -9274,12 +9502,28 @@
             50.875237642857144
         ]
     },
+    "way-674851511": {
+        "tags": {
+            "addr:city": "Aische-en-Refail",
+            "addr:housenumber": "180",
+            "addr:postcode": "5310",
+            "addr:street": "Route de Gembloux",
+            "contact:website": "https://www.camping-manoirdelabas.be/",
+            "name": "Camping Manoir de la-Bas",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.844391898387098,
+            50.60091759193549
+        ]
+    },
     "way-685708428": {
         "tags": {
             "addr:city": "Geel",
             "addr:postcode": "2440",
             "addr:street": "Fehrenbachstraat",
             "capacity": "7",
+            "capacity:caravans": "7",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "town",
             "charge": "6 EUR",
@@ -9305,15 +9549,13 @@
             "website": "https://www.visit-geel.be/mobilhome-overnachting"
         },
         "coord": [
-            4.991799173333333,
-            51.15765343333332
+            4.991793529411764,
+            51.1576646117647
         ]
     },
     "way-692833113": {
         "tags": {
-            "addr:city": "Vorselaar",
             "addr:housenumber": "37",
-            "addr:postcode": "2290",
             "addr:street": "Heiken",
             "cabins": "yes",
             "caravans": "yes",
@@ -9353,8 +9595,8 @@
             "website": "https://votrecamp.be/endroit_de_camp/ferme-du-poteau-prairie"
         },
         "coord": [
-            4.308099411111111,
-            49.97548172222222
+            4.308131422222223,
+            49.97548435555556
         ]
     },
     "way-704129146": {
@@ -9408,9 +9650,7 @@
     },
     "way-720417399": {
         "tags": {
-            "addr:city": "Kasterlee",
             "addr:housenumber": "39",
-            "addr:postcode": "2460",
             "addr:street": "Houtum",
             "caravans": "yes",
             "email": "Vic.van.eyck@groepvaneyck.be",
@@ -9434,8 +9674,8 @@
             "website": "https://campinghoutum.be"
         },
         "coord": [
-            4.97912481875,
-            51.231661790625004
+            4.979156150769231,
+            51.2316494
         ]
     },
     "way-725312535": {
@@ -9466,8 +9706,8 @@
             "website": "http://www.hofvaneeden.be"
         },
         "coord": [
-            4.820567945454545,
-            51.07877713181818
+            4.820485234782609,
+            51.078643847826086
         ]
     },
     "way-725390093": {
@@ -9489,6 +9729,35 @@
         "coord": [
             4.844617250000002,
             51.284699874285714
+        ]
+    },
+    "way-734615181": {
+        "tags": {
+            "access": "yes",
+            "alt_name": "Paalkampeerplaats Jesseren Borgloon",
+            "backcountry": "yes",
+            "barrier": "fence",
+            "camp_site": "basic",
+            "capacity:tents": "1",
+            "caravans": "no",
+            "description": "Site voor paalkamperen",
+            "drinking_water": "no",
+            "fee": "no",
+            "landuse": "grass",
+            "name": "Bivakzone Jesseren",
+            "name:fr": "Zone bivouac Jesseren",
+            "openfire": "no",
+            "power_supply": "no",
+            "shower": "no",
+            "static_caravans": "no",
+            "toilets": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.natuurenbos.be/kamperen",
+            "website:0": "https://www.natuurenbos.be/sites/default/files/bivakzones_in_haspengouw_0.pdf"
+        },
+        "coord": [
+            5.383260633333333,
+            50.8015527
         ]
     },
     "way-748647109": {
@@ -9519,7 +9788,7 @@
             "caravan_site:type": "river;village",
             "charge": "20 EUR",
             "fee": "yes",
-            "name": "A ire de Houffalize",
+            "name": "Aire de Houffalize",
             "power_supply": "yes",
             "sanitary_dump_station": "yes",
             "sanitary_dump_station:chemical_toilet": "yes",
@@ -9532,42 +9801,6 @@
         "coord": [
             5.78832882,
             50.132344419999995
-        ]
-    },
-    "way-759228687": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            3.35237384,
-            51.359319479999996
-        ]
-    },
-    "way-759228688": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            3.3523913,
-            51.359262320000006
-        ]
-    },
-    "way-759228689": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            3.3524087199999997,
-            51.35920516
-        ]
-    },
-    "way-759228690": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            3.35242614,
-            51.35914798
         ]
     },
     "way-762874436": {
@@ -9656,7 +9889,7 @@
         "tags": {
             "backcountry": "yes",
             "camp_site": "basic",
-            "capacity": "10",
+            "capacity": "20",
             "drinking_water": "no",
             "fee": "no",
             "maxstay": "16 hours",
@@ -9664,13 +9897,13 @@
             "name": "Aire de bivouac du Golet",
             "opening_hours": "16:00-10:00",
             "operator": "bivakzone",
-            "reservation": "not required",
+            "reservation": "required",
             "toilets": "no",
             "tourism": "camp_site"
         },
         "coord": [
-            5.47697585,
-            50.0671624
+            5.47678128,
+            50.067066686666664
         ]
     },
     "way-765439965": {
@@ -9812,8 +10045,8 @@
             "website": "https://www.gistel.be/kampeerautoterrein-gistel"
         },
         "coord": [
-            2.9682446000000002,
-            51.16443846666667
+            2.968335418181818,
+            51.16440689090909
         ]
     },
     "way-792507517": {
@@ -9842,7 +10075,8 @@
             "toilets": "yes",
             "tourism": "caravan_site",
             "water_point": "yes",
-            "water_point:fee": "yes"
+            "water_point:fee": "yes",
+            "website": "https://www.ostbelgien.eu/de/fiche/parkingarea/Stellplatz-f-r-mobilhomes-kelmis"
         },
         "coord": [
             6.009922294117647,
@@ -9872,6 +10106,8 @@
         "tags": {
             "email": "kluis@hopper.be",
             "layer": "-1",
+            "leaf_cycle": "evergreen",
+            "leaf_type": "needleleaved",
             "name": "De Kluis",
             "phone": "+32 16 47 71 72",
             "reservation": "yes",
@@ -9879,8 +10115,8 @@
             "website": "https://www.hopper.be/en/jeugdverblijf/de-kluis"
         },
         "coord": [
-            4.662566503225805,
-            50.7989145483871
+            4.662444871874999,
+            50.79883920625001
         ]
     },
     "way-814564299": {
@@ -10064,8 +10300,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            3.2872278096774195,
-            51.335315941935484
+            3.2870798588235295,
+            51.335268467647055
         ]
     },
     "way-858835276": {
@@ -10314,11 +10550,17 @@
             "addr:housenumber": "81",
             "addr:postcode": "3040",
             "addr:street": "Biezenstraat",
+            "caravans": "yes",
             "contact:email": "info@bergendal.green",
             "contact:facebook": "https://www.facebook/com/CampingBergendal/",
             "contact:phone": "+32 492 07 84 08",
             "contact:website": "https://www.bergendal.green/",
+            "drinking_water": "yes",
             "name": "Bergendal",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
             "tourism": "camp_site"
         },
         "coord": [
@@ -10352,10 +10594,11 @@
     "way-956235462": {
         "tags": {
             "caravans": "yes",
-            "name": "Cinse \u00e0 Betods",
-            "opening_hours": "Mar 01-Nov 15",
+            "name": "La Ferme des B\u00e8dots",
+            "opening_hours": "May 01-Oct 31",
             "tents": "yes",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.lafermedesbedots.be/"
         },
         "coord": [
             4.39886402,
@@ -10410,21 +10653,8 @@
             "website": "https://www.camping-confort.be"
         },
         "coord": [
-            4.88325542244898,
-            49.87426404693878
-        ]
-    },
-    "way-960689395": {
-        "tags": {
-            "access": "permissive",
-            "capacity": "25",
-            "group_only": "yes",
-            "reservation": "required",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.856435774045804,
-            51.28975592061069
+            4.883253988524588,
+            49.87379350327869
         ]
     },
     "way-961331491": {
@@ -10432,9 +10662,12 @@
             "addr:housenumber": "208C",
             "addr:street": "Rue de Mont les Champs",
             "caravans": "yes",
+            "drinking_water": "yes",
             "fee": "yes",
             "fixme": "the camping is probably larger, but how large?",
             "name": "Camping des Bouleaux",
+            "power_supply": "yes",
+            "shower": "yes",
             "tents": "yes",
             "tourism": "camp_site",
             "website": "https://camping-des-bouleaux.be/"
@@ -10498,10 +10731,7 @@
     "way-965170789": {
         "tags": {
             "access": "customers",
-            "addr:city": "Geel",
-            "addr:country": "BE",
             "addr:housenumber": "2",
-            "addr:postcode": "2440",
             "addr:street": "Roerdompstraat",
             "capacity": "6",
             "contact:instagram": "glampingjosephine",
@@ -10570,15 +10800,6 @@
         "coord": [
             4.7169934625000005,
             50.8962850125
-        ]
-    },
-    "way-983625020": {
-        "tags": {
-            "tourism": "camp_site"
-        },
-        "coord": [
-            4.870819210000001,
-            50.31678353000001
         ]
     },
     "way-987973259": {
@@ -10668,6 +10889,7 @@
     },
     "way-1015262372": {
         "tags": {
+            "cabins": "no",
             "capacity": "38",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "town",
@@ -10676,12 +10898,14 @@
             "drinking_water": "yes",
             "email": "camperpark@veurne.be",
             "fee": "yes",
+            "internet_access": "wlan",
             "name": "camperpark Veurne",
             "phone": "+32 58335531",
             "power_supply": "yes",
             "power_supply:maxcurrent": "10",
             "sanitary_dump_station": "yes",
             "surface": "grass_paver",
+            "tents": "no",
             "toilets": "yes",
             "tourism": "caravan_site",
             "water_point": "yes",
@@ -10974,13 +11198,15 @@
             "hot_water": "no",
             "internet_access": "no",
             "motor_vehicle": "yes",
+            "name": "Terrein te Halen",
             "openfire": "yes",
             "power_supply": "yes",
             "reservation": "required",
             "scout": "yes",
             "tents": "yes",
             "toilets": "no",
-            "tourism": "camp_site"
+            "tourism": "camp_site",
+            "website": "https://www.kampas.be/nl/domein/terrein-te-halen"
         },
         "coord": [
             5.1162141769230765,
@@ -10998,8 +11224,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            2.7599298222222224,
-            51.16076131666667
+            2.7599331888888887,
+            51.160758216666665
         ]
     },
     "way-1095071271": {
@@ -11020,8 +11246,8 @@
             "website": "https://www.kompascamping.be/westende"
         },
         "coord": [
-            2.7595580638888886,
-            51.158408588888896
+            2.7595647972222226,
+            51.1584023888889
         ]
     },
     "way-1095071272": {
@@ -11138,8 +11364,8 @@
             "website": "https://www.goolderheide.be/"
         },
         "coord": [
-            5.5368410677419355,
-            51.172627896774195
+            5.537442472602741,
+            51.172352393150696
         ]
     },
     "way-1117715559": {
@@ -11163,8 +11389,8 @@
             "website": "https://www.florealgroup.be/fr/camping/camping-la-colline"
         },
         "coord": [
-            5.547760248484848,
-            49.58009936363636
+            5.5478899612903225,
+            49.580062219354836
         ]
     },
     "way-1128009037": {
@@ -11173,8 +11399,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            3.9235346499999997,
-            51.214930611538456
+            3.923534557692307,
+            51.21493005000001
         ]
     },
     "way-1136409136": {
@@ -11236,8 +11462,8 @@
             "tourism": "camp_site"
         },
         "coord": [
-            2.9742339899999997,
-            51.241192735000006
+            2.97423389,
+            51.241192705
         ]
     },
     "way-1157058300": {
@@ -11254,8 +11480,8 @@
             "website": "https://www.massenhof.be/"
         },
         "coord": [
-            2.9761545791666664,
-            51.24158370000001
+            2.9761544958333332,
+            51.24158367500001
         ]
     },
     "way-1158023221": {
@@ -11404,7 +11630,9 @@
     },
     "way-1196081669": {
         "tags": {
-            "tourism": "camp_site"
+            "name": "Camping Lissepanne",
+            "tourism": "camp_site",
+            "website": "https://www.campingszwaenepoel.be"
         },
         "coord": [
             3.0069765408163263,
@@ -11547,23 +11775,32 @@
     },
     "way-1231409428": {
         "tags": {
-            "capacity": "10",
+            "bbq": "no",
+            "capacity": "48",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "river",
-            "charge": "12 EUR",
+            "caravans": "no",
+            "charge": "14 EUR",
+            "dog": "leashed",
             "fee": "yes",
-            "fixme": "becoming CAMPING-CAR PARK site",
+            "maxlength": "9",
             "name": "Aire de Hamoir",
+            "network": "CAMPING-CAR PARK",
+            "power_supply:capacity": "48",
+            "power_supply:maxcurrent": "6",
             "sanitary_dump_station": "yes",
             "sanitary_dump_station:chemical_toilet": "yes",
             "seasonal": "no",
+            "tents": "no",
             "toilets": "yes",
             "tourism": "caravan_site",
-            "water_point": "yes"
+            "trailer": "no",
+            "water_point": "yes",
+            "website": "https://www.campingcarpark.com/en_GB/motor-home/wallonie/liege/hamoir"
         },
         "coord": [
-            5.534131433333333,
-            50.42362023333334
+            5.534007571428572,
+            50.42356664285715
         ]
     },
     "way-1231409432": {
@@ -11581,8 +11818,8 @@
             "website": "https://www.paysdeherve.be/hebergements-campings/HBG-A0-004Q-1LNJ&type=26"
         },
         "coord": [
-            5.8186562,
-            50.581078119999994
+            5.81871975,
+            50.581096949999996
         ]
     },
     "way-1231409434": {
@@ -11608,6 +11845,7 @@
     },
     "way-1231409435": {
         "tags": {
+            "cabins": "no",
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "parking_lot",
             "dog": "yes",
@@ -11637,8 +11875,8 @@
             "water_point": "no"
         },
         "coord": [
-            5.969771150000001,
-            50.5876407
+            5.969769444444444,
+            50.58766086666667
         ]
     },
     "way-1231458488": {
@@ -11696,8 +11934,8 @@
             "water_point": "yes"
         },
         "coord": [
-            3.6087307307692313,
-            50.518708369230765
+            3.608739023076924,
+            50.51870658461538
         ]
     },
     "way-1231458491": {
@@ -11793,6 +12031,7 @@
             "sanitary_dump_station": "yes",
             "services:charge": "7.50 EUR",
             "services:fee": "yes",
+            "shower": "no",
             "surface": "asphalt",
             "toilets": "no",
             "tourism": "caravan_site",
@@ -11908,7 +12147,7 @@
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "village",
             "caravans": "no",
-            "charge": "12 EUR",
+            "charge": "12.48 EUR",
             "dog": "leashed",
             "fee": "yes",
             "internet_access": "wlan",
@@ -11922,7 +12161,8 @@
             "sanitary_dump_station": "yes",
             "tents": "no",
             "tourism": "caravan_site",
-            "trailer": "no"
+            "trailer": "no",
+            "website": "https://www.campingcarpark.com/en_GB/motor-home/wallonie/namur/couvin"
         },
         "coord": [
             4.456820571428572,
@@ -11943,26 +12183,8 @@
             "website": "https://campingholsteenbron.be/"
         },
         "coord": [
-            5.424313441176469,
-            50.99824544705882
-        ]
-    },
-    "way-1290092914": {
-        "tags": {
-            "capacity": "10",
-            "caravan_site": "motorhome_stopover",
-            "caravan_site:type": "harbour",
-            "charge": "18 EUR",
-            "fee": "yes",
-            "name": "Jachthaven Yakan Camperplaats",
-            "shower": "yes",
-            "toilets": "yes",
-            "tourism": "caravan_site",
-            "website": "https://www.yakan.be/"
-        },
-        "coord": [
-            5.676270616666666,
-            50.80554741666666
+            5.424354170588235,
+            50.99825728235294
         ]
     },
     "way-1292691410": {
@@ -11975,6 +12197,7 @@
             "internet_access": "wlan",
             "name": "Aire de campin-cars Cerfontaine",
             "network": "AirePark",
+            "operator:website": "https://www.sicerfontaine.be/locations/aire-de-motorhomes-les-roches",
             "power_supply": "yes",
             "sanitary_dump_station": "yes",
             "seasonal": "no",
@@ -12094,6 +12317,8 @@
     },
     "way-1313513485": {
         "tags": {
+            "contact:website": "https://www.hetwilgenhof.be/services-view/camping",
+            "name": "'t Wilgenhof",
             "tourism": "camp_site"
         },
         "coord": [
@@ -12103,20 +12328,18 @@
     },
     "way-1317128109": {
         "tags": {
-            "addr:city": "Overijse",
             "addr:housenumber": "80",
-            "addr:postcode": "3090",
             "addr:street": "Nijvelsebaan",
             "caravans": "yes",
-            "email": "info@campingdruivenland.be",
+            "contact:email": "info@campingdruivenland.be",
+            "contact:phone": "+32 2 687 93 68",
+            "contact:website": "https://www.campingdruivenland.be/nl",
             "internet_access": "wlan",
             "internet_access:fee": "yes",
             "name": "Camping Druivenland",
-            "phone": "+32 2 687 93 68",
             "sanitary_dump_station": "yes",
             "tents": "yes",
-            "tourism": "camp_site",
-            "website": "https://www.campingdruivenland.be/nl"
+            "tourism": "camp_site"
         },
         "coord": [
             4.548234682352941,
@@ -12221,25 +12444,6 @@
             50.74038328333334
         ]
     },
-    "way-1342752792": {
-        "tags": {
-            "capacity": "4",
-            "caravan_site": "motorhome_stopover",
-            "caravan_site:type": "sports_centre;village",
-            "fee": "no",
-            "name": "Rosmeer parking voetbal",
-            "power_supply": "yes",
-            "power_supply:fee": "yes",
-            "sanitary_dump_station": "no",
-            "surface": "gravel",
-            "tourism": "caravan_site",
-            "website": "https://www.visitbilzen.be/camperplaatsen"
-        },
-        "coord": [
-            5.57698116,
-            50.84148082
-        ]
-    },
     "way-1345111877": {
         "tags": {
             "addr:housenumber": "99",
@@ -12312,29 +12516,6 @@
         "coord": [
             2.6920456874999994,
             51.0576814625
-        ]
-    },
-    "way-1350672012": {
-        "tags": {
-            "capacity": "2",
-            "caravan_site": "motorhome_stopover",
-            "caravan_site:type": "sports_centre",
-            "drinking_water": "yes",
-            "drinking_water:fee": "no",
-            "fee": "no",
-            "name": "Sporthal Oostbroek Camperplaats",
-            "power_supply": "yes",
-            "power_supply:fee": "no",
-            "sanitary_dump_station": "yes",
-            "sanitary_dump_station:fee": "no",
-            "surface": "paving_stones",
-            "tourism": "caravan_site",
-            "water_point": "yes",
-            "water_point:fee": "no"
-        },
-        "coord": [
-            3.554056,
-            51.03346072
         ]
     },
     "way-1350673076": {
@@ -12574,12 +12755,14 @@
         "tags": {
             "caravan_site": "motorhome_stopover",
             "caravan_site:type": "village",
+            "drinking_water": "no",
             "fee": "no",
             "maxstay": "1 night",
             "name": "Parking Alden Biesen",
             "power_supply": "no",
             "sanitary_dump_station": "no",
             "surface": "paving_stones",
+            "toilets": "no",
             "tourism": "caravan_site",
             "website": "https://www.visitbilzen.be/camperplaatsen"
         },
@@ -12681,8 +12864,8 @@
             "water_point": "yes"
         },
         "coord": [
-            5.242352340000001,
-            51.13563586
+            5.242238944444445,
+            51.135643066666674
         ]
     },
     "way-1354207401": {
@@ -12714,7 +12897,7 @@
         "tags": {
             "addr:housenumber": "29",
             "addr:postcode": "8620",
-            "addr:street": "Brugsesteenweg",
+            "addr:street": "Brugse Steenweg",
             "bbq": "yes",
             "capacity": "28",
             "caravan_site": "motorhome_stopover",
@@ -12945,6 +13128,7 @@
             "name:de": "Wohnmobilstellplatz Bellem",
             "power_supply": "no",
             "sanitary_dump_station": "no",
+            "shower": "no",
             "toilets": "no",
             "tourism": "caravan_site",
             "water_point": "no",
@@ -13149,12 +13333,19 @@
     },
     "way-1363163934": {
         "tags": {
+            "capacity": "30",
+            "contact:facebook": "https://www.facebook.com/camperpark.westende",
+            "email": "info@camperparkwestende.be",
             "motorhome": "designated",
-            "tourism": "camp_site"
+            "name": "Camperpark Westende",
+            "phone": "+32 58 23 32 54",
+            "sanitary_dump_station": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.camperparkwestende.be/"
         },
         "coord": [
             2.7665431428571425,
-            51.15521518571428
+            51.1552153
         ]
     },
     "way-1367347820": {
@@ -13174,6 +13365,229 @@
         "coord": [
             5.58872506,
             51.17679148
+        ]
+    },
+    "way-1390737333": {
+        "tags": {
+            "access": "private",
+            "group_only": "yes",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            3.7568860478260864,
+            51.01164874782609
+        ]
+    },
+    "way-1429063474": {
+        "tags": {
+            "capacity": "12",
+            "internet_access:fee": "no",
+            "mobile": "+32 465 08 91 93",
+            "name": "Brug4",
+            "opening_hours": "May 01-Sep 30",
+            "surface": "grass",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.brug4.be/kamperen"
+        },
+        "coord": [
+            5.1283467625000005,
+            51.316850325
+        ]
+    },
+    "way-1429241745": {
+        "tags": {
+            "access": "customers",
+            "backcountry": "no",
+            "camp_site": "basic",
+            "caravans": "no",
+            "group_only": "yes",
+            "name": "Rododendron",
+            "operator": "VZW Puytvoet",
+            "static_caravans": "no",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.156565133333333,
+            51.145794
+        ]
+    },
+    "way-1429241746": {
+        "tags": {
+            "access": "customers",
+            "backcountry": "no",
+            "camp_site": "basic",
+            "caravans": "no",
+            "group_only": "yes",
+            "name": "Lork",
+            "operator": "VZW Puytvoet",
+            "static_caravans": "no",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.1565963,
+            51.145244319999996
+        ]
+    },
+    "way-1429241747": {
+        "tags": {
+            "access": "customers",
+            "backcountry": "no",
+            "camp_site": "basic",
+            "caravans": "no",
+            "group_only": "yes",
+            "name": "Els",
+            "operator": "VZW Puytvoet",
+            "static_caravans": "no",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.155912460000001,
+            51.14619962
+        ]
+    },
+    "way-1429963907": {
+        "tags": {
+            "bbq": "no",
+            "capacity": "10",
+            "caravan_site": "motorhome_stopover",
+            "caravans": "no",
+            "charge": "12 EUR",
+            "dog": "leashed",
+            "fee": "yes",
+            "maxlength": "9",
+            "motor_vehicle": "no",
+            "motorhome": "yes",
+            "name": "Aire de Esneux",
+            "name:en": "Motorhome area of Esneux",
+            "network": "CAMPING-CAR PARK",
+            "operator": "Camping car Park",
+            "power_supply:capacity": "10",
+            "power_supply:maxcurrent": "16",
+            "sanitary_dump_station": "yes",
+            "shower": "no",
+            "tents": "no",
+            "toilets": "no",
+            "tourism": "caravan_site",
+            "trailer": "no",
+            "water_point": "yes",
+            "website": "https://www.campingcarpark.com/fr_FR/camping-car/wallonie/liege/esneux"
+        },
+        "coord": [
+            5.564398416666665,
+            50.53296182222223
+        ]
+    },
+    "way-1432021069": {
+        "tags": {
+            "name": "Camping Fort Bedmar",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            4.1111019550000005,
+            51.267262188333355
+        ]
+    },
+    "way-1442806038": {
+        "tags": {
+            "access": "customers",
+            "camp_site": "basic",
+            "email": "luc@vanelsacker.be",
+            "mobile": "+32 477 32 30 32",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            5.351018744444444,
+            49.85841454444444
+        ]
+    },
+    "way-1445973078": {
+        "tags": {
+            "access": "yes",
+            "capacity:caravans": "4",
+            "caravan_site": "motorhome_stopover",
+            "tourism": "tourism=caravan_site"
+        },
+        "coord": [
+            3.3523915000000004,
+            51.35926396
+        ]
+    },
+    "way-1456917537": {
+        "tags": {
+            "addr:city": "Kessenich",
+            "addr:housenumber": "34",
+            "addr:street": "Kessenicherweg",
+            "caravan_site": "motorhome_stopover",
+            "caravan_site:type": "countryside",
+            "fee": "yes",
+            "name": "Camperplaats 't Bommesaarke",
+            "picnic_table": "yes",
+            "power_supply": "yes",
+            "reservation": "yes",
+            "sanitary_dump_station": "yes",
+            "sanitary_dump_station:chemical_toilet": "yes",
+            "sanitary_dump_station:grey_water": "yes",
+            "surface": "grass",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "water_point": "yes",
+            "website": "https://www.camperplaats-bommesaarke.be"
+        },
+        "coord": [
+            5.812611080000001,
+            51.13892202
+        ]
+    },
+    "way-1458573988": {
+        "tags": {
+            "backcountry": "yes",
+            "capacity:tents": "3",
+            "caravans": "no",
+            "maxstay": "18 hours",
+            "motor_vehicle": "no",
+            "motorcar": "no",
+            "motorhome": "no",
+            "name": "Bivakzone: Stinnekesaan - Meldert",
+            "openfire": "no",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://www.bivakzone.be/stinnekesaan-meldert.html"
+        },
+        "coord": [
+            4.150668644444445,
+            50.92612692222222
+        ]
+    },
+    "way-1505254979": {
+        "tags": {
+            "capacity:caravans": "3",
+            "capacity:tents": "17",
+            "caravans": "yes",
+            "email": "la-camargue-sa@skynet.be",
+            "fee": "yes",
+            "name": "La Camargue",
+            "phone": "+3260213092",
+            "static_caravans": "no",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://visitchimay.be/project/camping-la-camargue/"
+        },
+        "coord": [
+            4.315095733333333,
+            49.993854766666665
+        ]
+    },
+    "way-1505281688": {
+        "tags": {
+            "addr:housenumber": "258",
+            "addr:street": "Voie des G\u00e9rons",
+            "name": "Ch\u00e8vre-Feuille",
+            "tourism": "camp_site"
+        },
+        "coord": [
+            5.1379989375,
+            50.4573744125
         ]
     },
     "rel-3360896": {
@@ -13232,8 +13646,8 @@
             "website": "https://campinghoutum.be/kampeerplaatsen/"
         },
         "coord": [
-            4.979435945614036,
-            51.22912698421052
+            4.979500547368421,
+            51.229139468421046
         ]
     },
     "rel-15696679": {
@@ -13269,8 +13683,25 @@
             "website": "https://www.ardenparks.be/camperpark-comblain-au-point"
         },
         "coord": [
-            5.587749387179486,
-            50.4812700153846
+            5.587824328571427,
+            50.481215542857136
+        ]
+    },
+    "rel-20455465": {
+        "tags": {
+            "addr:housenumber": "8,10",
+            "addr:street": "Klein Opperstraat",
+            "caravans": "yes",
+            "contact:website": "https://natuurleven.be/t-vennebos/",
+            "name": "Natuurleven 't Vennebos",
+            "nudism": "designated",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "type": "multipolygon"
+        },
+        "coord": [
+            4.89340316,
+            51.01784044800001
         ]
     }
 }
