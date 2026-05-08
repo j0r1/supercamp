@@ -1075,17 +1075,6 @@
             53.3567305
         ]
     },
-    "node-1750696697": {
-        "tags": {
-            "internet_access": "wlan",
-            "name": "Somerense Vennen",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            5.673339,
-            51.4009364
-        ]
-    },
     "node-1764841408": {
         "tags": {
             "contact:website": "https://www.bullekroffie.nl",
@@ -2331,6 +2320,26 @@
             51.5080041
         ]
     },
+    "node-2745387755": {
+        "tags": {
+            "addr:city": "Neede",
+            "addr:housenumber": "2a",
+            "addr:postcode": "7161LV",
+            "addr:street": "Karelsdijk",
+            "name": "Noordijkerveld",
+            "phone": "+31 6 55154656",
+            "shower": "yes",
+            "source": "BAG",
+            "source:date": "2017-12-30",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://vakantieparknoordijkerveld.nl"
+        },
+        "coord": [
+            6.5900069,
+            52.1629648
+        ]
+    },
     "node-2745839842": {
         "tags": {
             "addr:city": "Neede",
@@ -3295,6 +3304,24 @@
             52.5327974
         ]
     },
+    "node-2803216146": {
+        "tags": {
+            "addr:city": "Radewijk",
+            "addr:housenumber": "47",
+            "addr:postcode": "7791RK",
+            "addr:street": "Radewijkerweg",
+            "name": "Erve Raewyck",
+            "phone": "+31 6 1258 9620",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "tourism": "caravan_site",
+            "website": "https://www.raewyck.nl"
+        },
+        "coord": [
+            6.7392103,
+            52.5668253
+        ]
+    },
     "node-2803586400": {
         "tags": {
             "addr:city": "Groesbeek",
@@ -3631,6 +3658,27 @@
         "coord": [
             5.2278062,
             51.3434035
+        ]
+    },
+    "node-2828037828": {
+        "tags": {
+            "addr:city": "Leveroy",
+            "addr:country": "NL",
+            "addr:housenumber": "4",
+            "addr:postcode": "6091NN",
+            "addr:street": "Heerbaan",
+            "email": "info@camperplaatshoubenhof.nl",
+            "name": "Camperplaats Houbenhof",
+            "opening_hours": "24/7",
+            "phone": "+31 495 782 568",
+            "source": "BAG",
+            "source:date": "2014-03-24",
+            "tourism": "caravan_site",
+            "website": "https://houbenhof.nl"
+        },
+        "coord": [
+            5.8434509,
+            51.2473562
         ]
     },
     "node-2828666519": {
@@ -4258,6 +4306,26 @@
             52.2087463
         ]
     },
+    "node-2929706255": {
+        "tags": {
+            "addr:city": "Heythuysen",
+            "addr:country": "NL",
+            "addr:housenumber": "1",
+            "addr:postcode": "6093PA",
+            "addr:street": "Heide",
+            "email": "recreatie@hoevetwente.nl",
+            "name": "Hoeve Twente",
+            "phone": "+31 475 782545",
+            "source": "BAG",
+            "source:date": "2014-06-22",
+            "tourism": "caravan_site",
+            "website": "https://hoevetwente.nl"
+        },
+        "coord": [
+            5.8749526,
+            51.2714714
+        ]
+    },
     "node-2929727716": {
         "tags": {
             "addr:city": "Heythuysen",
@@ -4277,6 +4345,30 @@
         "coord": [
             5.8577598,
             51.2507222
+        ]
+    },
+    "node-2931170604": {
+        "tags": {
+            "addr:city": "Roggel",
+            "addr:housenumber": "4",
+            "addr:postcode": "6088NC",
+            "addr:street": "Eind",
+            "capacity:caravans": "30",
+            "email": "info@camperplaatsleudal.nl",
+            "mobile": "+31 6 18528400",
+            "name": "Camperplaats Leudal / Aspergeboerderij Oppe Haes",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "source": "BAG",
+            "source:date": "2014-06-22",
+            "tents": "yes",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://camperplaatsleudal.nl/"
+        },
+        "coord": [
+            5.9230942,
+            51.2532467
         ]
     },
     "node-2937755026": {
@@ -4493,6 +4585,33 @@
         "coord": [
             4.7064305,
             52.830611
+        ]
+    },
+    "node-3016629358": {
+        "tags": {
+            "addr:city": "Driel",
+            "addr:housenumber": "17",
+            "addr:postcode": "6665LL",
+            "addr:street": "Vogelenzangsestraat",
+            "capacity": "5",
+            "caravans": "no",
+            "drinking_water": "yes",
+            "fee": "yes",
+            "motorhome": "designated",
+            "name": "Camperplaats Vogelenzang",
+            "operator": "Boerderij Melkvee",
+            "power_supply": "yes",
+            "shower": "no",
+            "source": "BAG",
+            "source:date": "2014-08-14",
+            "tents": "no",
+            "toilets": "no",
+            "tourism": "caravan_site",
+            "website": "https://devogelenzangcamper.nl"
+        },
+        "coord": [
+            5.8354675,
+            51.9683084
         ]
     },
     "node-3017842312": {
@@ -5016,6 +5135,28 @@
             51.8143765
         ]
     },
+    "node-4111968373": {
+        "tags": {
+            "addr:city": "Serooskerke",
+            "addr:housenumber": "5",
+            "addr:postcode": "4353JB",
+            "addr:street": "Gapingseweg",
+            "caravan_site": "reception",
+            "fee": "yes",
+            "internet_access": "wlan",
+            "name": "Camping Olmenveld",
+            "sanitary_dump_station": "yes",
+            "source": "BAG",
+            "source:date": "2016-04-10",
+            "tourism": "caravan_site",
+            "website": "https://www.campingolmenveld.nl",
+            "wheelchair": "yes"
+        },
+        "coord": [
+            3.6086113,
+            51.5440753
+        ]
+    },
     "node-4147444572": {
         "tags": {
             "email": "kanocampingdedobbe@live.nl",
@@ -5377,6 +5518,16 @@
             53.3902561
         ]
     },
+    "node-4608397105": {
+        "tags": {
+            "name:zh": "\u5999\u5170\u5de5\u4f5c",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            -70.0178005,
+            12.5152494
+        ]
+    },
     "node-4609695159": {
         "tags": {
             "name": "Minicamping Beachclub Puur",
@@ -5701,6 +5852,26 @@
         "coord": [
             6.8900958,
             52.4247993
+        ]
+    },
+    "node-5334517882": {
+        "tags": {
+            "addr:city": "Haaksbergen",
+            "addr:housenumber": "15a",
+            "addr:postcode": "7482SK",
+            "addr:street": "Hazenweg",
+            "name": "Erve Kievit",
+            "phone": "+31 6 53355295",
+            "shower": "yes",
+            "source": "BAG",
+            "source:date": "2017-12-08",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://www.ervekievit.nl"
+        },
+        "coord": [
+            6.7587156,
+            52.1784532
         ]
     },
     "node-5369019890": {
@@ -7100,6 +7271,31 @@
             51.7225783
         ]
     },
+    "node-9356377678": {
+        "tags": {
+            "addr:city": "Leiden",
+            "addr:housenumber": "4",
+            "addr:postcode": "2334EN",
+            "addr:street": "Boerhaavelaan",
+            "capacity": "10",
+            "description": "Open from friday 18pm untill monday 8am. Parking lot that is used as camping spot, perfect location next to Leiden city center. Reserving and paying can be done in the small building at the back of the property. When not around, pay later.",
+            "fee": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Boerhaaveplaats",
+            "opening_hours": "Fr-Mo; Fr 00:00-18:00 off; Mo 08:00-24:00 off",
+            "payment:cash": "yes",
+            "phone": "+31 6 53482844",
+            "power_supply": "yes",
+            "reservation": "accepted",
+            "sanitary_dump_station": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.4821716,
+            52.1690438
+        ]
+    },
     "node-9361086884": {
         "tags": {
             "addr:city": "Bad Nieuweschans",
@@ -7638,6 +7834,17 @@
             52.2517147
         ]
     },
+    "node-10844521683": {
+        "tags": {
+            "caravan_site": "reception",
+            "name": "Receptie Camping De Norgerberg",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.4479652,
+            53.0775689
+        ]
+    },
     "node-10844768828": {
         "tags": {
             "cabins": "yes",
@@ -7907,6 +8114,28 @@
         "coord": [
             6.08111,
             53.1571197
+        ]
+    },
+    "node-11001001816": {
+        "tags": {
+            "alt_name": "'t Veldhuiz",
+            "caravan_site": "motorhone_stopover",
+            "caravan_site:type": "farm_shop",
+            "charge": "10 EUR",
+            "contact:phone": "+31 318 461 209",
+            "fee": "yes",
+            "name": "De Groene Hoek",
+            "power_supply": "yes",
+            "sanitary_dump_station": "customers",
+            "sanitary_dump_station:chemical_toilet": "yes",
+            "sanitary_dump_station:grey_water": "yes",
+            "surface": "grass",
+            "tourism": "caravan_site",
+            "water_point": "yes"
+        },
+        "coord": [
+            5.6383032,
+            52.1234317
         ]
     },
     "node-11002755433": {
@@ -8834,6 +9063,24 @@
             52.2055891
         ]
     },
+    "node-11898315665": {
+        "tags": {
+            "addr:city": "Kollum",
+            "addr:housenumber": "6",
+            "addr:postcode": "9291MV",
+            "addr:street": "Paradyske",
+            "caravans": "yes",
+            "fee": "yes",
+            "internet_access": "yes",
+            "name": "Yn 't Paradyske",
+            "tourism": "caravan_site",
+            "website": "https://www.yntparadyske.nl/campererf/"
+        },
+        "coord": [
+            6.1452732,
+            53.2628757
+        ]
+    },
     "node-11940278895": {
         "tags": {
             "addr:city": "Nieuwe Niedorp",
@@ -9252,6 +9499,15 @@
             51.5838933
         ]
     },
+    "node-12544813401": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.3654839,
+            52.1676213
+        ]
+    },
     "node-12669701376": {
         "tags": {
             "capacity": "1",
@@ -9268,6 +9524,22 @@
         "coord": [
             6.0983368,
             52.2344939
+        ]
+    },
+    "node-12694736501": {
+        "tags": {
+            "addr:city": "Wijnjewoude",
+            "addr:housenumber": "2",
+            "addr:postcode": "9241WD",
+            "addr:street": "Opper Haudmare",
+            "contact:phone": "+31 6 575 843 54",
+            "contact:website": "https://www.opheteind.nl/",
+            "name": "Camperplaats op het eind",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.1775183,
+            53.0541986
         ]
     },
     "node-12760343855": {
@@ -9309,6 +9581,22 @@
         "coord": [
             5.0715107,
             52.8890156
+        ]
+    },
+    "node-12917911501": {
+        "tags": {
+            "addr:housenumber": "28A 01",
+            "addr:postcode": "5066",
+            "addr:street": "Heuvelstraat",
+            "designation": "campers",
+            "name": "Wouwkes' Camperplaats",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://www.wouwkescamperplaats.nl/"
+        },
+        "coord": [
+            5.1582255,
+            51.5245251
         ]
     },
     "node-12921379241": {
@@ -9417,6 +9705,21 @@
             52.6736191
         ]
     },
+    "node-13087467186": {
+        "tags": {
+            "capacity": "16",
+            "fee": "yes",
+            "internet_access": "yes",
+            "name": "CP de Garve",
+            "power_supply": "yes",
+            "stars": "5",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.4090231,
+            52.0487165
+        ]
+    },
     "node-13088680466": {
         "tags": {
             "addr:city": "Berkenwoude",
@@ -9435,6 +9738,17 @@
         "coord": [
             4.691561,
             51.965118
+        ]
+    },
+    "node-13108518253": {
+        "tags": {
+            "name": "Camperplaats Bol-Varik",
+            "tents": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.3796825,
+            51.8256597
         ]
     },
     "node-13200688630": {
@@ -9484,6 +9798,16 @@
         "coord": [
             3.9141623,
             51.4199505
+        ]
+    },
+    "node-13294454702": {
+        "tags": {
+            "fee": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.5226366,
+            51.7775267
         ]
     },
     "node-13362327109": {
@@ -9544,6 +9868,20 @@
             52.2973355
         ]
     },
+    "node-13702176237": {
+        "tags": {
+            "name": "Camperplek Duurswoldje",
+            "power_supply": "no",
+            "sanitary_dump_station": "no",
+            "toilets": "no",
+            "tourism": "caravan_site",
+            "website": "https://www.camperplekduurswoldje.nl/"
+        },
+        "coord": [
+            6.7974527,
+            53.1975316
+        ]
+    },
     "node-13729673331": {
         "tags": {
             "addr:city": "Holthees",
@@ -9600,6 +9938,17 @@
             51.5306394
         ]
     },
+    "node-13747773691": {
+        "tags": {
+            "name": "golfclub Winterswijk",
+            "tourism": "caravan_site",
+            "website": "https://www.golfclubwinterswijk.nl/gasten/overnachten/"
+        },
+        "coord": [
+            6.7667761,
+            51.9876305
+        ]
+    },
     "node-13786589452": {
         "tags": {
             "addr:city": "Werkendam",
@@ -9618,6 +9967,30 @@
         "coord": [
             4.8695397,
             51.7852025
+        ]
+    },
+    "node-13790472120": {
+        "tags": {
+            "capacity:caravans": "8",
+            "dog": "leashed",
+            "drinking_water": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Camperplaats Heeze",
+            "panoramax": "5838e8a0-dfa6-4aa2-a382-c6c8950b3114",
+            "payment:cards": "yes",
+            "payment:cash": "yes",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "shower": "yes",
+            "tents": "no",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://www.camperplaatsheeze.nl/"
+        },
+        "coord": [
+            5.580542,
+            51.3908326
         ]
     },
     "node-13796982601": {
@@ -11015,6 +11388,29 @@
         "coord": [
             6.9840654631578944,
             52.32129032105264
+        ]
+    },
+    "way-46825490": {
+        "tags": {
+            "addr:city": "Deurningen",
+            "addr:housenumber": "2B",
+            "addr:postcode": "7561RM",
+            "addr:street": "Beldhuismolenweg",
+            "capacity": "25",
+            "caravans": "no",
+            "email": "info@ervedeheistee.nl",
+            "fee": "yes",
+            "motorhome": "yes",
+            "name": "Camperplaats Erve \"de Heistee\"",
+            "phone": "+31 742 770 189",
+            "power_supply": "yes",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://www.ervedeheistee.nl/camperplaats"
+        },
+        "coord": [
+            6.8619942125,
+            52.3079759125
         ]
     },
     "way-46921363": {
@@ -15235,6 +15631,16 @@
         "coord": [
             5.647955335365855,
             52.28579006280487
+        ]
+    },
+    "way-74798272": {
+        "tags": {
+            "name": "Camping Nieuwboer",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.372554038461539,
+            52.26202931923077
         ]
     },
     "way-74869789": {
@@ -20990,6 +21396,32 @@
             52.67434824210526
         ]
     },
+    "way-88063390": {
+        "tags": {
+            "access": "private",
+            "capacity": "43",
+            "caravan_site": "club",
+            "caravan_site:type": "forest",
+            "email": "zuidwolde@caravanclub.nl",
+            "internet_access": "wlan",
+            "laundry": "yes",
+            "name": "De Krententerp",
+            "operator": "Nederlandse Caravan Club",
+            "phone": "+31 528 372 847",
+            "power_supply": "yes",
+            "power_supply:maxcurrent": "6",
+            "seasonal": "no",
+            "shower": "yes",
+            "tents": "yes",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://www.ncc.nl/terreinen/zuidwolde-de-krententerp/"
+        },
+        "coord": [
+            6.429825829577465,
+            52.66162198169014
+        ]
+    },
     "way-88109096": {
         "tags": {
             "addr:city": "Koekange",
@@ -21836,6 +22268,23 @@
             52.71597077
         ]
     },
+    "way-89913703": {
+        "tags": {
+            "addr:city": "Ruinen",
+            "addr:housenumber": "8",
+            "addr:postcode": "7963PZ",
+            "addr:street": "Anholt",
+            "contact:email": "cpkraanvogel@gmail.com",
+            "contact:website": "https://www.camperparkdekraanvogel.nl/",
+            "name": "Camperpark De Kraanvogel",
+            "power_supply": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.41750755862069,
+            52.77623793793103
+        ]
+    },
     "way-89919393": {
         "tags": {
             "addr:city": "Blesdijke",
@@ -22426,6 +22875,37 @@
         "coord": [
             6.469737771428571,
             53.315991257142855
+        ]
+    },
+    "way-92074340": {
+        "tags": {
+            "access": "private",
+            "caravan_site": "motorhome_club",
+            "caravan_site:type": "canal",
+            "charge": "22 EUR",
+            "dog": "yes",
+            "email": "alphen@ncc.nl",
+            "fee": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "laundry": "yes",
+            "name": "Alphen aan den Rijn - Oudshoorn",
+            "operator": "Nederlandse Caravan Club",
+            "power_supply": "yes",
+            "power_supply:charge": "5 EUR",
+            "power_supply:fee": "yes",
+            "power_supply:maxcurrent": "10",
+            "seasonal": "no",
+            "shower": "yes",
+            "surface": "grass",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "water_point": "yes",
+            "website": "https://www.ncc.nl/terreinen/alphen-aan-den-rijn-oudshoorn/"
+        },
+        "coord": [
+            4.703979680000001,
+            52.1510082
         ]
     },
     "way-92381998": {
@@ -23574,6 +24054,24 @@
             51.20873649090909
         ]
     },
+    "way-103043482": {
+        "tags": {
+            "caravans": "no",
+            "fee": "yes",
+            "motorhome": "no",
+            "name": "Caravanpark The Relaxing Crow",
+            "permanent_camping": "only",
+            "phone": "+31 252 373 467",
+            "static_caravans": "yes",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://the-relaxing-crow.jouwweb.nl"
+        },
+        "coord": [
+            4.475483905263157,
+            52.274674589473676
+        ]
+    },
     "way-103106349": {
         "tags": {
             "caravans": "yes",
@@ -23609,6 +24107,17 @@
         "coord": [
             7.0548446125,
             53.072202587499994
+        ]
+    },
+    "way-103109214": {
+        "tags": {
+            "name": "Camperplaats Op Streek",
+            "tourism": "caravan_site",
+            "website": "https://camperplaatsopstreek.nl/cmcc/"
+        },
+        "coord": [
+            7.054987633333333,
+            53.056634050000014
         ]
     },
     "way-103148411": {
@@ -27147,6 +27656,29 @@
             52.171789020000006
         ]
     },
+    "way-163266040": {
+        "tags": {
+            "addr:city": "Lierop",
+            "addr:housenumber": "7",
+            "addr:postcode": "5715RE",
+            "addr:street": "Philipsbosweg",
+            "cabins": "yes",
+            "camp_site": "deluxe",
+            "caravans": "yes",
+            "email": "info@somerensevennen.nl",
+            "internet_access": "wlan",
+            "motorhome": "yes",
+            "name": "Camping Somerense Vennen",
+            "phone": "+31 492 331216",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://somerensevennen.nl"
+        },
+        "coord": [
+            5.673719378947368,
+            51.40008348421053
+        ]
+    },
     "way-164683218": {
         "tags": {
             "caravans": "yes",
@@ -28910,6 +29442,27 @@
             51.817288286956526
         ]
     },
+    "way-254469832": {
+        "tags": {
+            "addr:city": "Culemborg",
+            "addr:housenumber": "2",
+            "addr:postcode": "4101AE",
+            "addr:street": "Helling",
+            "capacity:motorhome": "20",
+            "caravans": "no",
+            "fee": "yes",
+            "motorhome": "designated",
+            "name": "Camping Jachthaven De Helling",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://www.jachthavenculemborg.nl/camping",
+            "website:map": "https://www.jachthavenculemborg.nl/bestanden/2025-plattegrond-haven-met-camping.pdf"
+        },
+        "coord": [
+            5.220366959259259,
+            51.96196613703704
+        ]
+    },
     "way-256363785": {
         "tags": {
             "addr:city": "Hulsberg",
@@ -30563,9 +31116,19 @@
     },
     "way-340710381": {
         "tags": {
-            "name": "Kampeerterrein De Lievelinge",
-            "source": "http://www.lievelinge.nl",
-            "tourism": "camp_site"
+            "addr:city": "Vuren",
+            "addr:housenumber": "6",
+            "addr:postcode": "4214KL",
+            "addr:street": "Haarweg",
+            "camp_site": "deluxe",
+            "caravans": "yes",
+            "dog": "yes",
+            "motorhome": "yes",
+            "name": "De Lievelinge",
+            "phone": "+31 183 630 631",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://lievelinge.nl"
         },
         "coord": [
             5.038962408333333,
@@ -34553,6 +35116,21 @@
             52.15459191764706
         ]
     },
+    "way-494593315": {
+        "tags": {
+            "access": "yes",
+            "amenity": "parking",
+            "caravans": "no",
+            "fee": "no",
+            "parking": "surface",
+            "tents": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            3.660064844444444,
+            51.543187794444435
+        ]
+    },
     "way-494643967": {
         "tags": {
             "cabins": "yes",
@@ -37311,8 +37889,20 @@
     },
     "way-586054862": {
         "tags": {
+            "addr:city": "Oosterhout",
+            "addr:housenumber": "4",
+            "addr:postcode": "4904SM",
+            "addr:street": "Meerberg",
+            "camp_site": "serviced",
+            "caravans": "yes",
+            "dog": "yes",
+            "email": "minicampingdekwikstaart@outlook.com",
+            "motorhome": "yes",
             "name": "Minicamping De Kwikstaart",
-            "tourism": "camp_site"
+            "phone": "+31 6 15571375",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://minicampingdekwikstaart.nl"
         },
         "coord": [
             4.805410993333334,
@@ -40423,6 +41013,27 @@
             51.733392222222214
         ]
     },
+    "way-771031288": {
+        "tags": {
+            "addr:city": "Zeeland",
+            "addr:housenumber": "37a",
+            "addr:postcode": "5411VC",
+            "addr:street": "Peelweg",
+            "camp_site": "serviced",
+            "caravans": "yes",
+            "dog": "yes",
+            "motorhome": "yes",
+            "name": "Het Peelvenneke",
+            "phone": "+31 6 23085717",
+            "tents": "yes",
+            "tourism": "camp_site",
+            "website": "https://hetpeelvenneke.nl"
+        },
+        "coord": [
+            5.734941924561405,
+            51.670863308771935
+        ]
+    },
     "way-771073496": {
         "tags": {
             "access": "private",
@@ -41788,6 +42399,26 @@
         "coord": [
             7.097933133333333,
             53.04600427575758
+        ]
+    },
+    "way-846732469": {
+        "tags": {
+            "addr:city": "Winschoten",
+            "addr:housenumber": "1",
+            "addr:postcode": "9672TD",
+            "addr:street": "Winschoterzijl",
+            "contact:email": "info@winschoterzijl.nl",
+            "contact:phone": "+31 6 437 910 47",
+            "contact:website": "https://www.winschoterzijl.nl/",
+            "fee": "yes",
+            "name": "Camperpark Landgoed Winschoterzijl",
+            "opening_hours": "jan-dec",
+            "power_supply": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            7.070746456249999,
+            53.14531220624999
         ]
     },
     "way-847920239": {
@@ -46902,16 +47533,6 @@
             53.067617182608686
         ]
     },
-    "way-1023027465": {
-        "tags": {
-            "name": "Slot Cranendonck",
-            "tourism": "camp_site"
-        },
-        "coord": [
-            5.574967169999999,
-            51.32280192999999
-        ]
-    },
     "way-1023711598": {
         "tags": {
             "addr:city": "Siegerswoude",
@@ -48791,6 +49412,19 @@
             52.927576880000004
         ]
     },
+    "way-1071020181": {
+        "tags": {
+            "access": "customers",
+            "fee": "yes",
+            "name": "Camperpark Het Lageveld",
+            "tourism": "caravan_site",
+            "website": "https://camperparkhetlageveld.nl/about"
+        },
+        "coord": [
+            6.586320146153846,
+            52.38159605384616
+        ]
+    },
     "way-1071070729": {
         "tags": {
             "capacity": "27",
@@ -49971,6 +50605,21 @@
             53.113812540000005
         ]
     },
+    "way-1122077269": {
+        "tags": {
+            "caravans": "no",
+            "motorhome": "no",
+            "name": "Stacaravanpark Rik van Soeren",
+            "permanent_camping": "yes",
+            "static_caravans": "only",
+            "tents": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.477068744444444,
+            52.27224925555555
+        ]
+    },
     "way-1126185828": {
         "tags": {
             "alt_name": "Recreatie- & Hertenboerderij De Weerd",
@@ -50339,6 +50988,28 @@
         "coord": [
             6.3880263428571435,
             52.53300074285714
+        ]
+    },
+    "way-1149770771": {
+        "tags": {
+            "addr:city": "Haarlem",
+            "addr:housenumber": "16F",
+            "addr:postcode": "2033AC",
+            "addr:street": "Liewegje",
+            "capacity": "20",
+            "fee": "yes",
+            "name": "UrbanCamperSpot Amsterdam & Haarlem",
+            "opening_hours": "24/7",
+            "power_supply": "yes",
+            "reservation": "required",
+            "sanitary_dump_station": "customers",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://www.urbancamperspot.com/nl/locatie_amsterdam_haarlem"
+        },
+        "coord": [
+            4.675887824999999,
+            52.3783
         ]
     },
     "way-1150271666": {
@@ -52165,6 +52836,16 @@
             52.504715094736845
         ]
     },
+    "way-1160047169": {
+        "tags": {
+            "static_caravans": "only",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.79497159,
+            52.50369623499999
+        ]
+    },
     "way-1160050839": {
         "tags": {
             "access": "customers",
@@ -53929,6 +54610,28 @@
         "coord": [
             6.402049663636361,
             52.515493923966964
+        ]
+    },
+    "way-1174604999": {
+        "tags": {
+            "addr:city": "Midwolda",
+            "addr:housenumber": "1",
+            "addr:postcode": "9681BK",
+            "addr:street": "Strandweg",
+            "capacity": "25",
+            "caravans": "no",
+            "fee": "yes",
+            "internet_access": "yes",
+            "motorhome": "designated",
+            "name": "Camperplaats Midwolda",
+            "operator": "Jachthaven Midwolda",
+            "tents": "no",
+            "tourism": "caravan_site",
+            "website": "https://jachthavensblauwestad.nl/camperplaatsen/camperplaats-midwolda"
+        },
+        "coord": [
+            7.030491244444444,
+            53.196403700000005
         ]
     },
     "way-1175778429": {
@@ -65249,6 +65952,24 @@
             52.58636459672132
         ]
     },
+    "way-1358875890": {
+        "tags": {
+            "addr:city": "Herbaijum",
+            "addr:housenumber": "51",
+            "addr:postcode": "8807PG",
+            "addr:street": "Kiesterzijl",
+            "internet_access": "wlan",
+            "name": "Camperplaats Kiesterzijl",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site",
+            "website": "https://www.camperplaatskiesterzijl.nl/"
+        },
+        "coord": [
+            5.503087537499999,
+            53.1809263125
+        ]
+    },
     "way-1366974129": {
         "tags": {
             "name": "de Maasterp",
@@ -65258,6 +65979,15 @@
         "coord": [
             5.820751273076922,
             51.1118826423077
+        ]
+    },
+    "way-1367169051": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.338753240000001,
+            52.95620558
         ]
     },
     "way-1368088096": {
@@ -65314,6 +66044,41 @@
             52.559601557142855
         ]
     },
+    "way-1375895351": {
+        "tags": {
+            "addr:city": "Jistrum",
+            "addr:housenumber": "21",
+            "addr:postcode": "9258GM",
+            "addr:street": "De Meren",
+            "contact:email": "info@camperplaatsopdemeren.nl",
+            "contact:phone": "+31 6 512 854 09",
+            "contact:website": "https://www.camperplaatsopdemeren.nl/",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.0663868,
+            53.21589819999999
+        ]
+    },
+    "way-1377913777": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.26570648,
+            51.698773460000005
+        ]
+    },
+    "way-1379928511": {
+        "tags": {
+            "name": "de Zomerberg",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.3102390999999995,
+            52.9545710875
+        ]
+    },
     "way-1379973901": {
         "tags": {
             "tourism": "camp_site"
@@ -65321,6 +66086,15 @@
         "coord": [
             4.7258089555555545,
             52.87795708888889
+        ]
+    },
+    "way-1380268447": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.73098066,
+            52.262233159999994
         ]
     },
     "way-1380425235": {
@@ -65483,6 +66257,15 @@
             52.45867628965516
         ]
     },
+    "way-1392209544": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.7735851,
+            52.36330618571428
+        ]
+    },
     "way-1396508443": {
         "tags": {
             "addr:city": "Den Burg",
@@ -65502,6 +66285,21 @@
         "coord": [
             4.76936846,
             53.052932729999995
+        ]
+    },
+    "way-1399690828": {
+        "tags": {
+            "capacity": "24",
+            "fee": "yes",
+            "name": "Camperplaats Bij Frans",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site",
+            "website": "https://bij-frans.nl/"
+        },
+        "coord": [
+            5.509368142857142,
+            52.11065176428572
         ]
     },
     "way-1414066094": {
@@ -65533,6 +66331,19 @@
             52.14578114
         ]
     },
+    "way-1416305042": {
+        "tags": {
+            "internet_access": "yes",
+            "internet_access:fee": "yes",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.82400664,
+            53.047677279999995
+        ]
+    },
     "way-1416776225": {
         "tags": {
             "name": "Camping De Heidehoek",
@@ -65561,6 +66372,17 @@
             51.742622440000005
         ]
     },
+    "way-1419685294": {
+        "tags": {
+            "name": "Groot Westerveld",
+            "tourism": "caravan_site",
+            "website": "https://grootwesterveld.nl/"
+        },
+        "coord": [
+            5.53241362,
+            52.16782998
+        ]
+    },
     "way-1420893829": {
         "tags": {
             "backcountry": "no",
@@ -65576,6 +66398,22 @@
         "coord": [
             4.7574588874999995,
             51.735624812500006
+        ]
+    },
+    "way-1421001288": {
+        "tags": {
+            "internet_access": "yes",
+            "name": "De Vlinder",
+            "phone": "+31 6 46708985",
+            "power_supply": "yes",
+            "shower": "yes",
+            "toilets": "yes",
+            "tourism": "caravan_site",
+            "website": "https://camperparkdevlinder.nl"
+        },
+        "coord": [
+            6.280956533333334,
+            52.04132377777778
         ]
     },
     "way-1424849293": {
@@ -65632,6 +66470,25 @@
         "coord": [
             5.9348925333333336,
             52.83623215
+        ]
+    },
+    "way-1429964706": {
+        "tags": {
+            "capacity:caravans": "10",
+            "charge": "13 EUR",
+            "fee": "yes",
+            "name": "Camperplaats Fiverkant",
+            "payment:app": "yes",
+            "phone": "+31 6 53703508",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "surface": "grass_paver",
+            "tourism": "caravan_site",
+            "website": "https://www.oudega.info/jachthaven-oudega/"
+        },
+        "coord": [
+            5.999121050000001,
+            53.121966109999995
         ]
     },
     "way-1430227641": {
@@ -65886,6 +66743,34 @@
             52.657920649999994
         ]
     },
+    "way-1466189547": {
+        "tags": {
+            "caravans": "no",
+            "landcover": "grass",
+            "motorhome": "yes",
+            "name": "Camping Molenzicht",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.521501,
+            52.265835466666665
+        ]
+    },
+    "way-1474782235": {
+        "tags": {
+            "contact:email": "info@westerpama.nl",
+            "contact:phone": "+31 6 1601 8265",
+            "contact:website": "https://westerpama.nl/Camperplaatsen/",
+            "internet_access": "yes",
+            "name": "Camperpolaats Wster Pama",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.3349671800000005,
+            53.29216228
+        ]
+    },
     "way-1478523030": {
         "tags": {
             "addr:city": "Oirschot",
@@ -66080,6 +66965,24 @@
             52.88313773846154
         ]
     },
+    "way-1478886099": {
+        "tags": {
+            "addr:city": "Wijk en Aalburg",
+            "addr:housenumber": "16",
+            "addr:postcode": "4261AD",
+            "addr:street": "Maasdijk",
+            "caravans": "no",
+            "name": "'t Werdje",
+            "permanent_camping": "only",
+            "static_caravans": "yes",
+            "tents": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.134708011538461,
+            51.74992985384616
+        ]
+    },
     "way-1478995084": {
         "tags": {
             "addr:city": "Gorssel",
@@ -66140,6 +67043,28 @@
         "coord": [
             5.1287311,
             51.7261631125
+        ]
+    },
+    "way-1481966105": {
+        "tags": {
+            "addr:city": "Holten",
+            "addr:housenumber": "5A",
+            "addr:postcode": "7451RG",
+            "addr:street": "Schreursweg",
+            "caravans": "no",
+            "dog": "no",
+            "drinking_water": "yes",
+            "motorhome": "designated",
+            "name": "Camperplaats Holten",
+            "power_supply": "yes",
+            "shower": "yes",
+            "tents": "no",
+            "toilets": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.449896314285715,
+            52.277737585714284
         ]
     },
     "way-1484240751": {
@@ -66502,6 +67427,27 @@
             52.5336922
         ]
     },
+    "way-1495850805": {
+        "tags": {
+            "addr:city": "Kessel",
+            "addr:housenumber": "68",
+            "addr:postcode": "5995ND",
+            "addr:street": "Maasstraat",
+            "capacity:caravans": "38",
+            "internet_access": "wlan",
+            "internet_access:fee": "customers",
+            "name": "Camperplaats Kesse;-Eik aan de Maas",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tents": "no",
+            "toilets": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.025506170731707,
+            51.27325760487805
+        ]
+    },
     "way-1497461519": {
         "tags": {
             "addr:city": "de Lutte",
@@ -66541,6 +67487,23 @@
         "coord": [
             5.461211769999999,
             51.932112700000005
+        ]
+    },
+    "way-1497638250": {
+        "tags": {
+            "capacity:caravans": "15",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "name": "De Leembrug",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tents": "no",
+            "toilets": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.537299157142856,
+            52.251571028571426
         ]
     },
     "way-1498185863": {
@@ -67543,18 +68506,6 @@
         "coord": [
             5.794061582352941,
             51.78324947941176
-        ]
-    },
-    "rel-10694462": {
-        "tags": {
-            "landuse": "grass",
-            "name": "'t Peelvenneke",
-            "tourism": "camp_site",
-            "type": "multipolygon"
-        },
-        "coord": [
-            5.735262921782178,
-            51.67086444257425
         ]
     },
     "rel-11142151": {

@@ -1298,6 +1298,20 @@
             50.5227758
         ]
     },
+    "node-10011905150": {
+        "tags": {
+            "fee": "no",
+            "name:signed": "no",
+            "power_supply": "no",
+            "sanitary_dump_station": "no",
+            "tourism": "caravan_site",
+            "water_point": "no"
+        },
+        "coord": [
+            4.0898558,
+            50.4714042
+        ]
+    },
     "node-10057948221": {
         "tags": {
             "addr:city": "Meer",
@@ -1871,6 +1885,18 @@
             51.2333927
         ]
     },
+    "node-12635620845": {
+        "tags": {
+            "name": "Camperparking Schulensmeer",
+            "power_supply": "no",
+            "sanitary_dump_station": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.1466611,
+            50.9644075
+        ]
+    },
     "node-12680874878": {
         "tags": {
             "access": "yes",
@@ -1915,6 +1941,19 @@
         "coord": [
             5.4399082,
             50.5954465
+        ]
+    },
+    "node-12734174286": {
+        "tags": {
+            "capacity": "2",
+            "caravan_site": "mobilhome_stopover",
+            "caravan_site:type": "restaurant",
+            "operator": "Burght Hertog Jan",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.001873,
+            51.3576271
         ]
     },
     "node-12769015747": {
@@ -2022,6 +2061,25 @@
             50.16417
         ]
     },
+    "node-13163669970": {
+        "tags": {
+            "capacity": "15",
+            "charge": "13 EUR",
+            "fee": "yes",
+            "internet_access": "no",
+            "name": "Motorhome area of Ath",
+            "name:en": "Motorhome area of Ath",
+            "network": "CAMPING-CAR PARK",
+            "operator": "Camping car Park",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site",
+            "website": "https://www.campingcarpark.com/en_GB/motor-home/wallonie/hainaut/ath"
+        },
+        "coord": [
+            3.7750368,
+            50.638512
+        ]
+    },
     "node-13272178738": {
         "tags": {
             "group_only": "yes",
@@ -2032,6 +2090,16 @@
         "coord": [
             5.7275141,
             50.7403933
+        ]
+    },
+    "node-13331491901": {
+        "tags": {
+            "name": "Camperplaats Wortegem",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            3.5061177,
+            50.8543998
         ]
     },
     "node-13716778784": {
@@ -2046,6 +2114,30 @@
         "coord": [
             3.1981174,
             51.2353634
+        ]
+    },
+    "node-13760693701": {
+        "tags": {
+            "name": "Gemeentelijke camperparking van Moerbeke",
+            "tourism": "caravan_site",
+            "website": "http://www.moerbeke.be/camperparking"
+        },
+        "coord": [
+            3.9250665,
+            51.2151795
+        ]
+    },
+    "node-13771206190": {
+        "tags": {
+            "capacity": "14",
+            "fee": "yes",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.9282567,
+            50.3914608
         ]
     },
     "way-27003802": {
@@ -8434,6 +8526,15 @@
             50.39614633888888
         ]
     },
+    "way-454932250": {
+        "tags": {
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            4.804528870588235,
+            50.291813835294114
+        ]
+    },
     "way-457324447": {
         "tags": {
             "addr:street": "Europacamp",
@@ -11659,6 +11760,36 @@
             50.279181699999995
         ]
     },
+    "way-1202264273": {
+        "tags": {
+            "bbq": "no",
+            "capacity": "6",
+            "caravans": "no",
+            "charge": "12 EUR",
+            "dog": "leashed",
+            "fee": "yes",
+            "internet_access": "wlan",
+            "internet_access:fee": "no",
+            "maxlength": "9",
+            "name": "Motorhome area of Erquelinnes",
+            "network": "CAMPING-CAR PARK",
+            "operator": "Camping car Park",
+            "power_supply": "yes",
+            "power_supply:capacity": "6",
+            "power_supply:maxcurrent": "16",
+            "sanitary_dump_station": "yes",
+            "shower": "no",
+            "tents": "no",
+            "toilets": "no",
+            "tourism": "caravan_site",
+            "trailer": "no",
+            "website": "https://www.campingcarpark.com/fr_FR/camping-car/wallonie/hainaut/erquelinnes?areaType=aire-etape-camping-car"
+        },
+        "coord": [
+            4.1196525875,
+            50.307169675
+        ]
+    },
     "way-1204167208": {
         "tags": {
             "cabins": "no",
@@ -13318,6 +13449,27 @@
             51.033229240000004
         ]
     },
+    "way-1356617083": {
+        "tags": {
+            "addr:city": "Zuienkerke",
+            "addr:housenumber": "5",
+            "addr:postcode": "8377",
+            "addr:street": "Dullemolenstraat",
+            "addr:unit": "a",
+            "contact:facebook": "https://www.camperparkzuienkerke.com",
+            "email": "info@camperparkzuienkerke.com",
+            "internet_access": "wlan",
+            "mobile": "+32 485 78 02 39",
+            "name": "Camperpark Zuienkerke",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            3.1819025400000007,
+            51.26380256
+        ]
+    },
     "way-1358851960": {
         "tags": {
             "addr:housenumber": "26",
@@ -13367,6 +13519,16 @@
             51.17679148
         ]
     },
+    "way-1382261966": {
+        "tags": {
+            "surface": "dirt",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.5755853090909095,
+            50.92594000909091
+        ]
+    },
     "way-1390737333": {
         "tags": {
             "access": "private",
@@ -13376,6 +13538,16 @@
         "coord": [
             3.7568860478260864,
             51.01164874782609
+        ]
+    },
+    "way-1423083610": {
+        "tags": {
+            "fee": "no",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            6.062353842857143,
+            50.29691724285714
         ]
     },
     "way-1429063474": {
@@ -13446,6 +13618,21 @@
             51.14619962
         ]
     },
+    "way-1429539244": {
+        "tags": {
+            "capacity": "3",
+            "fee": "yes",
+            "opening_hours": "24/7",
+            "power_supply": "yes",
+            "sanitary_dump_station": "yes",
+            "surface": "grass",
+            "tourism": "caravan_site"
+        },
+        "coord": [
+            5.9704966,
+            50.709151739999996
+        ]
+    },
     "way-1429963907": {
         "tags": {
             "bbq": "no",
@@ -13499,6 +13686,17 @@
         "coord": [
             5.351018744444444,
             49.85841454444444
+        ]
+    },
+    "way-1445217856": {
+        "tags": {
+            "name": "Jachthaven",
+            "tourism": "caravan_site",
+            "website": "https://www.visitleopoldsburg.be/overnachten/camperplaats"
+        },
+        "coord": [
+            5.2503088,
+            51.129066200000004
         ]
     },
     "way-1445973078": {

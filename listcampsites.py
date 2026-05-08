@@ -15,6 +15,10 @@ def run(countryCode, responseFn, parsedFn):
       way["tourism"="camp_site"](area.country);
       relation["tourism"="camp_site"](area.country);
 
+      node["tourism"="caravan_site"](area.country);
+      way["tourism"="caravan_site"](area.country);
+      relation["tourism"="caravan_site"](area.country);
+
       node["caravan_site"="motorhome_stopover"](area.country);
       way["caravan_site"="motorhome_stopover"](area.country);
       relation["caravan_site"="motorhome_stopover"](area.country);
