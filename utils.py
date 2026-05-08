@@ -19,7 +19,10 @@ def queryOsm(query, fn):
     if not os.path.exists(fn):
         print("Querying OSM database")
 
-        response = requests.get("https://overpass-api.de/api/interpreter", params={'data': query})
+        response = requests.get("https://overpass-api.de/api/interpreter", params={'data': query}, headers={
+            "User-Agent": "SuperCamp scripts",
+            "Referer": "https://j0r1.github.io/supercamp/"
+        })
         data = response.json()
         open(fn, "wt").write(json.dumps(data, indent=4))
     else:
