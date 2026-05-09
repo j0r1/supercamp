@@ -1,6 +1,7 @@
 "use strict";
 
 let mainMap = null;
+let initialMarkerToPopup = null;
 
 class MapGrid
 {
@@ -331,19 +332,38 @@ function addMarkersForBounds(north, south, east, west, placeType, iconType)
     
                 if (url)
                     popupContent += `<br><a href="${url}" target="_blank">${url}</a>`;
-    
+
                 popupContent += `<br><br>Cycling: <button onclick="setTravelStart(${value.coord[0]}, ${value.coord[1]})">Set start</button>`;
                 popupContent += `<button class="destbutton" onclick="getDirectionsTo(${value.coord[0]}, ${value.coord[1]})">Get directions</button>`;
                 popupContent += `<br><br>Driving: `;
                 popupContent += `<button class="desthomebutton" onclick="getDirectionsFromHomeTo(${value.coord[0]}, ${value.coord[1]})">Get directions from home</button>`;
-                popupContent += `<br><br><a target="_blank" href="https://www.google.com/maps/@${value.coord[1]},${value.coord[0]},18z" style="text-decoration: none; font-size: 2em;">&#128506;</a>`
+                popupContent += `<br><br><div><a target="_blank" href="https://www.google.com/maps/@${value.coord[1]},${value.coord[0]},18z" style="text-decoration: none; font-size: 2em;">&#128506;</a>`
+                popupContent += `<a onclick="processShareEvent(event, '${lat}', '${lon}', '${id}')" target="_blank" href="#" style="float:right;">&#128206</a></div>`
     
                 marker.bindPopup(popupContent);
     
                 addedMarkers[id] = { coord: value["coord"], marker: marker };
+
+                if (id == initialMarkerToPopup)
+                {
+                    console.log("Scheduling popup for " + initialMarkerToPopup);
+                    setTimeout(() => { marker.openPopup(); }, 100);
+                }
             }    
         }
     }
+}
+
+function processShareEvent(evt, lat, lon, id)
+{
+    evt.preventDefault();
+
+    const zoom = mainMap.getZoom();
+    const locationWithoutHash = window.location.href.split('#')[0];
+    const shareUrl = locationWithoutHash + `#${zoom}/${lat}/${lon}/${id}`
+    navigator.clipboard.writeText(shareUrl)
+    .then(() => { console.log("Copied URL to clipboard")})
+    .catch((e) => { console.error("Failed to copy URL"); console.log(e); })
 }
 
 function removeOldMarkersForBounds(north, south, east, west)
@@ -452,13 +472,36 @@ async function main()
         mainGrid.processAll(json, type);
     }
 
-    if ("supercamp-view" in localStorage)
+    let viewInitialized = false;
+    if (location.hash.length > 0)
     {
-        const v = JSON.parse(localStorage["supercamp-view"]);
-        mainMap.setView(v["center"], v["zoom"]);
+        const parts = location.hash.substring(1).split("/");
+        if (parts.length == 4)
+        {
+            try {
+                const lat = parseFloat(parts[2]);
+                const lon = parseFloat(parts[1]);
+                const zoom = parseInt(parts[0]);
+                initialMarkerToPopup = parts[3];
+                mainMap.setView({ "lat": lat, "lon": lon}, zoom);
+                viewInitialized = true;
+            } catch(err) {
+                console.log("Error analyzing location.hash:")
+                console.log(err);
+            }
+        }
     }
-    else
-        mainMap.fitBounds(mainGrid.getBounds());
+
+    if (!viewInitialized)
+    {
+        if ("supercamp-view" in localStorage)
+        {
+            const v = JSON.parse(localStorage["supercamp-view"]);
+            mainMap.setView(v["center"], v["zoom"]);
+        }
+        else
+            mainMap.fitBounds(mainGrid.getBounds());
+    }
 
     if ("supercamp-home" in localStorage)
     {
@@ -467,6 +510,7 @@ async function main()
     }
 
     checkViewportChange();
+    initialMarkerToPopup = null; // Make sure this isn't triggered again
 
     mainMap.on("zoomend", () => checkViewportChange());
     mainMap.on("moveend", () => checkViewportChange());
